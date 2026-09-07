@@ -1,0 +1,42 @@
+[
+  {
+    "test": "test-120-1280-720.json",
+    "passed": true,
+    "checks": 27,
+    "cpu_p95": 1.949,
+    "gpu_p95": 5.471,
+    "frame_p95": 8.334
+  },
+  {
+    "test": "test-30-1280-720.json",
+    "passed": true,
+    "checks": 27,
+    "cpu_p95": 1.914,
+    "gpu_p95": 5.015,
+    "frame_p95": 33.334
+  },
+  {
+    "test": "test-60-1280-720.json",
+    "passed": true,
+    "checks": 27,
+    "cpu_p95": 2.268,
+    "gpu_p95": 5.362,
+    "frame_p95": 16.667
+  },
+  {
+    "test": "test-60-1280-800.json",
+    "passed": true,
+    "checks": 27,
+    "cpu_p95": 2.032,
+    "gpu_p95": 5.497,
+    "frame_p95": 16.667
+  },
+  {
+    "test": "test-60-1920-1080.json",
+    "passed": true,
+    "checks": 27,
+    "cpu_p95": 1.876,
+    "gpu_p95": 6.526,
+    "frame_p95": 16.667
+  }
+]

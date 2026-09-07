@@ -1,0 +1,827 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" TheHeldEditor Win64 Development "-Project=C:\THE HELD\Game\TheHeld\TheHeld.uproject" -WaitMutex -NoHotReloadFromIDE -NoUBA
+Log file: C:\Users\karth\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (16 physical cores, 22 logical cores)
+  Executing up to 16 processes, one per physical core
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Building TheHeldEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.50.35728 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+=================================
+Using Unreal Build Accelerator local executor to run 5 action(s)
+  CPU 16 physical cores, 22 logical cores
+  Memory 31.46 GB physical, 33.61 GB/52.46 GB committed
+  UBA Storage capacity 40 GB
+[1/5] Compile [x64] TraversalTests.cpp [NoUba]
+C:\THE HELD\Game\TheHeld\Source\TheHeld\TraversalTests.cpp(61,235): warning C4305: 'argument': truncation from 'double' to 'float'
+ Json+=FString::Printf(TEXT("  },\n  \"all_checks_pass\":%s,\n  \"render_frame_ms_p95\":%.3f,\n  \"render_frame_ms_p99\":%.3f,\n  \"working_set_bytes\":%llu,\n  \"fixed_step_overflows\":%d\n}\n"),Pass?TEXT("true"):TEXT("false"),Quant(.95),Quant(.99),FPlatformMemory::GetStats().UsedPhysical,Cast<UHeldLaneMotor>(P->GetCharacterMovement())->DroppedSteps);
+                                                                                                                                                                                                                                          ^
+C:\THE HELD\Game\TheHeld\Source\TheHeld\TraversalTests.cpp(61,246): warning C4305: 'argument': truncation from 'double' to 'float'
+ Json+=FString::Printf(TEXT("  },\n  \"all_checks_pass\":%s,\n  \"render_frame_ms_p95\":%.3f,\n  \"render_frame_ms_p99\":%.3f,\n  \"working_set_bytes\":%llu,\n  \"fixed_step_overflows\":%d\n}\n"),Pass?TEXT("true"):TEXT("false"),Quant(.95),Quant(.99),FPlatformMemory::GetStats().UsedPhysical,Cast<UHeldLaneMotor>(P->GetCharacterMovement())->DroppedSteps);
+                                                                                                                                                                                                                                                     ^
+C:\THE HELD\Game\TheHeld\Source\TheHeld\TraversalTests.cpp(82,8): warning C4996: 'ACharacter::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+ if(P->GetMovementBase()&&P->GetMovementBase()->GetOwner()==Ferry){P->Axis=0;if(Ferry->GetActorLocation().X>11300){P->Axis=1;P->JumpPressed();}}
+       ^
+[2/5] Compile [x64] TraversalCharacter.cpp [NoUba]
+C:\THE HELD\Game\TheHeld\Source\TheHeld\TraversalCharacter.cpp(47,45): warning C4305: '=': truncation from 'double' to 'float'
+ M->MaxWalkSpeedCrouched=125; M->AirControl=.65; M->bConstrainToPlane=true; M->SetPlaneConstraintNormal(FVector(0,1,0));
+                                            ^
+C:\THE HELD\Game\TheHeld\Source\TheHeld\TraversalCharacter.cpp(151,21): warning C4305: 'argument': truncation from 'double' to 'float'
+ Cue(TEXT("A_Grip"),.4);Seen.Add(TEXT("Retry"));
+                    ^
+C:\THE HELD\Game\TheHeld\Source\TheHeld\TraversalCharacter.cpp(178,59): warning C4305: 'argument': truncation from 'double' to 'float'
+ if(Ground&&!bWasGrounded){LandPulse=1;Cue(TEXT("A_Land"),.6);Seen.Add(TEXT("Land"));}bWasGrounded=Ground;
+                                                          ^
+[3/5] Link [x64] UnrealEditor-TheHeld.lib [NoUba]
+[4/5] Link [x64] UnrealEditor-TheHeld.dll [NoUba]
+[5/5] WriteMetadata TheHeldEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 25.19 seconds
+Output binary: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 26.77 seconds
+Trace written to file C:\Users\karth\AppData\Local\UnrealBuildTool\Trace.uba with size 5.3kb
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" TheHeld Win64 Development "-Project=C:\THE HELD\Game\TheHeld\TheHeld.uproject" -WaitMutex -NoHotReloadFromIDE -NoUBA
+Log file: C:\Users\karth\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (16 physical cores, 22 logical cores)
+  Executing up to 16 processes, one per physical core
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Building TheHeld...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.50.35728 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 16 physical cores, 22 logical cores
+  Memory 31.46 GB physical, 32.95 GB/52.46 GB committed
+  UBA Storage capacity 40 GB
+[1/4] Compile [x64] TraversalTests.cpp [NoUba]
+C:\THE HELD\Game\TheHeld\Source\TheHeld\TraversalTests.cpp(82,8): warning C4996: 'ACharacter::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+ if(P->GetMovementBase()&&P->GetMovementBase()->GetOwner()==Ferry){P->Axis=0;if(Ferry->GetActorLocation().X>11300){P->Axis=1;P->JumpPressed();}}
+       ^
+[2/4] Compile [x64] TraversalCharacter.cpp [NoUba]
+[3/4] Link [x64] TheHeld.exe [NoUba]
+[4/4] WriteMetadata TheHeld.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 34.52 seconds
+Output binary: C:\THE HELD\Game\TheHeld\Binaries\Win64\TheHeld.exe
+
+Result: Succeeded
+Total execution time: 36.00 seconds
+Trace written to file C:\Users\karth\AppData\Local\UnrealBuildTool\Trace.uba with size 5.9kb
+Running AutomationTool...
+Using bundled DotNet SDK version: 10.0 win-x64
+Starting AutomationTool...
+Parsing command line: BuildCookRun -project="C:\THE HELD\Game\TheHeld\TheHeld.uproject" -noP4 -platform=Win64 -clientconfig=Development -skipbuildeditor -cook -stage -pak -archive -archivedirectory="C:\THE HELD\Builds\PH01" -utf8output -unattended -noUBA
+Initializing script modules...
+Total script module initialization time: 0.31 s.
+Using C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Setting up ProjectParams for C:\THE HELD\Game\TheHeld\TheHeld.uproject
+********** COOK COMMAND STARTED **********
+Running UnrealEditor Cook for project C:\THE HELD\Game\TheHeld\TheHeld.uproject
+Commandlet log file is C:\Program Files\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\Cook-2026.09.07-20.57.37.txt
+Running: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\THE HELD\Game\TheHeld\TheHeld.uproject" -run=Cook  -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\Cook-2026.09.07-20.57.37.txt" -stdout -CrashForUAT -unattended -NoLogTimes
+LogInit: Display: Running engine for game: TheHeld
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 37106
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-56702186"
+LogCsvProfiler: Display: Metadata set : engineversion="5.8.2-56702186+++UE5+Release-5.8"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.2"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9278] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) Ultra 7 155H"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : compacttset="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:\THE HELD\Game\TheHeld\TheHeld.uproject" -run=Cook -TargetPlatform=Windows -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\Cook-2026.09.07-20.57.37.txt" -stdout -CrashForUAT -unattended -NoLogTimes""
+LogCsvProfiler: Display: Metadata set : loginid="6a959d9ab9114f94946b6d25e2dcbcfd"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogConfig: Display: Loading Mac ini files took 0.06 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.06 seconds
+LogConfig: Display: Loading Unix ini files took 0.07 seconds
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogConfig: Display: Loading IOS ini files took 0.07 seconds
+LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+LogConfig: Display: Loading Windows ini files took 0.08 seconds
+LogConfig: Display: Loading TVOS ini files took 0.08 seconds
+LogConfig: Display: Loading Android ini files took 0.08 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.08 seconds
+LogConfig: Display: Loading Linux ini files took 0.09 seconds
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="C:/THE HELD/Game/TheHeld/TheHeld.uproject" -log="C:/THE HELD/Game/TheHeld/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+LogAssetRegistry: Display: Asset registry cache read as 118.6 MiB from ../../../../../../THE HELD/Game/TheHeld/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_B388B5C44DC1F1FA4901B6AEA4F14F95.bin (memory-mapped=yes)
+Log file: C:\THE HELD\Game\TheHeld\Saved\Logs\AutoSDKInfo.txt
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+##PlatformValidate: Win64 VALID 10.0.22621.0
+##PlatformValidate: Mac INVALID 26.1.1
+##PlatformValidate: IOS INVALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS INVALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+Trace written to file C:\Users\karth\AppData\Local\UnrealBuildTool\Trace.uba with size 294b
+LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=356MiB, MaxMemoryAvailable=53716MiB
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogHAL: Display: Platform has ~ 32 GB [33777467392 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+LogTargetPlatformManager: Display: Building Assets For Windows
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+LogCsvProfiler: Display: Metadata set : gpu=""
+LogCsvProfiler: Display: Metadata set : gpudriver=""
+LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1679 MiB)
+LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/karth/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/karth/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/karth/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Installed service at 'C:/Users/karth/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+LogDerivedDataCache: Display: C:/Users/karth/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.57ms. RandomReadSpeed=16.03MBs, RandomWriteSpeed=89.61MBs. Assigned SpeedClass 'Local'
+LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+LogShaderCompilers: Display: No distributed shader compiler controller found
+LogShaderCompilers: Display: Using 19 local workers for shader compilation
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../THE HELD/Game/TheHeld/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogEditorDomain: Display: EditorDomain is Disabled
+LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches from ../../../../../../THE HELD/Game/TheHeld/Intermediate/CachedAssetRegistry.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+LogMeshReduction: Display: No distributed automatic mesh merging module available
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../THE HELD/Game/TheHeld/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 3.176 ms
+LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+LogAudio: Display: Registering Engine Module Parameter Interfaces...
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogCsvProfiler: Display: Metadata set : raytracing="0"
+LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+LogCook: Display: CookSettings for Memory:
+	MemoryMaxUsedVirtual 0MiB
+	MemoryMaxUsedPhysical 0MiB
+	MemoryMinFreeVirtual 2048MiB
+	MemoryMinFreePhysical 2048MiB
+	MemoryTriggerGCAtPressureLevel None
+	SoftGCMemoryUseTrigger disabled
+	SoftGCTimeBudgetTrigger enabled (0.05 budget, 30s min period)
+LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+LogCook: Display: ---- Pre Content Initialisation: End ----
+LogCook: Display: ---- Post Content Initialisation: Start ----
+LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and incremental cooking will be invalid.
+LogZenStore: Display: Establishing oplog 'TheHeld.a630efd4/EditorDomain'
+LogZenStore: Display: Zen project 'TheHeld.a630efd4' already exists
+LogZenStore: Display: Zen oplog 'TheHeld.a630efd4/EditorDomain' already exists
+LogCook: Display: Waiting for Asset Registry
+LogAssetRegistry: Display: Starting OnFilesLoaded.Broadcast
+LogAssetRegistry: Display: Completed OnFilesLoaded.Broadcast: 0.024s
+LogAssetRegistry: Display: Asset registry cache written as 118.6 MiB to ../../../../../../THE HELD/Game/TheHeld/Intermediate/CachedAssetRegistry/CachedAssetRegistry_*.ref
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display:   CachedAssetRegistry_0_B388B5C44DC1F1FA4901B6AEA4F14F95.bin: deleted (orphaned, unreferenced by any .ref)
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 2 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 1 orphans deleted, 0 orphans locked (kept)
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogCook: Display: INCREMENTAL COOK DEPENDENCIES: Enabled. Incremental Cook Dependencies are enabled in Editor.ini:[CookSettings]:LegacyIterative=false.
+LogZenStore: Display: Establishing oplog 'TheHeld.a630efd4/Windows'
+LogZenStore: Display: Zen project 'TheHeld.a630efd4' already exists
+LogStorageServerPlatformFile: Display: Found 'C:/THE HELD/Game/TheHeld/Saved/Cooked/Windows/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using connection settings from ue.projectstore: HostAddrs='[::1]+192.168.31.14+172.18.48.1' and HostPort='8558'
+LogStorageServerPlatformFile: Display: Found 'C:/THE HELD/Game/TheHeld/Saved/Cooked/Windows/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using password authentication from ue.projectstore
+LogStorageServerPlatformFile: Display: Using settings from ue.projectstore: ServerProject='TheHeld.a630efd4' and ServerPlatform='Windows'
+LogStorageServerConnection: Display: Creating zen store connection to [::1]:8558 ("::1").
+LogStorageServerConnection: Display: Zen store connection established to [::1]:8558.
+LogCook: Display: CalculateGlobalDependenciesHash(Windows):
+LogCook: Display: 	FGuid CookIncrementalVersion = ffa12fdc-c822-1fe2-7757-627a12f1d3a7
+LogCook: Display: 	[Editor]:CookSettings.ProjectCookIncrementalVersion = 00000000-0000-0000-0000-000000000000
+LogCook: Display: 	[Engine]:Core.System.CanStripEditorOnlyExportsAndImports = True
+LogCook: Display: 	[Engine]:Core.System.CanSkipEditorReferencedPackagesWhenCooking = False
+LogCook: Display: 	CanUseUnversionedPropertySerialization = True
+LogCook: Display: 	[Editor]:CookSettings.AutomaticOptionalInclusionAssetType = /Script/Niagara.NiagaraScript, /Script/Niagara.NiagaraEmitter, /Script/Niagara.NiagaraSystem, /Script/NiagaraEditor.NiagaraParameterDefinitions, /Script/Niagara.NiagaraEffectType, /Script/Niagara.NiagaraValidationRuleSet, /Script/OptimusCore.OptimusDeformer
+LogCook: Display: 	IsCookFlagSet(ECookInitializationFlags::Unversioned) = True
+LogCook: Display: 	FCoreRedirects::AppendHashOfGlobalRedirects = 02c9fd35aac3c00095df0219fc925d7070b41f449d3b97578d818a4016ee6805
+LogCook: Display: 	GlobalDependenciesHash(Windows) = 2de5b37f143f8e25d634acd39f60ca4c07ed1761ed763f60105e89ce30e27192
+LogCook: Display: FULL COOK: Incremental Cooks are disabled by default in Editor.ini:[CookSettings]:CookIncrementalDefaultIncremental=false, and commandline did not specify -forcerecook=false. Deleting previously cooked packages for platform Windows and recooking all packages discovered in the current cook.
+LogZenStore: Display: Deleting oplog 'TheHeld.a630efd4/Windows' if it exists
+LogZenStoreWriter: Display: Deleting C:/THE HELD/Game/TheHeld/Saved/Cooked/Windows/...
+LogZenStore: Display: Zen oplog 'TheHeld.a630efd4/Windows' created
+LogCook: Display: Sandbox cleanup took 0.028 seconds for platforms Windows
+LogCook: Display: Compiling global changed shaders for platform 'Windows'
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 345 (34500.00%)
+LogShaderLibrary: Display: Total Shaders: 3943, Unique Shaders: 3929 (99.64%)
+LogShaderLibrary: Display: Total Shader Size: 11.54mb, Unique Shaders Size: 11.54mb (99.96%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 309
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     3, 3, 3, 2, 2, 2, 2, 2, 2, 2
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 1760 shaders (44.80%), compressed size: 6.64 MB (3.86 KB avg per shader), uncompressed size: 31.28 MB (18.20 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 2052 shaders (52.23%), compressed size: 4.83 MB (2.41 KB avg per shader), uncompressed size: 19.47 MB (9.71 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 115 shaders (2.93%), compressed size: 0.07 MB (0.61 KB avg per shader), uncompressed size: 0.15 MB (1.31 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.05%), compressed size: 0.00 MB (0.49 KB avg per shader), uncompressed size: 0.00 MB (1.55 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../THE HELD/Game/TheHeld/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Discovering localized assets for cultures: en
+LogCook: Display: Found 0 localized assets
+LogCook: Display: ---- Post Content Initialisation: End ----
+LogCook: Display: Cooked packages 0 Packages Remain 480 Total 480
+LogCook: Display: Cook Diagnostics: OpenFileHandles=274, VirtualMemory=1489MiB, VirtualMemoryAvailable=19730MiB
+LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+  CookSettings.SoftGCTimeTrigger: Periodic triggering of SoftGC: No duration data.
+LogCookCommandlet: Display: GarbageCollection... (Periodic GC)
+LogCook: Display: Cooked packages 192 Packages Remain 342 Total 534
+LogCook: Display: Cooked packages 384 Packages Remain 150 Total 534
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.15.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+LogCook: Display: Cooked packages 534 Packages Remain 0 Total 534
+LogCook: Display: Cook Diagnostics: OpenFileHandles=4686, VirtualMemory=1961MiB, VirtualMemoryAvailable=19491MiB
+LogCook: Display: ---- Finalisation: Start ----
+LogCook: Display: CookArtifact 'C:/THE HELD/Game/TheHeld/Saved/Cooked/Windows/TheHeld/Metadata/ValidationCookArtifact.json' saved.
+LogAssetRegistryGenerator: Display: Saving asset registry v24.
+LogAssetRegistryGenerator: Display: Generated development asset registry C:/THE HELD/Game/TheHeld/Saved/Cooked/Windows/TheHeld/Metadata/DevelopmentAssetRegistry.bin num assets 537, size is 416.95kb, XxHash64[LE] = 0x76AB01A2BE2F07E7, waited on hash 0.00 seconds
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 530, size is 147.93kb
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'TheHeld' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 125, Unique Shadermaps: 123 (98.40%)
+LogShaderLibrary: Display: Total Shaders: 1486, Unique Shaders: 904 (60.83%)
+LogShaderLibrary: Display: Total Shader Size: 3.20mb, Unique Shaders Size: 1.95mb (60.93%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 6
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 361
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     39, 19, 18, 16, 16, 16, 15, 15, 15, 10
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Vertex: 397 shaders (43.92%), compressed size: 0.99 MB (2.56 KB avg per shader), uncompressed size: 3.02 MB (7.79 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 458 shaders (50.66%), compressed size: 0.86 MB (1.93 KB avg per shader), uncompressed size: 3.01 MB (6.73 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 49 shaders (5.42%), compressed size: 0.10 MB (2.06 KB avg per shader), uncompressed size: 0.36 MB (7.47 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../THE HELD/Game/TheHeld/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-TheHeld-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Dependent plugin "UAF" referenced by "IK Rig" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Dependent plugin "UAFAnimGraph" referenced by "IK Rig" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Dependent plugin "SteamShared" referenced by "EOS Shared" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Finalize package store(s)...
+LogZenStoreWriter: Display: Flushing...
+LogZenStoreWriter: Display: Saving Zen filesystem manifest 'C:/THE HELD/Game/TheHeld/Saved/Cooked/Windows/TheHeld/Metadata/zenfs.manifest'
+LogZenStoreWriter: Display: Output:	48718 Public runtime script objects
+LogCook: Display: Cook by the book total time in tick 4.782359s total time 9.402064
+LogCook: Display: Peak Used virtual 2049 MiB Peak Used physical 2172 MiB
+LogCook: Display: Packages Cooked: 527, Packages Incrementally Skipped: 0, Packages Skipped by Platform: 7, Total Packages: 534
+LogCookStats: Display: Hierarchy Timer Information:
+LogCookStats: Display:   Root: 0.000s (0)
+LogCookStats: Display:     CleanSandbox: 0.027s (1)
+LogCookStats: Display:     CollectFilesToCook: 0.007s (1)
+LogCookStats: Display:       CookModificationDelegate: 0.001s (1)
+LogCookStats: Display:     GenerateLongPackageName: 0.001s (1)
+LogCookStats: Display:     TickMainCookLoop: 4.782s (2)
+LogCookStats: Display:       PumpPollables: 0.000s (1)
+LogCookStats: Display:       PumpRequests: 0.023s (17)
+LogCookStats: Display:       LoadPackageForCooking: 1.690s (3639)
+LogCookStats: Display:       ValidateSourcePackage: 0.000s (534)
+LogCookStats: Display:       SavingPackages: 2.893s (61)
+LogCookStats: Display:         PollPendingCookedPlatformDatas: 0.094s (2108)
+LogCookStats: Display:         PrepareSave: 0.189s (1630)
+LogCookStats: Display:         PrecachePlatformDataForNextPackage: 0.256s (532)
+LogCookStats: Display:           PrepareSave: 0.255s (668)
+LogCookStats: Display:         SaveCookedPackage: 2.331s (534)
+LogCookStats: Display:           GEditorSavePackage: 2.153s (534)
+LogCookStats: Display:             VerifyCanCookPackage: 0.003s (527)
+LogCookStats: Display:           TargetDomainDependencies: 0.112s (534)
+LogCookStats: Display:         ClearAllCachedCookedPlatformData: 0.016s (534)
+LogCookStats: Display:       PostLoadPackageFixup: 0.000s (3)
+LogCookStats: Display:     CookByTheBookFinished: 0.380s (1)
+LogCookStats: Display:       SavingCurrentIniSettings: 0.038s (1)
+LogCookStats: Display:         ProcessingAccessedStrings: 0.003s (1)
+LogCookStats: Display:       ChunkGeneration: 0.016s (1)
+LogCookStats: Display:       FinishPopulateShaderLibrary: 0.002s (1)
+LogCookStats: Display:       CalculateReferencedSet: 0.000s (1)
+LogCookStats: Display:       CookArtifacts.UpdateOplogPackages: 0.005s (1)
+LogCookStats: Display:       PruneShaderLibrary: 0.001s (1)
+LogCookStats: Display:       GeneratorPreSave: 0.000s (1)
+LogCookStats: Display:       BuildChunkManifest: 0.010s (1)
+LogCookStats: Display:         FixupPackageDependenciesForChunks: 0.005s (1)
+LogCookStats: Display:       SaveManifests: 0.000s (1)
+LogCookStats: Display:       SaveAssetRegistry: 0.032s (1)
+LogCookStats: Display:       WriteCookerOpenOrder: 0.003s (1)
+LogCookStats: Display:       WriteCookMetadata: 0.002s (1)
+LogCookStats: Display:       WriteReferencedSet: 0.001s (1)
+LogCookStats: Display:       FinalizePackageStore: 0.220s (1)
+LogCookStats: Display: Misc Cook Stats
+LogCookStats: Display: ===============
+LogCookStats: Display: Validation
+LogCookStats: Display:     Stats=[]
+LogCookStats: Display: Niagara
+LogCookStats: Display:     NiagaraScriptTranslationCount=0
+LogCookStats: Display:     NiagaraCpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraGpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraSystemWaitForCompilationCompleteTime=0.000000
+LogCookStats: Display: ComputeKernelShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: NiagaraShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: ShaderCompiler
+LogCookStats: Display:     BlockingTimeSec=0.000121
+LogCookStats: Display:     AsyncCompileTimeSec=0.000000
+LogCookStats: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+LogCookStats: Display:     GlobalBeginCompileShaderCalls=0
+LogCookStats: Display:     ProcessAsyncResultsTimeSec=0.000104
+LogCookStats: Display: GlobalShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: Material
+LogCookStats: Display:     FinishCacheShadersSec=0.088628
+LogCookStats: Display: Cook.Profile.Params
+LogCookStats: Display:     CookProject=TheHeld
+LogCookStats: Display:     CookCultures=
+LogCookStats: Display:     CookLabel=
+LogCookStats: Display:     TargetPlatforms=Windows
+LogCookStats: Display:     IsCookAll=false
+LogCookStats: Display:     IsCookOnTheFly=false
+LogCookStats: Display:     IsIncrementalCook=false
+LogCookStats: Display:     IsIterativeCook=false
+LogCookStats: Display:     IsFastCook=false
+LogCookStats: Display:     IsUnversioned=true
+LogCookStats: Display: CookOnTheFlyServer.Package.Load
+LogCookStats: Display:     NumRequestedLoads=3291
+LogCookStats: Display:     NumPackagesLoaded=3347
+LogCookStats: Display:     NumInlineLoads=56
+LogCookStats: Display: CookOnTheFlyServer.Package.Save
+LogCookStats: Display:     NumPackagesIncrementallySkipped=0
+LogCookStats: Display: CookOnTheFlyServer.QueueSize
+LogCookStats: Display:     PeakRequest=533
+LogCookStats: Display:     PeakLoad=64
+LogCookStats: Display:     PeakSave=86
+LogCookStats: Display: Package.Load
+LogCookStats: Display:     LoadPackageTimeSec=2.011351
+LogCookStats: Display: Package.Save
+LogCookStats: Display:     NumPackagesSaved=534
+LogCookStats: Display:     SavePackageTimeSec=2.126753
+LogCookStats: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsTimeSec=0.000000
+LogCookStats: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCookStats: Display:     ResetLoadersTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCookStats: Display:     SerializeImportsTimeSec=0.000000
+LogCookStats: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCookStats: Display:     SerializeExportsTimeSec=0.000000
+LogCookStats: Display:     SerializeBulkDataTimeSec=0.003518
+LogCookStats: Display:     AsyncWriteTimeSec=0.000000
+LogCookStats: Display:     MBWritten=0.000000
+LogCookStats: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCookStats: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCookStats: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCookStats: Display: Package.DiffTotal
+LogCookStats: Display:     NumberOfDifferentPackages=0
+LogCookStats: Display:     DifferentPackagesSizeMB=0.000000
+LogCookStats: Display:     NumberOfDifferencesInPackages=0
+LogCookStats: Display:     PackageDifferencesSizeMB=0.000000
+LogCookStats: Display: UnversionedProperties
+LogCookStats: Display:     SavedStructs=0
+LogCookStats: Display:     SavedMB=0
+LogCookStats: Display:     EquivalentTaggedMB=0
+LogCookStats: Display:     CompressionRatio=-nan(ind)
+LogCookStats: Display:     BitfieldWasteKB=0
+LogCookStats: Display:
+LogCookStats: Display: Cook Profile
+LogCookStats: Display: ============
+LogCookStats: Display:  0.CookWallTimeSec=25.743124
+LogCookStats: Display:  0. 0.StartupWallTimeSec=15.539899
+LogCookStats: Display:  0. 1.CookProcessingTime=10.203225
+LogCookStats: Display:  0. 1. 1.StartCookByTheBookTimeSec=5.001049
+LogCookStats: Display:  0. 1. 1. 0.BlockOnAssetRegistryTimeSec=1.308579
+LogCookStats: Display:  0. 1. 1. 1.GameCookModificationDelegateTimeSec=0.000622
+LogCookStats: Display:  0. 1. 2.TickCookOnTheSideTimeSec=0.135885
+LogCookStats: Display:  0. 1. 2. 0.TickCookOnTheSideLoadPackagesTimeSec=1.691095
+LogCookStats: Display:  0. 1. 2. 1.TickCookOnTheSideSaveCookedPackageTimeSec=2.330759
+LogCookStats: Display:  0. 1. 2. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCookStats: Display:  0. 1. 2. 2.TickCookOnTheSidePrepareSaveTimeSec=0.444222
+LogCookStats: Display:  0. 1. 3.TickLoopGCTimeSec=0.026700
+LogCookStats: Display:  0. 1. 4.TickLoopRecompileShaderRequestsTimeSec=0.000000
+LogCookStats: Display:  0. 1. 5.TickLoopShaderProcessAsyncResultsTimeSec=0.000007
+LogCookStats: Display:  0. 1. 6.TickLoopProcessDeferredCommandsTimeSec=0.000001
+LogCookStats: Display:  0. 1. 7.TickLoopTickCommandletStatsTimeSec=0.000001
+LogCookStats: Display:  0. 1. 8.TickLoopFlushRenderingCommandsTimeSec=0.000086
+LogCookStats: Display:  0. 1. 9.ShaderFlushTimeSec=0.000000
+LogCookStats: Display:  0. 1. 10.ValidationTimeSec=0.000133
+LogCookStats: Display:
+LogCookStats: Display: DDC Summary Stats
+LogCookStats: Display: =================
+LogCookStats: Display: BackEnd         = Installed
+LogCookStats: Display: HasLocalCache   =      true
+LogCookStats: Display: HasSharedCache  =     false
+LogCookStats: Display: HasCloudCache   =     false
+LogCookStats: Display: HasZenCache     =      true
+LogCookStats: Display: TotalGetHits    =      4060
+LogCookStats: Display: TotalGetMisses  =         0
+LogCookStats: Display: TotalGets       =      4060
+LogCookStats: Display: TotalGetHitPct  =  1.000000
+LogCookStats: Display: GetMissPct      =  0.000000
+LogCookStats: Display: TotalPutHits    =         0
+LogCookStats: Display: TotalPutMisses  =         0
+LogCookStats: Display: TotalPuts       =         0
+LogCookStats: Display: TotalPutHitPct  =  0.000000
+LogCookStats: Display: PutMissPct      =  0.000000
+LogCookStats: Display: LocalGetHits    =      3258
+LogCookStats: Display: LocalGetMisses  =         0
+LogCookStats: Display: LocalGetTotal   =      3258
+LogCookStats: Display: LocalGetHitPct  =  1.000000
+LogCookStats: Display: SharedGetHits   =         0
+LogCookStats: Display: SharedGetTotal  =         0
+LogCookStats: Display: SharedGetHitPct =  0.000000
+LogCookStats: Display: ZenLocalGetHits =      3258
+LogCookStats: Display: ZenLocalGetTotal=      3258
+LogCookStats: Display: ZenLocalGetHitPct=  1.000000
+LogCookStats: Display: ZenRemoteGetHits=         0
+LogCookStats: Display: ZenRemoteGetTotal=         0
+LogCookStats: Display: ZenRemoteGetHitPct=  0.000000
+LogCookStats: Display: ZenRemoteReadSpeed=  0.000000
+LogCookStats: Display: ZenRemoteWriteSpeed=  0.000000
+LogCookStats: Display: ZenRemoteLatency=  0.000000
+LogCookStats: Display: CloudGetHits    =         0
+LogCookStats: Display: CloudGetTotal   =         0
+LogCookStats: Display: CloudGetHitPct  =  0.000000
+LogCookStats: Display: LocalLatency    =  0.170111
+LogCookStats: Display: LocalReadSpeed  =  3.361544
+LogCookStats: Display: LocalWriteSpeed =  0.000000
+LogCookStats: Display: SharedLatency   =  0.000000
+LogCookStats: Display: SharedReadSpeed =  0.000000
+LogCookStats: Display: SharedWriteSpeed=  0.000000
+LogCookStats: Display: CloudLatency    =  0.000000
+LogCookStats: Display: CloudReadSpeed  =  0.000000
+LogCookStats: Display: CloudWriteSpeed =  0.000000
+LogCookStats: Display:
+LogCookStats: Display: DDC Resource Stats
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCookStats: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCookStats: Display: BulkDataList                                    1.99                   0.00             0          0.57
+LogCookStats: Display: GlobalShader                                    0.74                   0.74             0         11.81
+LogCookStats: Display: MaterialShader                                  0.29                   0.07             0          3.95
+LogCookStats: Display: StaticMesh                                      0.05                   0.00             0          0.88
+LogCookStats: Display: Texture                                         0.04                   0.00             0          8.82
+LogCookStats: Display: CardRepresentation                              0.03                   0.00             0          0.02
+LogCookStats: Display: NavCollision                                    0.03                   0.00             0          0.04
+LogCookStats: Display: STREAMEDAUDIO                                   0.03                   0.00             0          0.10
+LogCookStats: Display: Audio                                           0.01                   0.00             0          0.09
+LogCookStats: Display: BodySetup                                       0.00                   0.00             0          0.31
+LogCookStats: Display: CKERSM                                          0.00                   0.00             0          0.05
+LogCookStats: Display:
+LogCookStats: Display: Accumulated DDC Resource Stats Per Asset Type
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: AnimationSequence                               0.00                   0.00             0          0.00
+LogCookStats: Display: Audio                                           0.01                   0.00             0          0.09
+LogCookStats: Display: CardRepresentation                              0.03                   0.00             0          0.02
+LogCookStats: Display: DistanceField                                   0.00                   0.00             0          0.00
+LogCookStats: Display: MaterialShader                                  0.29                   0.07             0          3.95
+LogCookStats: Display: MaterialTranslation                             0.00                   0.00             0          0.00
+LogCookStats: Display: NiagaraScript                                   0.00                   0.00             0          0.00
+LogCookStats: Display: SkeletalMesh                                    0.00                   0.00             0          0.00
+LogCookStats: Display: StaticMesh                                      0.05                   0.00             0          0.88
+LogCookStats: Display: Texture                                         0.04                   0.00             0          8.82
+LogCookStats: Display: Other                                           2.79                   0.74             0         12.87
+LogPackageBuildDependencyTracker: Display: Package Accesses (235 referencing packages with a total of 1795 unique accesses)
+LogConfigBuildDependencyTracker: Display: Config Accesses (323 referencing packages with a total of 708 unique accesses). 1761 unique accesses that were not associated with a package.
+LogCook: Display: ---- Finalisation: End ----
+LogCook: Display: Done!
+LogSavePackage: Display: Took 0.000611s to verify the EDL loading graph.
+LogInit: Display:
+LogInit: Display: Success - 0 error(s), 0 warning(s)
+LogInit: Display:
+
+Execution of commandlet took:  10.21 seconds, PeakPhysMemoryMB=2172 MB, PeakVirtMemoryMB=2049 MB
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogStreaming: Display: ============ Loader Stats ============
+LogStreaming: Display: Unique Partial Flushes: 0
+LogStreaming: Display: ============ Loader Stats End ============
+LogShaderCompilers: Display: Exiting ShaderCompilingThread
+Took 29.07s to run UnrealEditor-Cmd.exe, ExitCode=0
+Cook command time: 29.15 s
+********** COOK COMMAND COMPLETED **********
+********** STAGE COMMAND STARTED **********
+Creating Staging Manifest...
+Patching bootstrap executable; C:\THE HELD\Game\TheHeld\Intermediate\Staging\TheHeld.exe
+Begin update resource 'C:\THE HELD\Game\TheHeld\Intermediate\Staging\TheHeld.exe' (0)
+Add resource 101, length 104 (True)
+Add resource 1, length 1996 (True)
+Add resource 2, length 2447 (True)
+Add resource 3, length 2535 (True)
+Add resource 4, length 3037 (True)
+Add resource 5, length 3244 (True)
+Add resource 6, length 3531 (True)
+Add resource 7, length 6931 (True)
+Add resource 201, length 70 (True)
+Add resource 202, length 16 (True)
+Add resource 205, length 2 (True)
+End update resource (True/0)
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\PortableObjectImport.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BasePakFileRules.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseLightmass.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\RepairData.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\Category.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\Editor.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\WordCount.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseEditor.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\WindowsEditorPerProjectUserSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseEditorKeyBindings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\PropertyNames.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseEditorSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseSourceControlSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\Keywords.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\ToolTips.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\Engine.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\WindowsEditorSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseEditorPerProjectUserSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseUnrealInsightsSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\PortableObjectExport.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseEngine.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\VulkanPC\DataDrivenPlatformInfo.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\DataDrivenPlatformInfo.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\BaseWindowsInput.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseGameUserSettings.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseGame.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\BaseWindowsGame.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\BaseWindowsEngine.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseInput.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseHardware.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseInstallBundle.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseMaterialExpressions.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\WindowsInput.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\WindowsGame.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseCompat.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Base.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseDeviceProfiles.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseScalability.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseRuntimeOptions.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\ConsoleVariables.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\ConfigRedirects.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Layouts\UE4ClassicLayout.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Layouts\DefaultLayout.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\PluginBase.ini
+Including config file C:\THE HELD\Game\TheHeld\Config\DefaultEngine.ini
+Including config file C:\THE HELD\Game\TheHeld\Config\DefaultInput.ini
+Including config file C:\THE HELD\Game\TheHeld\Config\DefaultGame.ini
+Reading oplog from Zen...
+Reading oplog from http://[::1]:8558/prj/TheHeld.a630efd4/oplog/Windows/entries?trim_by_referencedset=true
+Parsed 529 package entries from oplog.
+Cleaning Stage Directory: C:\THE HELD\Game\TheHeld\Saved\StagedBuilds\Windows
+Creating pak using staging manifest.
+DumpManifest: C:\Users\karth\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\PrePak_Windows_NonUFSFiles.txt, NumItems: 34
+DumpManifest: C:\Users\karth\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\PrePak_Windows_NonUFSFilesDebug.txt, NumItems: 6
+DumpManifest: C:\Users\karth\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\PrePak_Windows_UFSFiles.txt, NumItems: 2305
+No matching platform for PakFileRules for Section ExcludeContentForMobile : Windows
+Using 0 pak order files:
+Running UnrealPak with arguments: "C:\THE HELD\Game\TheHeld\TheHeld.uproject"  -cryptokeys="C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows\TheHeld\Metadata\Crypto.json" -unattended -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -ProjectStore="C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows\ue.projectstore" -platform=Windows  -CreateMultiple="C:\Users\karth\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\PakCommands.txt"
+Running: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealPak.exe "C:\THE HELD\Game\TheHeld\TheHeld.uproject"  -cryptokeys="C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows\TheHeld\Metadata\Crypto.json" -unattended -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -ProjectStore="C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows\ue.projectstore" -platform=Windows  -CreateMultiple="C:\Users\karth\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\PakCommands.txt"
+OodleDataCompression: Display: Oodle v2.9.16 format for pak/iostore with method=Kraken, level=4=Normal
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogPakFile: Display: ProjectDir: ../../../../../../THE HELD/Game/TheHeld/
+LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/karth/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/karth/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/karth/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Installed service at 'C:/Users/karth/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogZenStore: Display: Opening oplog TheHeld.a630efd4 / Windows
+LogIoStore: Display: Fetched 530 oplog items from Zen in 0.88 seconds
+LogIoStore: Display: Parsed 530 oplog items 0.01 seconds, 3421 chunks
+LogIoStore: Display: Loaded 566 chunk hashes from Zen in 0.05 seconds, 566 hashes updated in 0.00 seconds
+LogPakFile: Display: Oodle enabled on 'NoPluginCompression' files
+LogPakFile: Display: Loading response file C:\Program Files\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\ResponseFiles\PakList_TheHeld-Windows.txt
+LogPakFile: Display: Added 1737 entries to add to pak file.
+LogPakFile: Display: Collecting files to add to pak file...
+LogPakFile: Display: Collected 1737 files in 0.01s.
+LogPakFile: Display: Creating pak C:/THE HELD/Game/TheHeld/Saved/StagedBuilds/Windows/TheHeld/Content/Paks/TheHeld-Windows.pak.
+LogPakFile: Display: Created pak file: C:/THE HELD/Game/TheHeld/Saved/StagedBuilds/Windows/TheHeld/Content/Paks/TheHeld-Windows.pak
+LogPakFile: Display: CompressionFormat 0 [Oodle] : 397 files, 24023897 -> 9197389 bytes
+LogPakFile: Display: CompressionFormat 2 [None] : 1340 files, 785686 -> 785686 bytes
+LogPakFile: Display: Added 1737 files, 10649500 bytes total
+LogPakFile: Display: PrimaryIndex size: 23922 bytes
+LogPakFile: Display: PathHashIndex size: 54548 bytes
+LogPakFile: Display: FullDirectoryIndex size: 57648 bytes
+LogPakFile: Display: Compression summary: 38.28% of original size. Compressed Size 9197389 bytes, Original Size 24023897 bytes.
+LogPakFile: Display: Encryption - DISABLED
+LogPakFile: Display:
+LogPakFile: Display: Writer and Compression Threads exited.
+LogPakFile: Display: UnrealPak executed in 1.078408 seconds
+Took 1.53s to run UnrealPak.exe, ExitCode=0
+Running UnrealPak with arguments: "C:\THE HELD\Game\TheHeld\TheHeld.uproject" C:\THE HELD\Game\TheHeld\TheHeld.uproject -CreateGlobalContainer="C:\THE HELD\Game\TheHeld\Saved\StagedBuilds\Windows\TheHeld\Content\Paks\global.utoc" -ProjectStore="C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows\ue.projectstore" -CookedDirectory="C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows" -Commands="C:\Users\karth\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\IoStoreCommands.txt" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows\TheHeld\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -platform=Windows  -unattended
+Running: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealPak.exe "C:\THE HELD\Game\TheHeld\TheHeld.uproject" C:\THE HELD\Game\TheHeld\TheHeld.uproject -CreateGlobalContainer="C:\THE HELD\Game\TheHeld\Saved\StagedBuilds\Windows\TheHeld\Content\Paks\global.utoc" -ProjectStore="C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows\ue.projectstore" -CookedDirectory="C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows" -Commands="C:\Users\karth\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\IoStoreCommands.txt" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows\TheHeld\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -platform=Windows  -unattended
+OodleDataCompression: Display: Oodle v2.9.16 format for pak/iostore with method=Kraken, level=4=Normal
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogPakFile: Display: ProjectDir: ../../../../../../THE HELD/Game/TheHeld/
+LogIoStore: Display: ==================== IoStore Utils ====================
+LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows\TheHeld\Metadata\Crypto.json'
+LogIoStore: Display: Container signing - DISABLED
+LogIoStore: Display: Directory index - ENABLED
+LogIoStore: Display: Using compression format 'Oodle'
+LogConfig: Display: Read in platform Windows ini files took 0.03 seconds
+LogIoStore: Display: Using memory mapping alignment '16384'
+LogIoStore: Display: Using compression block size '65536'
+LogIoStore: Display: Using compression block alignment '2048'
+LogIoStore: Display: Using compression min bytes saved '1024'
+LogIoStore: Display: Using compression min percent saved '5'
+LogIoStore: Display: Using max partition size '0'
+LogIoStore: Display: Not using DDC for compression
+LogIoStore: Display: Container metadata disabled
+LogIoStore: Display: Using command list file: 'C:\Users\karth\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\IoStoreCommands.txt'
+LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
+LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/karth/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/karth/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/karth/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Installed service at 'C:/Users/karth/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogZenStore: Display: Opening oplog TheHeld.a630efd4 / Windows
+LogIoStore: Display: Fetched 530 oplog items from Zen in 1.44 seconds
+LogIoStore: Display: Parsed 530 oplog items 0.01 seconds, 3421 chunks
+LogIoStore: Display: Loaded 566 chunk hashes from Zen in 0.00 seconds, 566 hashes updated in 0.00 seconds
+LogIoStore: Display: Searching for cooked assets in folder 'C:\THE HELD\Game\TheHeld\Saved\Cooked\Windows'
+LogIoStore: Display: Found '4' files
+LogIoStore: Display: Creating container targets...
+LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
+LogIoStore: Display: Shader library chunk override is disabled
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 382 groups (158 of them didn't need new indices), average uncompressed size 139724 bytes, min 249 bytes, max 1033651 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 3929 shaders as 382 groups. Library size changed from 11814 KB (4.41 : 1 ratio) to 5259 KB (9.91 : 1 ratio), 44.52% of previous.
+LogIoStore: Display: Save IoStoreShaderCodeArchive 'Global-PCD3D_SM5-PCD3D_SM5' with ChunkId 'c3fad98e7ca0cc3100000008' for target file 'C:/THE HELD/Game/TheHeld/Saved/Cooked/Windows/TheHeld/Content/ShaderArchive-Global-PCD3D_SM5-PCD3D_SM5.ushaderbytecode'
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 186 groups (122 of them didn't need new indices), average uncompressed size 35995 bytes, min 502 bytes, max 983025 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: TheHeld-PCD3D_SM5(PCD3D_SM5): Recompressed 904 shaders as 186 groups. Library size changed from 1998 KB (3.27 : 1 ratio) to 1072 KB (6.10 : 1 ratio), 53.65% of previous.
+LogIoStore: Display: Save IoStoreShaderCodeArchive 'TheHeld-PCD3D_SM5-PCD3D_SM5' with ChunkId '0a7e911c230d153300000008' for target file 'C:/THE HELD/Game/TheHeld/Saved/Cooked/Windows/TheHeld/Content/ShaderArchive-TheHeld-PCD3D_SM5-PCD3D_SM5.ushaderbytecode'
+LogIoStore: Display: Shaders processed in 0.14 seconds
+LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=11 (22 cores), MaxSourceBufferMemory=3072MiB
+LogIoStore: Display: Processing redirects...
+LogIoStore: Display: Creating disk layout...
+LogIoStore: Display: Ordered 527 packages using fallback bundle order
+LogIoStore: Display: Disabled WriteRequestManager memory throttling, MaxConcurrentSourceReads=11 (22 cores)
+LogIoStore: Display: Writing container(s)...
+LogIoStore: Display: Writing and compressing took 0.66 seconds, writes to disk took 0.12 seconds for 126,430,272 bytes @ 1,020,050,586 bytes per second.
+LogIoStore: Display: global: Found perfect hashmap for 1 items.
+LogIoStore: Display: TheHeld-Windows: Found perfect hashmap for 1137 items.
+LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 127,199 bytes, 24,165,316 bytes per second
+LogIoStore: Display: Writing tocs... [Physical: 548 MiB, Virtual: 3317 MiB]
+LogIoStore: Display: 566 / 1,138 hashes were loaded from the hash database, by type:
+LogIoStore: Display:     ExportBundleData           527
+LogIoStore: Display:     BulkData                   39
+LogIoStore: Display: 566 / 1,138 chunks attempted to compress, by type:
+LogIoStore: Display:     ExportBundleData           527 / 527
+LogIoStore: Display:     BulkData                   39 / 39
+LogIoStore: Display:     ScriptObjects              0 / 1
+LogIoStore: Display:     ContainerHeader            0 / 1
+LogIoStore: Display:     ShaderCodeLibrary          0 / 2
+LogIoStore: Display:     ShaderCode                 0 / 568
+LogIoStore: Display: Source bytes read:
+LogIoStore: Display:     Zen:                        163,274,728
+LogIoStore: Display:         ExportBundleData        155,516,928 bytes over 527 reads
+LogIoStore: Display:         BulkData                  7,757,800 bytes over 39 reads
+LogIoStore: Display:     Loose File:                           0
+LogIoStore: Display:     Memory:                      13,248,470
+LogIoStore: Display:         ShaderCodeLibrary           281,032 bytes over 4 reads
+LogIoStore: Display:         ShaderCode               12,967,438 bytes over 1,136 reads
+LogIoStore: Display: Calculating stats...
+LogIoStore: Display:
+LogIoStore: Display: Container Summary
+LogIoStore: Display: ==================
+LogIoStore: Display:
+LogIoStore: Display:            Container      Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+LogIoStore: Display: ---------------------------------------------------------------------------------------------------------
+LogIoStore: Display:               global  -/-/-/-/-               1            0.76                 3.06                 3.06 -
+LogIoStore: Display:      TheHeld-Windows  C/-/-/I/-            1137          123.45               162.68               117.51 (27.77% Oodle)
+LogIoStore: Display: ---------------------------------------------------------------------------------------------------------
+LogIoStore: Display:                Total                       1138          124.22               165.74               120.57
+LogIoStore: Display:
+LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+LogIoStore: Display:
+LogIoStore: Display: Compression block padding:     0.64 MiB
+LogIoStore: Display:
+LogIoStore: Display: Container Directory Index
+LogIoStore: Display: ==========================
+LogIoStore: Display:
+LogIoStore: Display:            Container      Size (KiB)
+LogIoStore: Display: ------------------------------------
+LogIoStore: Display:               global            0.00
+LogIoStore: Display:      TheHeld-Windows           27.83
+LogIoStore: Display:
+LogIoStore: Display: Container Patch Report
+LogIoStore: Display: ========================
+LogIoStore: Display:
+LogIoStore: Display:            Container          Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+LogIoStore: Display: ---------------------------------------------------------------------------------------------------------
+LogIoStore: Display:               global                1                0                0             0.00             0.00
+LogIoStore: Display:      TheHeld-Windows             1137                0             1137             0.00           116.87
+LogIoStore: Display: ---------------------------------------------------------------------------------------------------------
+LogIoStore: Display:
+LogIoStore: Display: PackageStore
+LogIoStore: Display: =============
+LogIoStore: Display:
+LogIoStore: Display:            Container      Size (KiB)      Packages #     Localized #
+LogIoStore: Display: --------------------------------------------------------------------
+LogIoStore: Display:      TheHeld-Windows              13             527               0
+LogIoStore: Display: --------------------------------------------------------------------
+LogIoStore: Display:                Total              13             527               0
+LogIoStore: Display:
+LogIoStore: Display:
+LogIoStore: Display: Input:       527 Packages
+LogIoStore: Display: Input:         0   B UExp
+LogIoStore: Display: Input:    148.31 MiB UAsset
+LogIoStore: Display: Input:      7.40 MiB UBulk
+LogIoStore: Display: Input:      5.14 MiB for 382 Global shaders
+LogIoStore: Display: Input:    256.83 KiB for 76 Shared shaders
+LogIoStore: Display: Input:         0   B for 0 Unique shaders
+LogIoStore: Display: Input:    815.19 KiB for 110 Inline shaders
+LogIoStore: Display:
+LogIoStore: Display: Output:      508 Imported package entries
+LogIoStore: Display: Output:      339 Packages without imports
+LogIoStore: Display: Output:        0 Public runtime script objects
+LogIoStore: Display: Output:     3.06 MiB InitialLoadData
+LogIoStore: Display:
+LogIoStore: Display: Success
+LogPakFile: Display: UnrealPak executed in 2.378249 seconds
+Took 2.69s to run UnrealPak.exe, ExitCode=0
+DumpManifest: C:\Users\karth\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_UFSFiles.txt, NumItems: 2306
+DumpManifest: C:\Users\karth\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_NonUFSFiles.txt, NumItems: 34
+DumpManifest: C:\Users\karth\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 6
+Copying NonUFSFiles to staging directory: C:\THE HELD\Game\TheHeld\Saved\StagedBuilds\Windows
+Copying DebugFiles to staging directory: C:\THE HELD\Game\TheHeld\Saved\StagedBuilds\Windows
+Stage command time: 5.91 s
+********** STAGE COMMAND COMPLETED **********
+********** ARCHIVE COMMAND STARTED **********
+Archiving to C:\THE HELD\Builds\PH01
+Archive command time: 0.62 s
+********** ARCHIVE COMMAND COMPLETED **********
+BuildCookRun time: 37.20 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 0m 38s
+AutomationTool exiting with ExitCode=0 (Success)

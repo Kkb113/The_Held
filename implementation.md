@@ -1,8 +1,8 @@
 # The Held — implementation roadmap
 
-Version 1.0 · 7 September 2026 · **PH00 implementation authorized by the user**
+Version 1.0 · 7 September 2026 · **PH01 implementation authorized by the user**
 
-**Current phase: PH00 — In progress. All later phases are Not started. No phase is Accepted.** The user explicitly requested implementation of PH00 after reviewing this roadmap. See [PH00 evidence](<C:/THE HELD/phase-reviews/PH00/README.md>) for build results and outstanding acceptance checks. This does not authorize publishing the game.
+**Current phase: PH01 — In review. PH02 onward are Not started.** After reporting the PH00 playtests passed, the user explicitly instructed implementation of PH01. This records acceptance of PH00 for progression; unverified external checks in its review remain unverified. See [PH01 evidence](<C:/THE HELD/phase-reviews/PH01/README.md>). This does not authorize publishing the game.
 
 ## 1. Authority and scope
 
@@ -848,10 +848,11 @@ The old first-sprint tasks are a source of bounded work, not authorization for p
 ## 6. Approval and current state
 
 - Roadmap approval: **v1.0 authorized for PH00 on 7 September 2026**, through the user's explicit instruction: “Let's implement PH00 — Reproducible Unreal Foundation.”
-- Active phase: **PH00 — In progress**.
-- Last accepted phase: **None**.
+- Active phase: **PH01 — In review**, with a packaged service route, automated traversal/input checks and explicit remaining human/production review items.
+- Development hold: lifted by that explicit PH01 instruction. **PH02 remains gated.**
+- Last accepted phase: **PH00 for progression**, based on user-reported playtest passes followed by explicit PH01 authorization; this does not convert undocumented external checks into test passes.
 - Completed implementation work under this roadmap: PH00 foundation source and assets; validation is recorded in the phase review, not assumed from file existence.
-- Next eligible work: complete PH00 evidence and user review. **PH01 remains gated.**
+- Next eligible work: user review of PH01 and resolution of its remaining acceptance items. No PH02 implementation yet.
 - Current technical evidence: [PH00 review and logs](<C:/THE HELD/phase-reviews/PH00/README.md>), including live MCP verification, compiler builds and Blender reimport validation. Outstanding checks remain explicit.
 
 Keep the blueprint's intent fixed while reviewing phase scope, evidence requirements, early visual impact and the deliberate separation of temporary audio from final REAPER production. Only an accepted PH00 permits PH01.

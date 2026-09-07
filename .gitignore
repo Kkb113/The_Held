@@ -13,3 +13,4 @@ phase-reviews/PH00/clean-rebuild/
 # Keep transient attempt logs local; explicitly stage final review logs.
 phase-reviews/PH00/*.log
 phase-reviews/PH00/build-*.json
+phase-reviews/PH01/*.log

@@ -1,0 +1,30 @@
+{
+  "required": [
+    "/Game/Traversal/M_Stone",
+    "/Game/Traversal/M_Dark",
+    "/Game/Traversal/M_Foreground",
+    "/Game/Traversal/M_Backdrop",
+    "/Game/Traversal/M_AshBlue",
+    "/Game/Traversal/M_Skin",
+    "/Game/Traversal/M_Porcelain",
+    "/Game/Traversal/M_Brass",
+    "/Game/Traversal/M_PaintedMetal",
+    "/Game/Traversal/M_Timber",
+    "/Game/Traversal/M_Tile",
+    "/Game/Traversal/M_Fabric",
+    "/Game/Traversal/M_Wet",
+    "/Game/Traversal/M_Glass",
+    "/Game/Traversal/M_Warm",
+    "/Game/Traversal/SM_Cloth",
+    "/Game/Traversal/L_PH01",
+    "/Game/Traversal/A_Step",
+    "/Game/Traversal/A_Grip",
+    "/Game/Traversal/A_Land"
+  ],
+  "cloth_cm": [
+    360.0,
+    17.99151611328125,
+    323.486572265625
+  ],
+  "source": "original Blender mesh and seeded temporary synthesis"
+}

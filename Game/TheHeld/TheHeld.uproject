@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Games",
+  "Description": "The Held — PH00 reproducible foundation",
+  "Modules": [{"Name":"TheHeld","Type":"Runtime","LoadingPhase":"Default"}],
+  "Plugins": [
+    {"Name":"EnhancedInput","Enabled":true},
+    {"Name":"PythonScriptPlugin","Enabled":true,"TargetAllowList":["Editor"]},
+    {"Name":"EditorScriptingUtilities","Enabled":true,"TargetAllowList":["Editor"]}
+  ]
+}

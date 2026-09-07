@@ -1,0 +1,14 @@
+{
+  "cpu": "Intel(R) Core(TM) Ultra 7 155H",
+  "ram_bytes": 33777467392,
+  "gpu": [
+    {
+      "Name": "Intel(R) Arc(TM) Graphics",
+      "DriverVersion": "32.0.101.8724"
+    }
+  ],
+  "os": {
+    "Caption": "Microsoft Windows 11 Home",
+    "Version": "10.0.26200"
+  }
+}

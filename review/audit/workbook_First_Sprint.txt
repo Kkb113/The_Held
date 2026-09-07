@@ -1,0 +1,23 @@
+A1: THE HELD | FIRST SPRINT
+A2: Planning baseline v1.0 • All status values are initial; no game tests have been run. Full detail: master blueprint.
+A4: ID | B4: Day | C4: Owner | D4: Task | E4: Output | F4: Depends on | G4: Status
+A5: SP01 | B5: D01 | C5: Producer + director | D5: Approve 225-minute scope, Ivo13, 8-core staffing assumption and cut list | E5: Signed scope record | F5: None | G5: Not started
+A6: SP02 | B6: D01 | C6: Lead engineer | D6: Create repository, branch rules, Unity baseline experiment and CI skeleton | E6: Empty packaged Windows build | F6: Scope | G6: Not started
+A7: SP03 | B7: D01 | C7: Art + animation | D7: Define Ivo scale and camera framing test; create disposable capsule/rig | E7: 1.52m reference mesh and graybox palette | F7: Scope | G7: Not started
+A8: SP04 | B8: D02 | C8: Gameplay engineer | D8: Implement fixed-step plane-constrained movement, acceleration and collision | E8: Runnable floor/step/slope gym | F8: Repository | G8: Not started
+A9: SP05 | B9: D02 | C9: Level designer | D9: Block first shutter and staircase support fixtures to stated metrics | E9: P01/P10 grayboxes | F9: Scale standard | G9: Not started
+A10: SP06 | B10: D03 | C10: Gameplay engineer | D10: Add buffered jump, moving platform support and crouch with sweeps | E10: Movement gym route | F10: Controller | G10: Not started
+A11: SP07 | B11: D03 | C11: Technical artist | D11: Build neutral lighting/camera test with foreground and background occlusion | E11: Readability comparison shots | F11: Art scale | G11: Not started
+A12: SP08 | B12: D04 | C12: Lead engineer | D12: Implement MotionProcess scalar state and direct Hold ownership | E12: Slider/rotor freeze-resume test | F12: Fixed clock | G12: Not started
+A13: SP09 | B13: D04 | C13: Sound designer | D13: Create placeholder motor/strain pair driven by process phase | E13: One mechanically synchronized audio pair | F13: Process state | G13: Not started
+A14: SP10 | B14: D05 | C14: Systems designer + engineer | D14: Implement anchor transfer transaction and occupied-anchor refusal | E14: P04 ownership fixture | F14: Hold owner model | G14: Not started
+A15: SP11 | B15: D05 | C15: Producer + QA | D15: Run first internal control test; log facts without polish debate | E15: Build/test report with prioritized defects | F15: Gym + Hold | G15: Not started
+A16: SP12 | B16: D06 | C16: Gameplay engineer | D16: Build small stationary two-branch latch station prototype | E16: Future transformation tested early | F16: Hold + motion | G16: Not started
+A17: SP13 | B17: D06 | C17: Level + narrative | D17: Trace all chapter objectives, handoff dependencies and root ownership | E17: Reviewed sequence dependency map | F17: Scope/story | G17: Not started
+A18: SP14 | B18: D07 | C18: Lead engineer | D18: Save/load semantic snapshot with GUID, phase and bearer ownership | E18: Loadable first-puzzle state | F18: Process registry | G18: Not started
+A19: SP15 | B19: D07 | C19: Animation lead | D19: Prototype feet/hand alignment on one push and one personal Hold | E19: Contact feasibility clip in gameplay | F19: Controller/rig | G19: Not started
+A20: SP16 | B20: D08 | C20: Designer + engineer | D20: Make P01 and support-release P10 solvable without console tools | E20: Two puzzle fixtures | F20: Hold + save | G20: Not started
+A21: SP17 | B21: D08 | C21: QA | D21: Test frame rates, pause, restart and illegal handover | E21: Initial tests T01/T05/T07/T23 | F21: Playable fixtures | G21: Not started
+A22: SP18 | B22: D09 | C22: Art + sound + designer | D22: Block one laundry reveal with placeholder bearer and visible causal motion | E22: First unease experiment | F22: Hold/anchor | G22: Not started
+A23: SP19 | B23: D09 | C23: Engineer + QA | D23: Prototype input disconnect guard for held process/final-root surrogate | E23: Safe interrupted-input fixture | F23: Input + ownership | G23: Not started
+A24: SP20 | B24: D10 | C24: Whole team | D24: Review packaged prototype and actual effort; choose next sprint priorities | E24: Accepted defects, capacity record and M01 plan | F24: All sprint outputs | G24: Not started

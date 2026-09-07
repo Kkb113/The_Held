@@ -1,0 +1,1316 @@
+{
+  "hashes": [
+    {
+      "file": "README_START_HERE.md",
+      "matches": true
+    },
+    {
+      "file": "THE_HELD_Master_Blueprint_v1.docx",
+      "matches": true
+    },
+    {
+      "file": "THE_HELD_Master_Blueprint_v1.md",
+      "matches": true
+    },
+    {
+      "file": "THE_HELD_Master_Blueprint_v1.pdf",
+      "matches": true
+    },
+    {
+      "file": "THE_HELD_Production_Registers_v1.xlsx",
+      "matches": true
+    },
+    {
+      "file": "registers/animation.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/animation.json",
+      "matches": true
+    },
+    {
+      "file": "registers/assets.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/assets.json",
+      "matches": true
+    },
+    {
+      "file": "registers/audio.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/audio.json",
+      "matches": true
+    },
+    {
+      "file": "registers/chapters.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/chapters.json",
+      "matches": true
+    },
+    {
+      "file": "registers/environment_kits.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/environment_kits.json",
+      "matches": true
+    },
+    {
+      "file": "registers/first_sprint.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/first_sprint.json",
+      "matches": true
+    },
+    {
+      "file": "registers/milestones.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/milestones.json",
+      "matches": true
+    },
+    {
+      "file": "registers/risks.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/risks.json",
+      "matches": true
+    },
+    {
+      "file": "registers/sequences.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/sequences.json",
+      "matches": true
+    },
+    {
+      "file": "registers/sources.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/sources.json",
+      "matches": true
+    },
+    {
+      "file": "registers/systems.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/systems.json",
+      "matches": true
+    },
+    {
+      "file": "registers/tests.csv",
+      "matches": true
+    },
+    {
+      "file": "registers/tests.json",
+      "matches": true
+    }
+  ],
+  "registers": {
+    "animation": {
+      "json_rows": 9,
+      "csv_rows": 9,
+      "mismatches": []
+    },
+    "assets": {
+      "json_rows": 200,
+      "csv_rows": 200,
+      "mismatches": []
+    },
+    "audio": {
+      "json_rows": 11,
+      "csv_rows": 11,
+      "mismatches": []
+    },
+    "chapters": {
+      "json_rows": 8,
+      "csv_rows": 8,
+      "mismatches": []
+    },
+    "environment_kits": {
+      "json_rows": 10,
+      "csv_rows": 10,
+      "mismatches": []
+    },
+    "first_sprint": {
+      "json_rows": 20,
+      "csv_rows": 20,
+      "mismatches": []
+    },
+    "milestones": {
+      "json_rows": 18,
+      "csv_rows": 18,
+      "mismatches": []
+    },
+    "risks": {
+      "json_rows": 14,
+      "csv_rows": 14,
+      "mismatches": []
+    },
+    "sequences": {
+      "json_rows": 48,
+      "csv_rows": 48,
+      "mismatches": []
+    },
+    "sources": {
+      "json_rows": 15,
+      "csv_rows": 15,
+      "mismatches": []
+    },
+    "systems": {
+      "json_rows": 40,
+      "csv_rows": 40,
+      "mismatches": []
+    },
+    "tests": {
+      "json_rows": 48,
+      "csv_rows": 48,
+      "mismatches": []
+    }
+  },
+  "workbook": {
+    "Dashboard": {
+      "rows": 25,
+      "cols": 8,
+      "formulas": [
+        {
+          "cell": "B6",
+          "formula": "=SUM(Chapters!C5:C12)",
+          "cached": 225
+        },
+        {
+          "cell": "D6",
+          "formula": "=COUNTA(Assets!A5:A204)",
+          "cached": 200
+        },
+        {
+          "cell": "G6",
+          "formula": "=Chapters!C5",
+          "cached": 20
+        },
+        {
+          "cell": "H6",
+          "formula": "=Chapters!E5",
+          "cached": 20
+        },
+        {
+          "cell": "B7",
+          "formula": "=B6/60",
+          "cached": 3.75
+        },
+        {
+          "cell": "D7",
+          "formula": "=COUNTA(Systems!A5:A44)",
+          "cached": 40
+        },
+        {
+          "cell": "G7",
+          "formula": "=Chapters!C6",
+          "cached": 25
+        },
+        {
+          "cell": "H7",
+          "formula": "=Chapters!E6",
+          "cached": 45
+        },
+        {
+          "cell": "B8",
+          "formula": "=COUNTA(Chapters!A5:A12)",
+          "cached": 8
+        },
+        {
+          "cell": "D8",
+          "formula": "=SUM(Animation!B5:B13)",
+          "cached": 162
+        },
+        {
+          "cell": "G8",
+          "formula": "=Chapters!C7",
+          "cached": 30
+        },
+        {
+          "cell": "H8",
+          "formula": "=Chapters!E7",
+          "cached": 75
+        },
+        {
+          "cell": "B9",
+          "formula": "=COUNTA(Sequences!A5:A52)",
+          "cached": 48
+        },
+        {
+          "cell": "D9",
+          "formula": "=SUM(Audio!B5:B15)",
+          "cached": 348
+        },
+        {
+          "cell": "G9",
+          "formula": "=Chapters!C8",
+          "cached": 30
+        },
+        {
+          "cell": "H9",
+          "formula": "=Chapters!E8",
+          "cached": 105
+        },
+        {
+          "cell": "D10",
+          "formula": "=SUM('Environment Kits'!B5:B14)",
+          "cached": 212
+        },
+        {
+          "cell": "G10",
+          "formula": "=Chapters!C9",
+          "cached": 35
+        },
+        {
+          "cell": "H10",
+          "formula": "=Chapters!E9",
+          "cached": 140
+        },
+        {
+          "cell": "B11",
+          "formula": "=Milestones!D21",
+          "cached": 96
+        },
+        {
+          "cell": "D11",
+          "formula": "=COUNTA(Tests!A5:A52)",
+          "cached": 48
+        },
+        {
+          "cell": "G11",
+          "formula": "=Chapters!C10",
+          "cached": 35
+        },
+        {
+          "cell": "H11",
+          "formula": "=Chapters!E10",
+          "cached": 175
+        },
+        {
+          "cell": "B12",
+          "formula": "=Milestones!D22",
+          "cached": 104
+        },
+        {
+          "cell": "D12",
+          "formula": "=COUNTIF(Risks!I5:I18,\"Open\")",
+          "cached": 14
+        },
+        {
+          "cell": "G12",
+          "formula": "=Chapters!C11",
+          "cached": 30
+        },
+        {
+          "cell": "H12",
+          "formula": "=Chapters!E11",
+          "cached": 205
+        },
+        {
+          "cell": "G13",
+          "formula": "=Chapters!C12",
+          "cached": 20
+        },
+        {
+          "cell": "H13",
+          "formula": "=Chapters!E12",
+          "cached": 225
+        },
+        {
+          "cell": "B15",
+          "formula": "=COUNTIF(Milestones!J5:J22,\"Done\")",
+          "cached": 0
+        },
+        {
+          "cell": "C15",
+          "formula": "=COUNTA(Milestones!A5:A22)",
+          "cached": 18
+        },
+        {
+          "cell": "D15",
+          "formula": "=IFERROR(B15/C15,0)",
+          "cached": 0
+        },
+        {
+          "cell": "B16",
+          "formula": "=COUNTIF(Assets!H5:H204,\"Done\")",
+          "cached": 0
+        },
+        {
+          "cell": "C16",
+          "formula": "=COUNTA(Assets!A5:A204)",
+          "cached": 200
+        },
+        {
+          "cell": "D16",
+          "formula": "=IFERROR(B16/C16,0)",
+          "cached": 0
+        },
+        {
+          "cell": "B17",
+          "formula": "=COUNTIF(Systems!H5:H44,\"Done\")",
+          "cached": 0
+        },
+        {
+          "cell": "C17",
+          "formula": "=COUNTA(Systems!A5:A44)",
+          "cached": 40
+        },
+        {
+          "cell": "D17",
+          "formula": "=IFERROR(B17/C17,0)",
+          "cached": 0
+        },
+        {
+          "cell": "B18",
+          "formula": "=COUNTIF(Tests!H5:H52,\"Passed\")",
+          "cached": 0
+        },
+        {
+          "cell": "C18",
+          "formula": "=COUNTA(Tests!A5:A52)",
+          "cached": 48
+        },
+        {
+          "cell": "D18",
+          "formula": "=IFERROR(B18/C18,0)",
+          "cached": 0
+        }
+      ],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "Chapters": {
+      "rows": 14,
+      "cols": 7,
+      "formulas": [
+        {
+          "cell": "D5",
+          "formula": "=0",
+          "cached": 0
+        },
+        {
+          "cell": "E5",
+          "formula": "=D5+C5",
+          "cached": 20
+        },
+        {
+          "cell": "D6",
+          "formula": "=E5",
+          "cached": 20
+        },
+        {
+          "cell": "E6",
+          "formula": "=D6+C6",
+          "cached": 45
+        },
+        {
+          "cell": "D7",
+          "formula": "=E6",
+          "cached": 45
+        },
+        {
+          "cell": "E7",
+          "formula": "=D7+C7",
+          "cached": 75
+        },
+        {
+          "cell": "D8",
+          "formula": "=E7",
+          "cached": 75
+        },
+        {
+          "cell": "E8",
+          "formula": "=D8+C8",
+          "cached": 105
+        },
+        {
+          "cell": "D9",
+          "formula": "=E8",
+          "cached": 105
+        },
+        {
+          "cell": "E9",
+          "formula": "=D9+C9",
+          "cached": 140
+        },
+        {
+          "cell": "D10",
+          "formula": "=E9",
+          "cached": 140
+        },
+        {
+          "cell": "E10",
+          "formula": "=D10+C10",
+          "cached": 175
+        },
+        {
+          "cell": "D11",
+          "formula": "=E10",
+          "cached": 175
+        },
+        {
+          "cell": "E11",
+          "formula": "=D11+C11",
+          "cached": 205
+        },
+        {
+          "cell": "D12",
+          "formula": "=E11",
+          "cached": 205
+        },
+        {
+          "cell": "E12",
+          "formula": "=D12+C12",
+          "cached": 225
+        },
+        {
+          "cell": "C14",
+          "formula": "=SUM(C5:C12)",
+          "cached": 225
+        }
+      ],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "Sequences": {
+      "rows": 52,
+      "cols": 10,
+      "formulas": [
+        {
+          "cell": "E5",
+          "formula": "=0",
+          "cached": 0
+        },
+        {
+          "cell": "F5",
+          "formula": "=E5+D5",
+          "cached": 3
+        },
+        {
+          "cell": "E6",
+          "formula": "=F5",
+          "cached": 3
+        },
+        {
+          "cell": "F6",
+          "formula": "=E6+D6",
+          "cached": 6
+        },
+        {
+          "cell": "E7",
+          "formula": "=F6",
+          "cached": 6
+        },
+        {
+          "cell": "F7",
+          "formula": "=E7+D7",
+          "cached": 10
+        },
+        {
+          "cell": "E8",
+          "formula": "=F7",
+          "cached": 10
+        },
+        {
+          "cell": "F8",
+          "formula": "=E8+D8",
+          "cached": 14
+        },
+        {
+          "cell": "E9",
+          "formula": "=F8",
+          "cached": 14
+        },
+        {
+          "cell": "F9",
+          "formula": "=E9+D9",
+          "cached": 17
+        },
+        {
+          "cell": "E10",
+          "formula": "=F9",
+          "cached": 17
+        },
+        {
+          "cell": "F10",
+          "formula": "=E10+D10",
+          "cached": 20
+        },
+        {
+          "cell": "E11",
+          "formula": "=F10",
+          "cached": 20
+        },
+        {
+          "cell": "F11",
+          "formula": "=E11+D11",
+          "cached": 23
+        },
+        {
+          "cell": "E12",
+          "formula": "=F11",
+          "cached": 23
+        },
+        {
+          "cell": "F12",
+          "formula": "=E12+D12",
+          "cached": 27
+        },
+        {
+          "cell": "E13",
+          "formula": "=F12",
+          "cached": 27
+        },
+        {
+          "cell": "F13",
+          "formula": "=E13+D13",
+          "cached": 32
+        },
+        {
+          "cell": "E14",
+          "formula": "=F13",
+          "cached": 32
+        },
+        {
+          "cell": "F14",
+          "formula": "=E14+D14",
+          "cached": 37
+        },
+        {
+          "cell": "E15",
+          "formula": "=F14",
+          "cached": 37
+        },
+        {
+          "cell": "F15",
+          "formula": "=E15+D15",
+          "cached": 41
+        },
+        {
+          "cell": "E16",
+          "formula": "=F15",
+          "cached": 41
+        },
+        {
+          "cell": "F16",
+          "formula": "=E16+D16",
+          "cached": 45
+        },
+        {
+          "cell": "E17",
+          "formula": "=F16",
+          "cached": 45
+        },
+        {
+          "cell": "F17",
+          "formula": "=E17+D17",
+          "cached": 49
+        },
+        {
+          "cell": "E18",
+          "formula": "=F17",
+          "cached": 49
+        },
+        {
+          "cell": "F18",
+          "formula": "=E18+D18",
+          "cached": 54
+        },
+        {
+          "cell": "E19",
+          "formula": "=F18",
+          "cached": 54
+        },
+        {
+          "cell": "F19",
+          "formula": "=E19+D19",
+          "cached": 60
+        },
+        {
+          "cell": "E20",
+          "formula": "=F19",
+          "cached": 60
+        },
+        {
+          "cell": "F20",
+          "formula": "=E20+D20",
+          "cached": 65
+        },
+        {
+          "cell": "E21",
+          "formula": "=F20",
+          "cached": 65
+        },
+        {
+          "cell": "F21",
+          "formula": "=E21+D21",
+          "cached": 71
+        },
+        {
+          "cell": "E22",
+          "formula": "=F21",
+          "cached": 71
+        },
+        {
+          "cell": "F22",
+          "formula": "=E22+D22",
+          "cached": 75
+        },
+        {
+          "cell": "E23",
+          "formula": "=F22",
+          "cached": 75
+        },
+        {
+          "cell": "F23",
+          "formula": "=E23+D23",
+          "cached": 79
+        },
+        {
+          "cell": "E24",
+          "formula": "=F23",
+          "cached": 79
+        },
+        {
+          "cell": "F24",
+          "formula": "=E24+D24",
+          "cached": 84
+        },
+        {
+          "cell": "E25",
+          "formula": "=F24",
+          "cached": 84
+        },
+        {
+          "cell": "F25",
+          "formula": "=E25+D25",
+          "cached": 90
+        },
+        {
+          "cell": "E26",
+          "formula": "=F25",
+          "cached": 90
+        },
+        {
+          "cell": "F26",
+          "formula": "=E26+D26",
+          "cached": 96
+        },
+        {
+          "cell": "E27",
+          "formula": "=F26",
+          "cached": 96
+        },
+        {
+          "cell": "F27",
+          "formula": "=E27+D27",
+          "cached": 101
+        },
+        {
+          "cell": "E28",
+          "formula": "=F27",
+          "cached": 101
+        },
+        {
+          "cell": "F28",
+          "formula": "=E28+D28",
+          "cached": 105
+        },
+        {
+          "cell": "E29",
+          "formula": "=F28",
+          "cached": 105
+        },
+        {
+          "cell": "F29",
+          "formula": "=E29+D29",
+          "cached": 110
+        },
+        {
+          "cell": "E30",
+          "formula": "=F29",
+          "cached": 110
+        },
+        {
+          "cell": "F30",
+          "formula": "=E30+D30",
+          "cached": 116
+        },
+        {
+          "cell": "E31",
+          "formula": "=F30",
+          "cached": 116
+        },
+        {
+          "cell": "F31",
+          "formula": "=E31+D31",
+          "cached": 123
+        },
+        {
+          "cell": "E32",
+          "formula": "=F31",
+          "cached": 123
+        },
+        {
+          "cell": "F32",
+          "formula": "=E32+D32",
+          "cached": 130
+        },
+        {
+          "cell": "E33",
+          "formula": "=F32",
+          "cached": 130
+        },
+        {
+          "cell": "F33",
+          "formula": "=E33+D33",
+          "cached": 136
+        },
+        {
+          "cell": "E34",
+          "formula": "=F33",
+          "cached": 136
+        },
+        {
+          "cell": "F34",
+          "formula": "=E34+D34",
+          "cached": 140
+        },
+        {
+          "cell": "E35",
+          "formula": "=F34",
+          "cached": 140
+        },
+        {
+          "cell": "F35",
+          "formula": "=E35+D35",
+          "cached": 144
+        },
+        {
+          "cell": "E36",
+          "formula": "=F35",
+          "cached": 144
+        },
+        {
+          "cell": "F36",
+          "formula": "=E36+D36",
+          "cached": 150
+        },
+        {
+          "cell": "E37",
+          "formula": "=F36",
+          "cached": 150
+        },
+        {
+          "cell": "F37",
+          "formula": "=E37+D37",
+          "cached": 157
+        },
+        {
+          "cell": "E38",
+          "formula": "=F37",
+          "cached": 157
+        },
+        {
+          "cell": "F38",
+          "formula": "=E38+D38",
+          "cached": 164
+        },
+        {
+          "cell": "E39",
+          "formula": "=F38",
+          "cached": 164
+        },
+        {
+          "cell": "F39",
+          "formula": "=E39+D39",
+          "cached": 171
+        },
+        {
+          "cell": "E40",
+          "formula": "=F39",
+          "cached": 171
+        },
+        {
+          "cell": "F40",
+          "formula": "=E40+D40",
+          "cached": 175
+        },
+        {
+          "cell": "E41",
+          "formula": "=F40",
+          "cached": 175
+        },
+        {
+          "cell": "F41",
+          "formula": "=E41+D41",
+          "cached": 179
+        },
+        {
+          "cell": "E42",
+          "formula": "=F41",
+          "cached": 179
+        },
+        {
+          "cell": "F42",
+          "formula": "=E42+D42",
+          "cached": 183
+        },
+        {
+          "cell": "E43",
+          "formula": "=F42",
+          "cached": 183
+        },
+        {
+          "cell": "F43",
+          "formula": "=E43+D43",
+          "cached": 189
+        },
+        {
+          "cell": "E44",
+          "formula": "=F43",
+          "cached": 189
+        },
+        {
+          "cell": "F44",
+          "formula": "=E44+D44",
+          "cached": 195
+        },
+        {
+          "cell": "E45",
+          "formula": "=F44",
+          "cached": 195
+        },
+        {
+          "cell": "F45",
+          "formula": "=E45+D45",
+          "cached": 201
+        },
+        {
+          "cell": "E46",
+          "formula": "=F45",
+          "cached": 201
+        },
+        {
+          "cell": "F46",
+          "formula": "=E46+D46",
+          "cached": 205
+        },
+        {
+          "cell": "E47",
+          "formula": "=F46",
+          "cached": 205
+        },
+        {
+          "cell": "F47",
+          "formula": "=E47+D47",
+          "cached": 208
+        },
+        {
+          "cell": "E48",
+          "formula": "=F47",
+          "cached": 208
+        },
+        {
+          "cell": "F48",
+          "formula": "=E48+D48",
+          "cached": 212
+        },
+        {
+          "cell": "E49",
+          "formula": "=F48",
+          "cached": 212
+        },
+        {
+          "cell": "F49",
+          "formula": "=E49+D49",
+          "cached": 216
+        },
+        {
+          "cell": "E50",
+          "formula": "=F49",
+          "cached": 216
+        },
+        {
+          "cell": "F50",
+          "formula": "=E50+D50",
+          "cached": 220
+        },
+        {
+          "cell": "E51",
+          "formula": "=F50",
+          "cached": 220
+        },
+        {
+          "cell": "F51",
+          "formula": "=E51+D51",
+          "cached": 223
+        },
+        {
+          "cell": "E52",
+          "formula": "=F51",
+          "cached": 223
+        },
+        {
+          "cell": "F52",
+          "formula": "=E52+D52",
+          "cached": 225
+        }
+      ],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "Assets": {
+      "rows": 204,
+      "cols": 8,
+      "formulas": [],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "Systems": {
+      "rows": 44,
+      "cols": 8,
+      "formulas": [],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "Environment Kits": {
+      "rows": 16,
+      "cols": 5,
+      "formulas": [
+        {
+          "cell": "B16",
+          "formula": "=SUM(B5:B14)",
+          "cached": 212
+        }
+      ],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "Animation": {
+      "rows": 15,
+      "cols": 5,
+      "formulas": [
+        {
+          "cell": "B15",
+          "formula": "=SUM(B5:B13)",
+          "cached": 162
+        }
+      ],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "Audio": {
+      "rows": 17,
+      "cols": 5,
+      "formulas": [
+        {
+          "cell": "B17",
+          "formula": "=SUM(B5:B15)",
+          "cached": 348
+        }
+      ],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "Milestones": {
+      "rows": 22,
+      "cols": 10,
+      "formulas": [
+        {
+          "cell": "E5",
+          "formula": "=D5-C5+1",
+          "cached": 2
+        },
+        {
+          "cell": "E6",
+          "formula": "=D6-C6+1",
+          "cached": 2
+        },
+        {
+          "cell": "E7",
+          "formula": "=D7-C7+1",
+          "cached": 2
+        },
+        {
+          "cell": "E8",
+          "formula": "=D8-C8+1",
+          "cached": 2
+        },
+        {
+          "cell": "E9",
+          "formula": "=D9-C9+1",
+          "cached": 2
+        },
+        {
+          "cell": "E10",
+          "formula": "=D10-C10+1",
+          "cached": 2
+        },
+        {
+          "cell": "E11",
+          "formula": "=D11-C11+1",
+          "cached": 4
+        },
+        {
+          "cell": "E12",
+          "formula": "=D12-C12+1",
+          "cached": 4
+        },
+        {
+          "cell": "E13",
+          "formula": "=D13-C13+1",
+          "cached": 2
+        },
+        {
+          "cell": "E14",
+          "formula": "=D14-C14+1",
+          "cached": 2
+        },
+        {
+          "cell": "E15",
+          "formula": "=D15-C15+1",
+          "cached": 2
+        },
+        {
+          "cell": "E16",
+          "formula": "=D16-C16+1",
+          "cached": 6
+        },
+        {
+          "cell": "E17",
+          "formula": "=D17-C17+1",
+          "cached": 20
+        },
+        {
+          "cell": "E18",
+          "formula": "=D18-C18+1",
+          "cached": 20
+        },
+        {
+          "cell": "E19",
+          "formula": "=D19-C19+1",
+          "cached": 16
+        },
+        {
+          "cell": "E20",
+          "formula": "=D20-C20+1",
+          "cached": 10
+        },
+        {
+          "cell": "E21",
+          "formula": "=D21-C21+1",
+          "cached": 2
+        },
+        {
+          "cell": "E22",
+          "formula": "=D22-C22+1",
+          "cached": 8
+        }
+      ],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "Tests": {
+      "rows": 52,
+      "cols": 8,
+      "formulas": [],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "Risks": {
+      "rows": 18,
+      "cols": 9,
+      "formulas": [],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "First Sprint": {
+      "rows": 24,
+      "cols": 7,
+      "formulas": [],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    },
+    "Sources": {
+      "rows": 19,
+      "cols": 6,
+      "formulas": [],
+      "errors": [],
+      "images": 0,
+      "charts": 0
+    }
+  },
+  "documents": {
+    "docx": {
+      "paragraphs": 1523,
+      "embedded_media": [],
+      "characters": 206888
+    },
+    "pdf": {
+      "pages": 75,
+      "image_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters": 219155
+    },
+    "docx_paragraphs_not_in_md": [
+      "Game design • Narrative • Level designEngineering • Art • Animation • AudioAsset production • Roadmap • Quality assurance",
+      "Version 1.0 • Production baseline: 7 September 2026",
+      "Build-ready preproduction specification. Proposed tuning and schedule values require prototype and playtest validation. This package is not a finished game or an engine project.",
+      "Start with sections 01–04 for the design contract; use section 05 for room-by-room production; sections 10–13 for engineering, assets, gates and tests. The companion workbook tracks status and allocations. Sequence IDs are stable across all formats."
+    ]
+  },
+  "totals": {
+    "sequence_minutes": 225,
+    "chapter_minutes": 225,
+    "animation": 162,
+    "audio": 348,
+    "environment": 212
+  },
+  "sequence_schema": [
+    "id",
+    "chapter",
+    "title",
+    "minutes",
+    "kind",
+    "space",
+    "entry",
+    "action",
+    "threat",
+    "exit",
+    "checkpoint",
+    "assets",
+    "test",
+    "campaign_start_min",
+    "campaign_end_min"
+  ],
+  "asset_schema": [
+    "id",
+    "name",
+    "type",
+    "owner",
+    "first_use",
+    "uses",
+    "deliverable",
+    "gate",
+    "status",
+    "unit"
+  ],
+  "sequence_fields_not_in_md": [],
+  "docx_body_paragraphs_not_in_pdf": [],
+  "workbook_register_comparison": {
+    "Chapters": [],
+    "Sequences": [],
+    "Assets": [],
+    "Systems": [],
+    "Animation": [],
+    "Audio": [],
+    "Environment Kits": [],
+    "Milestones": [],
+    "Tests": [],
+    "Risks": [],
+    "First Sprint": [],
+    "Sources": []
+  }
+}

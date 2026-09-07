@@ -1,0 +1,11 @@
+{"group": "Footsteps", "allocation": 80, "coverage": "Eight surface families; walk/run variations; speed/contact-driven.", "unit": "Exports / stems / variants", "status": "Not started"}
+{"group": "Ivo breath/effort", "allocation": 24, "coverage": "Four emotional/strain bands with variation; no tiny obvious loop.", "unit": "Exports / stems / variants", "status": "Not started"}
+{"group": "Cloth and grip", "allocation": 32, "coverage": "Jacket, crawl, rail/lever/brace contacts and paired gestures.", "unit": "Exports / stems / variants", "status": "Not started"}
+{"group": "Mechanism cycles", "allocation": 64, "coverage": "Eight core process families; start/loop/stop/held/release/support variants.", "unit": "Exports / stems / variants", "status": "Not started"}
+{"group": "Anchor/bearer", "allocation": 28, "coverage": "Acquire, transfer, strain, relief and four distinct bodily textures.", "unit": "Exports / stems / variants", "status": "Not started"}
+{"group": "Custodian", "allocation": 24, "coverage": "Footsteps, equipment, limited nonexpository calls and capture/recovery.", "unit": "Exports / stems / variants", "status": "Not started"}
+{"group": "Porter", "allocation": 16, "coverage": "Carriage, harness, basket, hoses, breath and capture telegraph.", "unit": "Exports / stems / variants", "status": "Not started"}
+{"group": "Chapter ambience", "allocation": 24, "coverage": "Three layered beds per chapter, plus transitions through mix states.", "unit": "Exports / stems / variants", "status": "Not started"}
+{"group": "Water and structure", "allocation": 20, "coverage": "Held pressure, test flow, discharge, settlement and distant sea.", "unit": "Exports / stems / variants", "status": "Not started"}
+{"group": "Music stems", "allocation": 18, "coverage": "Six cue families with three mixable layers where justified.", "unit": "Exports / stems / variants", "status": "Not started"}
+{"group": "UI and final motifs", "allocation": 18, "coverage": "Minimal menu/error/save feedback, taps and final release details.", "unit": "Exports / stems / variants", "status": "Not started"}

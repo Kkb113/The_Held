@@ -1,0 +1,12 @@
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+**/.vs/
+**/*.sln
+Builds/
+phase-reviews/PH00/clean-rebuild/
+*.blend1
+*.pdb
+*.VC.db
+**/Build/Windows/FileOpenOrder/

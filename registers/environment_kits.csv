@@ -1,0 +1,11 @@
+﻿group,allocation,coverage,unit,status
+Domestic front,24,"Walls, floor edges, doors, windows, stair pieces, skirting, kitchen/bath fixtures.",Module slots ceiling,Not started
+Domestic reverse,18,"Wall cavities, framing, access flaps, exposed anchor backs, wallpaper cutaways.",Module slots ceiling,Not started
+Service passages,24,"Pipes, elbows, cable rails, grates, ladders, shutters, low crawl modules.",Module slots ceiling,Not started
+Laundry,24,"Tile walls, drains, machine housings, rail frames, sheet suspension, steam vents.",Module slots ceiling,Not started
+Tenement exterior,20,"Facades, balconies, braces, rain gutters, masonry damage, depth silhouettes.",Module slots ceiling,Not started
+Tram hall,24,"Platforms, glazing, roof trusses, ticket/inspection booths, baggage lanes.",Module slots ceiling,Not started
+Burden galleries,18,"Cradles, access cabinets, hand ports, structural bands, narrow service decks.",Module slots ceiling,Not started
+Hydraulic galleries,28,"Seawall ribs, sluice frames, channels, counterweight bays, inspection windows.",Module slots ceiling,Not started
+Root and escape,20,"Stone passages, station frames, settling beams, root terminals, exit tunnel.",Module slots ceiling,Not started
+Embankment,12,"Track bed, rails, stones, fence remnants, distant town and sea silhouettes.",Module slots ceiling,Not started

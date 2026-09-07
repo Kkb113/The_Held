@@ -1,0 +1,8 @@
+{"id": "C01", "number": 1, "title": "The Evacuation", "goal": "Arrest motion; lose the mother; establish trustworthy control.", "minutes": 20}
+{"id": "C02", "number": 2, "title": "The Laundry", "goal": "Transfer a burden; learn cover and ordinary support; discover a human hand.", "minutes": 25}
+{"id": "C03", "number": 3, "title": "The Houses That Lean", "goal": "Trace connections through homes; explicitly relieve a person.", "minutes": 30}
+{"id": "C04", "number": 4, "title": "The Passenger Hall", "goal": "Restrain an aware person; plan release under pursuit; meet the Porter.", "minutes": 30}
+{"id": "C05", "number": 5, "title": "The Burden Rooms", "goal": "See the cost; resolve dependencies; find Anja integrated into the town.", "minutes": 35}
+{"id": "C06", "number": 6, "title": "The Unfinished Flood", "goal": "Understand the preserved emergency; prepare drainage and rehearse a junction.", "minutes": 35}
+{"id": "C07", "number": 7, "title": "The Last Bearer", "goal": "Become the temporary junction; evacuate the established cohort; withdraw.", "minutes": 30}
+{"id": "C08", "number": 8, "title": "Until Relieved", "goal": "Verify the prepared release; say goodbye; return to ordinary human help.", "minutes": 20}

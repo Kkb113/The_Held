@@ -1,0 +1,18 @@
+A1: THE HELD | PRODUCTION CONTROL
+A3: Ivo, age 13 • Version 1.0 • 225-minute baseline • All work and game tests are not yet started
+A5: CAMPAIGN | B5: Value | C5: PRODUCTION REGISTER | D5: Value | F5: Chapter | G5: Minutes | H5: Elapsed min
+A6: Target minutes | B6: =SUM(Chapters!C5:C12) [cached=225] | C6: Asset work packages | D6: =COUNTA(Assets!A5:A204) [cached=200] | F6: C01 | G6: =Chapters!C5 [cached=20] | H6: =Chapters!E5 [cached=20]
+A7: Target hours | B7: =B6/60 [cached=3.75] | C7: System work packages | D7: =COUNTA(Systems!A5:A44) [cached=40] | F7: C02 | G7: =Chapters!C6 [cached=25] | H7: =Chapters!E6 [cached=45]
+A8: Chapters | B8: =COUNTA(Chapters!A5:A12) [cached=8] | C8: Animation allocation | D8: =SUM(Animation!B5:B13) [cached=162] | F8: C03 | G8: =Chapters!C7 [cached=30] | H8: =Chapters!E7 [cached=75]
+A9: Sequences | B9: =COUNTA(Sequences!A5:A52) [cached=48] | C9: Audio export allocation | D9: =SUM(Audio!B5:B15) [cached=348] | F9: C04 | G9: =Chapters!C8 [cached=30] | H9: =Chapters!E8 [cached=105]
+A10: Numbered puzzles | B10: 29 | C10: Environment module slots | D10: =SUM('Environment Kits'!B5:B14) [cached=212] | F10: C05 | G10: =Chapters!C9 [cached=35] | H10: =Chapters!E9 [cached=140]
+A11: Release target week | B11: =Milestones!D21 [cached=96] | C11: Initial tests | D11: =COUNTA(Tests!A5:A52) [cached=48] | F11: C06 | G11: =Chapters!C10 [cached=35] | H11: =Chapters!E10 [cached=175]
+A12: Reserve through week | B12: =Milestones!D22 [cached=104] | C12: Open risks | D12: =COUNTIF(Risks!I5:I18,"Open") [cached=14] | F12: C07 | G12: =Chapters!C11 [cached=30] | H12: =Chapters!E11 [cached=205]
+F13: C08 | G13: =Chapters!C12 [cached=20] | H13: =Chapters!E12 [cached=225]
+A14: GATE STATUS | B14: Done / passed | C14: Total | D14: Completion
+A15: Milestones | B15: =COUNTIF(Milestones!J5:J22,"Done") [cached=0] | C15: =COUNTA(Milestones!A5:A22) [cached=18] | D15: =IFERROR(B15/C15,0) [cached=0]
+A16: Asset packages | B16: =COUNTIF(Assets!H5:H204,"Done") [cached=0] | C16: =COUNTA(Assets!A5:A204) [cached=200] | D16: =IFERROR(B16/C16,0) [cached=0]
+A17: System packages | B17: =COUNTIF(Systems!H5:H44,"Done") [cached=0] | C17: =COUNTA(Systems!A5:A44) [cached=40] | D17: =IFERROR(B17/C17,0) [cached=0]
+A18: Test cases | B18: =COUNTIF(Tests!H5:H52,"Passed") [cached=0] | C18: =COUNTA(Tests!A5:A52) [cached=48] | D18: =IFERROR(B18/C18,0) [cached=0]
+A20: START HERE: M00 → M01 → Hold/ownership prototypes. Do not commission the entire asset inventory before the 25-minute, final-quality Laundry vertical slice passes M11.
+A23: COUNTS ARE PLANNING UNITS: 200 asset-family work packages and 40 system/state packages are not individual finished files. Animation/audio values are allocation budgets. Milestone weeks assume eight core roles plus specialists and must be recalculated after the vertical slice. The only completed checks here concern document/register consistency.

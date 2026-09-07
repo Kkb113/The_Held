@@ -1,0 +1,72 @@
+[
+  {
+    "group": "Domestic front",
+    "allocation": 24,
+    "coverage": "Walls, floor edges, doors, windows, stair pieces, skirting, kitchen/bath fixtures.",
+    "unit": "Module slots ceiling",
+    "status": "Not started"
+  },
+  {
+    "group": "Domestic reverse",
+    "allocation": 18,
+    "coverage": "Wall cavities, framing, access flaps, exposed anchor backs, wallpaper cutaways.",
+    "unit": "Module slots ceiling",
+    "status": "Not started"
+  },
+  {
+    "group": "Service passages",
+    "allocation": 24,
+    "coverage": "Pipes, elbows, cable rails, grates, ladders, shutters, low crawl modules.",
+    "unit": "Module slots ceiling",
+    "status": "Not started"
+  },
+  {
+    "group": "Laundry",
+    "allocation": 24,
+    "coverage": "Tile walls, drains, machine housings, rail frames, sheet suspension, steam vents.",
+    "unit": "Module slots ceiling",
+    "status": "Not started"
+  },
+  {
+    "group": "Tenement exterior",
+    "allocation": 20,
+    "coverage": "Facades, balconies, braces, rain gutters, masonry damage, depth silhouettes.",
+    "unit": "Module slots ceiling",
+    "status": "Not started"
+  },
+  {
+    "group": "Tram hall",
+    "allocation": 24,
+    "coverage": "Platforms, glazing, roof trusses, ticket/inspection booths, baggage lanes.",
+    "unit": "Module slots ceiling",
+    "status": "Not started"
+  },
+  {
+    "group": "Burden galleries",
+    "allocation": 18,
+    "coverage": "Cradles, access cabinets, hand ports, structural bands, narrow service decks.",
+    "unit": "Module slots ceiling",
+    "status": "Not started"
+  },
+  {
+    "group": "Hydraulic galleries",
+    "allocation": 28,
+    "coverage": "Seawall ribs, sluice frames, channels, counterweight bays, inspection windows.",
+    "unit": "Module slots ceiling",
+    "status": "Not started"
+  },
+  {
+    "group": "Root and escape",
+    "allocation": 20,
+    "coverage": "Stone passages, station frames, settling beams, root terminals, exit tunnel.",
+    "unit": "Module slots ceiling",
+    "status": "Not started"
+  },
+  {
+    "group": "Embankment",
+    "allocation": 12,
+    "coverage": "Track bed, rails, stones, fence remnants, distant town and sea silhouettes.",
+    "unit": "Module slots ceiling",
+    "status": "Not started"
+  }
+]

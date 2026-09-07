@@ -1,0 +1,21 @@
+﻿id,day,owner,task,output,dependency,status
+SP01,D01,Producer + director,"Approve 225-minute scope, Ivo13, 8-core staffing assumption and cut list",Signed scope record,None,Not started
+SP02,D01,Lead engineer,"Create repository, branch rules, Unity baseline experiment and CI skeleton",Empty packaged Windows build,Scope,Not started
+SP03,D01,Art + animation,Define Ivo scale and camera framing test; create disposable capsule/rig,1.52m reference mesh and graybox palette,Scope,Not started
+SP04,D02,Gameplay engineer,"Implement fixed-step plane-constrained movement, acceleration and collision",Runnable floor/step/slope gym,Repository,Not started
+SP05,D02,Level designer,Block first shutter and staircase support fixtures to stated metrics,P01/P10 grayboxes,Scale standard,Not started
+SP06,D03,Gameplay engineer,"Add buffered jump, moving platform support and crouch with sweeps",Movement gym route,Controller,Not started
+SP07,D03,Technical artist,Build neutral lighting/camera test with foreground and background occlusion,Readability comparison shots,Art scale,Not started
+SP08,D04,Lead engineer,Implement MotionProcess scalar state and direct Hold ownership,Slider/rotor freeze-resume test,Fixed clock,Not started
+SP09,D04,Sound designer,Create placeholder motor/strain pair driven by process phase,One mechanically synchronized audio pair,Process state,Not started
+SP10,D05,Systems designer + engineer,Implement anchor transfer transaction and occupied-anchor refusal,P04 ownership fixture,Hold owner model,Not started
+SP11,D05,Producer + QA,Run first internal control test; log facts without polish debate,Build/test report with prioritized defects,Gym + Hold,Not started
+SP12,D06,Gameplay engineer,Build small stationary two-branch latch station prototype,Future transformation tested early,Hold + motion,Not started
+SP13,D06,Level + narrative,"Trace all chapter objectives, handoff dependencies and root ownership",Reviewed sequence dependency map,Scope/story,Not started
+SP14,D07,Lead engineer,"Save/load semantic snapshot with GUID, phase and bearer ownership",Loadable first-puzzle state,Process registry,Not started
+SP15,D07,Animation lead,Prototype feet/hand alignment on one push and one personal Hold,Contact feasibility clip in gameplay,Controller/rig,Not started
+SP16,D08,Designer + engineer,Make P01 and support-release P10 solvable without console tools,Two puzzle fixtures,Hold + save,Not started
+SP17,D08,QA,"Test frame rates, pause, restart and illegal handover",Initial tests T01/T05/T07/T23,Playable fixtures,Not started
+SP18,D09,Art + sound + designer,Block one laundry reveal with placeholder bearer and visible causal motion,First unease experiment,Hold/anchor,Not started
+SP19,D09,Engineer + QA,Prototype input disconnect guard for held process/final-root surrogate,Safe interrupted-input fixture,Input + ownership,Not started
+SP20,D10,Whole team,Review packaged prototype and actual effort; choose next sprint priorities,"Accepted defects, capacity record and M01 plan",All sprint outputs,Not started

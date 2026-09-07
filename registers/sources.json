@@ -1,0 +1,122 @@
+[
+  {
+    "id": "R01",
+    "publisher": "Playdead",
+    "title": "INSIDE official gallery",
+    "url": "https://playdead.com/games/inside/",
+    "use": "Official screenshots and presentation identity; no hands-on timing claim",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R02",
+    "publisher": "Marek Bogdan / Playdead",
+    "title": "The Lighting of INSIDE",
+    "url": "https://blog.playdead.com/articles/the_lighting_of_inside/lighting_of_inside.html",
+    "use": "Firsthand authored-lighting explanation and embedded images inspected",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R03",
+    "publisher": "Playdead / GDC",
+    "title": "Huddle up! Making the [SPOILER] of INSIDE",
+    "url": "https://gdcvault.com/play/1024126/Huddle-up-Making-the-SPOILER",
+    "use": "Published session abstract: coupled physics, animation and shading; full session not viewed",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R04",
+    "publisher": "Martin Stig Andersen / GDC",
+    "title": "A Game That Listens — The Audio of INSIDE",
+    "url": "https://www.gdcvault.com/play/1023731/A-Game-That-Listens-The",
+    "use": "Published session abstract: audio/game feedback and death/respawn continuity",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R05",
+    "publisher": "Jeppe Carlsen / Playdead",
+    "title": "LIMBO publications and puzzle design presentations",
+    "url": "https://blog.playdead.com/articles/limbo_presentations/limbo_publications.html",
+    "use": "Published design abstract concerning challenge, accessibility and frustration",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R06",
+    "publisher": "Playdead",
+    "title": "INSIDE Presentations",
+    "url": "https://blog.playdead.com/articles/inside_presentations/inside_publications.html",
+    "use": "Catalogue descriptions including stutter-free asset loading, audio and rendering; no unavailable slide measurements",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R07",
+    "publisher": "Marek Bogdan / Playdead",
+    "title": "The Weight of Detail",
+    "url": "https://blog.playdead.com/articles/the_weight_of_detail/weight_of_detail.html",
+    "use": "Firsthand examples of subtle environmental detail and animated lighting",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R08",
+    "publisher": "Unity",
+    "title": "Unity 6 releases and support",
+    "url": "https://unity.com/releases/unity-6/support",
+    "use": "Current support window: Unity6.3LTS through December2027; baseline must be reviewed before a later ship date",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R09",
+    "publisher": "Unity",
+    "title": "Apply interpolation to a Rigidbody",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/Manual/rigidbody-interpolation.html",
+    "use": "Physics/render timing reference; our 60Hz authoritative puzzle design is a proposal",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R10",
+    "publisher": "Unity",
+    "title": "Addressables — Loading scenes",
+    "url": "https://docs.unity3d.com/Packages/com.unity.addressables@3.0/manual/LoadingScenes.html",
+    "use": "Scene activation/queue constraint; package selection still requires compatibility test",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R11",
+    "publisher": "Unity",
+    "title": "Cinemachine — Procedural motion",
+    "url": "https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/concept-procedural-motion.html",
+    "use": "Camera package behavior and authored procedural camera foundation",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R12",
+    "publisher": "FMOD",
+    "title": "FMOD for Unity — User guide",
+    "url": "https://www.fmod.com/docs/2.03/unity/user-guide.html",
+    "use": "Integration reference only; license/fees not assumed",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R13",
+    "publisher": "Unity",
+    "title": "URP anti-aliasing",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/Manual/urp/anti-aliasing.html",
+    "use": "Stock render-pipeline anti-aliasing options; final choice must be measured",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R14",
+    "publisher": "Thomas Grip / Frictional Games",
+    "title": "9 Years, 9 Lessons on Horror",
+    "url": "https://frictionalgames.com/2019-10-9-years-9-lessons-on-horror/",
+    "use": "Firsthand discussion of anticipation, narrative and psychological horror",
+    "accessed": "2026-09-07"
+  },
+  {
+    "id": "R15",
+    "publisher": "Harvey Smith and Matthias Worch / GDC",
+    "title": "What Happened Here? Environmental Storytelling",
+    "url": "https://www.gdcvault.com/play/1012647/What-Happened-Here-Environmental",
+    "use": "Published environmental storytelling session; supports readable player interpretation",
+    "accessed": "2026-09-07"
+  }
+]

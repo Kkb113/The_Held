@@ -1,0 +1,13 @@
+A1: THE HELD | ANIMATION
+A2: Initial allocations, not completed inventory or fixed commissioned quantities. Revise after vertical-slice throughput validation.
+A4: Family | B4: Allocation | C4: Unit | D4: Coverage | E4: Status
+A5: Ivo locomotion | B5: 30 | C5: Clips / poses | D5: Idle, walk/run, starts/stops, turns, jump/fall/land, crouch/crawl. | E5: Not started
+A6: Ivo traversal and grip | B6: 24 | C6: Clips / poses | D6: Ladder, ledge catch/climb/drop, push/pull, lever, short slide and balance. | E6: Not started
+A7: Ivo Hold and station | B7: 22 | C7: Clips / poses | D7: Acquire/maintain/release, transfer, range strain, four stages, connect/withdraw. | E7: Not started
+A8: Ivo narrative and failure | B8: 14 | C8: Clips / poses | D8: Two-tap variants, wrist echo, sleeve snag, open hand, short capture/fall/crush outcomes. | E8: Not started
+A9: Anja | B9: 12 | C9: Clips / poses | D9: Repair, follow/wait, landing brace, transport, recognition, refusal, final hand. | E9: Not started
+A10: Custodian shared set | B10: 22 | C10: Clips / poses | D10: Patrol/inspect/search/chase, reach/capture, harness held/recovery, blocked heave. | E10: Not started
+A11: Porter | B11: 10 | C11: Clips / poses | D11: Cycle poses/transitions, reach, secure, retract, held/resume and facial micro-motion. | E11: Not started
+A12: Bearers and survivors | B12: 20 | C12: Clips / poses | D12: Six braced pose families, relief, stand, careful movement, waiting/helping. | E12: Not started
+A13: Orren/paired finale | B13: 8 | C13: Clips / poses | D13: Distinct relief/recovery, helping, gate hold and final paired walk. | E13: Not started
+A15: ALLOCATION TOTAL | B15: =SUM(B5:B13) [cached=162]

@@ -1,0 +1,22 @@
+{
+  "required_assets": [
+    "/Game/Foundation/M_Stone",
+    "/Game/Foundation/M_Dark",
+    "/Game/Foundation/M_AshBlue",
+    "/Game/Foundation/M_Porcelain",
+    "/Game/Foundation/M_Brass",
+    "/Game/Foundation/M_Skin",
+    "/Game/Foundation/M_Window",
+    "/Game/Foundation/SM_CalibrationTile",
+    "/Game/Foundation/A_Contact",
+    "/Game/Foundation/L_PH00"
+  ],
+  "missing": [],
+  "negative_missing_reference_test": true,
+  "tile_dimensions_cm": [
+    100.00000762939453,
+    100.00000762939453,
+    12.0
+  ],
+  "reimport_dimensions_match": true
+}

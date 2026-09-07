@@ -1,0 +1,171 @@
+{
+  "title": "THE HELD",
+  "version": "1.0",
+  "production_baseline": "2026-09-07",
+  "counts": {
+    "sequence_count": 48,
+    "target_minutes": 225,
+    "chapters": 8,
+    "puzzle_concepts": 29,
+    "asset_work_packages": 200,
+    "system_work_packages": 40,
+    "animation_allocation": 162,
+    "audio_allocation": 348,
+    "environment_module_ceiling": 212,
+    "tests": 48,
+    "risks": 14,
+    "first_sprint_tasks": 20,
+    "milestones": 18,
+    "validation": "Document/register consistency only; game tests not run",
+    "master_pages": 75,
+    "workbook_sheets": 13,
+    "source_entries": 15
+  },
+  "files": [
+    {
+      "path": "README_START_HERE.md",
+      "bytes": 3202,
+      "sha256": "939429bb1b5e8296fe0ec4af73d20cc3e85c4c5c444be46cc1e8595fe5bf3309"
+    },
+    {
+      "path": "THE_HELD_Master_Blueprint_v1.docx",
+      "bytes": 129539,
+      "sha256": "d322c84de09115f8fea07fc44b9e110a3fa333ee26006008a8ca37d0bbfd2ee7"
+    },
+    {
+      "path": "THE_HELD_Master_Blueprint_v1.md",
+      "bytes": 213539,
+      "sha256": "b2870628578068b114a689aedc8c298727695466989f08327e7ca4ff800bc11f"
+    },
+    {
+      "path": "THE_HELD_Master_Blueprint_v1.pdf",
+      "bytes": 839724,
+      "sha256": "78fe894f8d5973ab8f9ac42cde8a0c449a3230dcfa4a8dc42f07d1a56f718e56"
+    },
+    {
+      "path": "THE_HELD_Production_Registers_v1.xlsx",
+      "bytes": 68400,
+      "sha256": "1d47cb2ab134257fee369afb501c852a55cb6fa6e0e8cd4beb1c74389795fccb"
+    },
+    {
+      "path": "registers/animation.csv",
+      "bytes": 1194,
+      "sha256": "757eb7e59c83b6b09b4d6df5d4945ba812356a089a1420bb472555aaedf7d648"
+    },
+    {
+      "path": "registers/animation.json",
+      "bytes": 1973,
+      "sha256": "7c5f2b4d42adee95c11bfc81c5a013abfac1ceb0830c193f875a1d72d3e20d77"
+    },
+    {
+      "path": "registers/assets.csv",
+      "bytes": 43763,
+      "sha256": "67447885339d93ac052c34cd69c9514d67d33fdd88ec62e1f1aa5b74a5ef692e"
+    },
+    {
+      "path": "registers/assets.json",
+      "bytes": 77476,
+      "sha256": "aa75cf86909d10861519f424183bdb57f1a37c5fc235d60fdb88a9496b58211c"
+    },
+    {
+      "path": "registers/audio.csv",
+      "bytes": 1425,
+      "sha256": "4afda047fcaeae1527f70c4b877c39d5b12fcdd93ba8c6b764cf367ec36c9a2c"
+    },
+    {
+      "path": "registers/audio.json",
+      "bytes": 2394,
+      "sha256": "c619362d70063f21a8ce0d38eb47d2bbb4c50205286665565407044cf99ba3e5"
+    },
+    {
+      "path": "registers/chapters.csv",
+      "bytes": 818,
+      "sha256": "dc5de87212a660b63214383eed96eac8d7bacd76ab439246d44ed954b07d33bf"
+    },
+    {
+      "path": "registers/chapters.json",
+      "bytes": 1443,
+      "sha256": "ef8f2a7d1230799b87610d57fc719f669a3c605298d58eebe6d6f073ccb366fd"
+    },
+    {
+      "path": "registers/environment_kits.csv",
+      "bytes": 1362,
+      "sha256": "60516f892bf70cc3fd530abaa304f30bb7d0860c3c356b2f5dbe436fb28d67c4"
+    },
+    {
+      "path": "registers/environment_kits.json",
+      "bytes": 2232,
+      "sha256": "c930698cf4ae342665d113cd1f0c0f0320aa9da0b31135d1832da07097fdc839"
+    },
+    {
+      "path": "registers/first_sprint.csv",
+      "bytes": 3051,
+      "sha256": "7e5bcc8f98e2758c23148d385c5e7ba12007d95b4b1024fffaa6947c2599b303"
+    },
+    {
+      "path": "registers/first_sprint.json",
+      "bytes": 5390,
+      "sha256": "3da971db764a3ed167a80e3c6787cc2f831bf52ae92a938ebf62eec4ef04a608"
+    },
+    {
+      "path": "registers/milestones.csv",
+      "bytes": 19567,
+      "sha256": "19c7ad435e38b1b4453d371d5fb42dbd328372c760423164d5399592a73d0a96"
+    },
+    {
+      "path": "registers/milestones.json",
+      "bytes": 23731,
+      "sha256": "a58f5aa73b5a83fec6350c3e160e2ed3549dd31902bfd74431139a3bfb469d85"
+    },
+    {
+      "path": "registers/risks.csv",
+      "bytes": 3318,
+      "sha256": "ccac72a310621b9ee1392240e5a45396fd2529c54942b33e1ccf0793abb837c6"
+    },
+    {
+      "path": "registers/risks.json",
+      "bytes": 5587,
+      "sha256": "dd5a9df7530aac1da8e2c76985be983530498a7811f20a8484b477dea2f9102e"
+    },
+    {
+      "path": "registers/sequences.csv",
+      "bytes": 62224,
+      "sha256": "610acddfbae0b4798dd653601d050ade0b48d82f011433c1ce4e8de77c857f58"
+    },
+    {
+      "path": "registers/sequences.json",
+      "bytes": 74718,
+      "sha256": "65b1e174aec1db5c4760a46ade17e6d2dd1a24154a5009cfb64d13a5c6875ff5"
+    },
+    {
+      "path": "registers/sources.csv",
+      "bytes": 3273,
+      "sha256": "87a77a00ef56d1971fae35d230c94a6950136b01e909f2020ae403e2142d5e02"
+    },
+    {
+      "path": "registers/sources.json",
+      "bytes": 4770,
+      "sha256": "2edb05456f1eb5d44e063128d1eecc99385539c2e0b717298925c1a81dbca01a"
+    },
+    {
+      "path": "registers/systems.csv",
+      "bytes": 8651,
+      "sha256": "09624a50d64ac02e39bf0311c98187a12509c5d2a236009ecf33040a9e1efa77"
+    },
+    {
+      "path": "registers/systems.json",
+      "bytes": 15324,
+      "sha256": "de27ba9acd5a1b5a78eeb6a90a5653996e35c8800f2c590ee244fdef91f76106"
+    },
+    {
+      "path": "registers/tests.csv",
+      "bytes": 10338,
+      "sha256": "2933d30204bde412ce10ada357416f5500e1e7f46bb75deecc0c76fe32ab025b"
+    },
+    {
+      "path": "registers/tests.json",
+      "bytes": 16749,
+      "sha256": "7cf767656f1c4e484f756076df5497b6e163a83d83b6793d56fb3a80a453ef42"
+    }
+  ]
+}

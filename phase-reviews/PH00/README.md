@@ -69,7 +69,7 @@ Authored fixture actors use unique `PH00.*` tags. Do not persist generated Unrea
 | Visual frame inspection | Lane, marker and proxy readable; approximately 13% frame-height proxy; early blockout, no final visual-quality approval |
 | Clean second checkout | Passed: local clone of commit `2cfeaa9`, no project Binaries/Intermediate/Saved, full editor/game compile and cook/package; see `clean-rebuild.log`. Same machine and shared engine DDC, not an independent machine or cache-free engine rebuild. |
 | Clean package launch | Passed: `clean-smoke.log`, 1920 × 1080, route/contact; `smoke-clean.json` |
-| Remote backup | Blocked: automatic approval review rejected uploading potentially private source and canonical design files; no upload occurred; explicit payload approval required |
+| Remote backup | Passed after explicit user upload approval: `main` pushed to `https://github.com/Kkb113/The_Held.git`, including all 21 Git LFS objects (7.4 MB). The earlier privacy approval block was resolved by the user's instruction to commit and push. |
 | Physical keyboard/controller swap; pause/restart/quit | Implemented, hands-on review pending |
 | Cue listening / mute / volume | Implemented, listening review pending |
 | Fresh Windows user profile / independent rebuild | Pending; same-machine checkout is not either of these |

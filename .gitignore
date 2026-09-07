@@ -10,3 +10,6 @@ phase-reviews/PH00/clean-rebuild/
 *.pdb
 *.VC.db
 **/Build/Windows/FileOpenOrder/
+# Keep transient attempt logs local; explicitly stage final review logs.
+phase-reviews/PH00/*.log
+phase-reviews/PH00/build-*.json

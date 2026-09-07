@@ -1,6 +1,6 @@
 # PH00 review — Reproducible Unreal foundation
 
-Build: `0.0.1-PH00`. Date: 7 September 2026. Status: **In progress; not Accepted**.
+Build: `0.0.1-PH00`. Date: 7 September 2026. Status: **Review build available; PH00 remains In progress until outstanding checks are resolved**.
 
 The user explicitly authorized PH00 under implementation roadmap v1.0. No PH01 work is authorized by this report. The canonical blueprint, characters, campaign and puzzles remain unchanged.
 
@@ -32,6 +32,7 @@ See `hardware.json` for the fixture: Core Ultra 7 155H, approximately 31.46 GiB 
 3. In the repository root run `powershell -ExecutionPolicy Bypass -File BuildScripts/Build-PH00.ps1`. Override `-EngineRoot` if needed.
 4. Review `Builds/PH00/Windows/TheHeld.exe`. This packaged executable needs no running editor. Install the included prerequisites on a fresh Windows profile if needed.
 5. Optional: pass `-CreateAssets` to rebuild foundation materials and reimport source assets. This updates generated assets; it is not necessary for a normal clone build.
+6. Run `powershell -ExecutionPolicy Bypass -File BuildScripts/Test-PH00.ps1 -Width 1280 -Height 720`, then repeat with `-Width 1920 -Height 1080`. The script forces the actual resolution, checks fresh route results and validates PNG dimensions. Use `-BuildDirectory` to test another packaged Windows directory.
 
 The script compiles editor and game targets explicitly with `-NoHotReloadFromIDE`, then cooks/stages/packages. This avoids interfering with Live Coding in the user's other open editor. Do not upgrade engine/plugins automatically. Do not include Binaries, Intermediate, Saved or derived caches in source control. Lock binary maps/Blender files before concurrent edits; one owner per binary asset.
 
@@ -57,9 +58,31 @@ Authored fixture actors use unique `PH00.*` tags. Do not persist generated Unrea
 
 ## Evidence and remaining gates
 
+| Check | Result |
+|---|---|
+| Editor and standalone game compilation | Passed, locked local toolchain |
+| Cook / stage / package | Passed, `package.log` ends BUILD SUCCESSFUL |
+| Blender reimport | Passed, `asset-validation.json` |
+| Required assets / intentional missing reference | Passed, same report |
+| Packaged 1280 × 720 route and frame | Passed, `smoke-720.json`, `frame-720.png` |
+| Packaged 1920 × 1080 route and frame | Passed, `smoke-1080.json`, `frame-1080.png`; initial OS-clamped run was rejected and repeated with ForceRes |
+| Visual frame inspection | Lane, marker and proxy readable; approximately 13% frame-height proxy; early blockout, no final visual-quality approval |
+| Clean second checkout | Passed: local clone of commit `2cfeaa9`, no project Binaries/Intermediate/Saved, full editor/game compile and cook/package; see `clean-rebuild.log`. Same machine and shared engine DDC, not an independent machine or cache-free engine rebuild. |
+| Clean package launch | Passed: `clean-smoke.log`, 1920 × 1080, route/contact; `smoke-clean.json` |
+| Remote backup | Blocked: automatic approval review rejected uploading potentially private source and canonical design files; no upload occurred; explicit payload approval required |
+| Physical keyboard/controller swap; pause/restart/quit | Implemented, hands-on review pending |
+| Cue listening / mute / volume | Implemented, listening review pending |
+| Fresh Windows user profile / independent rebuild | Pending; same-machine checkout is not either of these |
+| Licensed INSIDE hands-on reference | Pending confirmation of local licensed access |
+| Performance budgets / full G checklist | Not certified by this short smoke test; no CPU/GPU percentile claim |
+
+Screenshots are actual packaged output, not concept art. The prototype images remain the future visual target. The PH00 blockout does not yet demonstrate the intended final psychological horror, story delivery, hand-contact animation, material richness or layered environmental detail.
+
 Build/test logs live alongside this document. Earlier failed attempt logs are retained for diagnosis and do not count as passes. Automated `-HeldSmoke` drives the character through the route until the marker is reached or a 30-second game-time timeout occurs, captures the frame, writes `Saved/PH00-smoke.json` and exits. It exercises collision/contact in the rendered executable; it does **not** prove physical keyboard/gamepad input, human comprehension, audible sound quality or performance parity.
 
 Before PH00 acceptance, record the final package and clean-workspace rebuild results, actual input swap and pause/restart/mute review, fresh-profile launch, licensed INSIDE reference observations, and the user's visual/experience decision. A provided Git remote is not proof of a successful backup. A build on this machine is not an independent tester result. No missing check may be relabeled passed.
+
+Final local validation: first package and clean-checkout package both succeeded. The clean package reached contact at X=605.26 cm, Z=78.25 cm; the route result and exact-resolution capture passed. The original package is at `C:/THE HELD/Builds/PH00/Windows/TheHeld.exe`; the independently compiled package is at `C:/THE HELD/Builds/PH00-Clean/Windows/TheHeld.exe`. Engine-derived caches were reused normally. The remaining gates in the table are still open. Development stops here for review; no PH01 implementation is included.
 
 Review responsibilities: Codex records implementation/build evidence; the user reviews the playable experience, supplies the physical controller/licensed reference access where needed, and accepts the phase. Another person should reproduce the clone build where possible.
 

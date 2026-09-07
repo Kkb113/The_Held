@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "THE HELD protected root-release state v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "phase",
+    "focused",
+    "paused",
+    "device_connected",
+    "fresh_arm_required",
+    "prerequisites",
+    "last_transaction"
+  ],
+  "properties": {
+    "phase": {
+      "enum": [
+        "MotherOwnsRoot",
+        "HandoverAvailable",
+        "IvoOwnsGovernor",
+        "ReleaseArmed",
+        "ReleaseCommitted",
+        "EscapeComplete"
+      ]
+    },
+    "focused": {
+      "type": "boolean"
+    },
+    "paused": {
+      "type": "boolean"
+    },
+    "device_connected": {
+      "type": "boolean"
+    },
+    "fresh_arm_required": {
+      "type": "boolean"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "last_transaction": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

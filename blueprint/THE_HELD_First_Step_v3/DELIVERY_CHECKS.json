@@ -1,0 +1,27 @@
+{
+  "document_pages": 120,
+  "words_markdown": 46616,
+  "section_page_references_checked": 25,
+  "workbook_sheets": [
+    "Dashboard",
+    "Chapters",
+    "Sequences",
+    "Puzzles",
+    "Assets",
+    "Systems",
+    "Animation",
+    "Audio",
+    "Milestones",
+    "Tests",
+    "Risks",
+    "Sprint01",
+    "Cohort",
+    "NarrativeFacts",
+    "Sources"
+  ],
+  "workbook_formula_cells": 76,
+  "workbook_cached_errors": [],
+  "csv_json_mirrors": "row counts and IDs match",
+  "render_review": "all pages inspected; final TOC-only rerender checked",
+  "game_validation": "Not run; no engine project included"
+}

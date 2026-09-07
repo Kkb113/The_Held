@@ -1,0 +1,2112 @@
+[
+  {
+    "id": "ANM-001",
+    "actor": "CHR-IVO",
+    "name": "IVO_idle_neutral",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-002",
+    "actor": "CHR-IVO",
+    "name": "IVO_idle_attentive",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-003",
+    "actor": "CHR-IVO",
+    "name": "IVO_walk_loop",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-004",
+    "actor": "CHR-IVO",
+    "name": "IVO_run_loop",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-005",
+    "actor": "CHR-IVO",
+    "name": "IVO_run_start",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-006",
+    "actor": "CHR-IVO",
+    "name": "IVO_run_stop",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-007",
+    "actor": "CHR-IVO",
+    "name": "IVO_turn_idle",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-008",
+    "actor": "CHR-IVO",
+    "name": "IVO_turn_run",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-009",
+    "actor": "CHR-IVO",
+    "name": "IVO_crouch_enter",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-010",
+    "actor": "CHR-IVO",
+    "name": "IVO_crouch_idle",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-011",
+    "actor": "CHR-IVO",
+    "name": "IVO_crouch_walk",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-012",
+    "actor": "CHR-IVO",
+    "name": "IVO_crouch_exit",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-013",
+    "actor": "CHR-IVO",
+    "name": "IVO_jump_stand_takeoff",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-014",
+    "actor": "CHR-IVO",
+    "name": "IVO_jump_run_takeoff",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-015",
+    "actor": "CHR-IVO",
+    "name": "IVO_jump_air_up",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-016",
+    "actor": "CHR-IVO",
+    "name": "IVO_jump_air_down",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-017",
+    "actor": "CHR-IVO",
+    "name": "IVO_land_soft",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-018",
+    "actor": "CHR-IVO",
+    "name": "IVO_land_hard",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-019",
+    "actor": "CHR-IVO",
+    "name": "IVO_stumble_recover",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-020",
+    "actor": "CHR-IVO",
+    "name": "IVO_step_up",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-021",
+    "actor": "CHR-IVO",
+    "name": "IVO_slope_up",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-022",
+    "actor": "CHR-IVO",
+    "name": "IVO_slope_down",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-023",
+    "actor": "CHR-IVO",
+    "name": "IVO_slip_catch",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-024",
+    "actor": "CHR-IVO",
+    "name": "IVO_balance_edge",
+    "category": "Locomotion",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-025",
+    "actor": "CHR-IVO",
+    "name": "IVO_reach_low",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-026",
+    "actor": "CHR-IVO",
+    "name": "IVO_reach_mid",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-027",
+    "actor": "CHR-IVO",
+    "name": "IVO_reach_high",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-028",
+    "actor": "CHR-IVO",
+    "name": "IVO_push_enter",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-029",
+    "actor": "CHR-IVO",
+    "name": "IVO_push_loop",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-030",
+    "actor": "CHR-IVO",
+    "name": "IVO_push_stop",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-031",
+    "actor": "CHR-IVO",
+    "name": "IVO_pull_loop",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-032",
+    "actor": "CHR-IVO",
+    "name": "IVO_lift_denied",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-033",
+    "actor": "CHR-IVO",
+    "name": "IVO_grip_denied",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-034",
+    "actor": "CHR-IVO",
+    "name": "IVO_ladder_mount",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-035",
+    "actor": "CHR-IVO",
+    "name": "IVO_ladder_up",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-036",
+    "actor": "CHR-IVO",
+    "name": "IVO_ladder_down",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-037",
+    "actor": "CHR-IVO",
+    "name": "IVO_ladder_exit",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-038",
+    "actor": "CHR-IVO",
+    "name": "IVO_ledge_catch",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-039",
+    "actor": "CHR-IVO",
+    "name": "IVO_ledge_hang",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-040",
+    "actor": "CHR-IVO",
+    "name": "IVO_ledge_climb",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-041",
+    "actor": "CHR-IVO",
+    "name": "IVO_ledge_drop",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-042",
+    "actor": "CHR-IVO",
+    "name": "IVO_crawl_enter",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-043",
+    "actor": "CHR-IVO",
+    "name": "IVO_crawl_loop",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-044",
+    "actor": "CHR-IVO",
+    "name": "IVO_crawl_exit",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-045",
+    "actor": "CHR-IVO",
+    "name": "IVO_one_hand_latch",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-046",
+    "actor": "CHR-IVO",
+    "name": "IVO_wheel_crank",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-047",
+    "actor": "CHR-IVO",
+    "name": "IVO_cover_remove",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-048",
+    "actor": "CHR-IVO",
+    "name": "IVO_chair_slide",
+    "category": "Hands and traversal",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-049",
+    "actor": "CHR-IVO",
+    "name": "IVO_brace_pickup",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-050",
+    "actor": "CHR-IVO",
+    "name": "IVO_hold_acquire",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-051",
+    "actor": "CHR-IVO",
+    "name": "IVO_hold_idle",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-052",
+    "actor": "CHR-IVO",
+    "name": "IVO_hold_walk",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-053",
+    "actor": "CHR-IVO",
+    "name": "IVO_hold_run",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-054",
+    "actor": "CHR-IVO",
+    "name": "IVO_hold_jump",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-055",
+    "actor": "CHR-IVO",
+    "name": "IVO_hold_crouch",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-056",
+    "actor": "CHR-IVO",
+    "name": "IVO_hold_release",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-057",
+    "actor": "CHR-IVO",
+    "name": "IVO_hold_range_warning",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-058",
+    "actor": "CHR-IVO",
+    "name": "IVO_transfer_in",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-059",
+    "actor": "CHR-IVO",
+    "name": "IVO_transfer_out",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-060",
+    "actor": "CHR-IVO",
+    "name": "IVO_load_after_motion",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-061",
+    "actor": "CHR-IVO",
+    "name": "IVO_strain_shoulders_01",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-062",
+    "actor": "CHR-IVO",
+    "name": "IVO_strain_shoulders_02",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-063",
+    "actor": "CHR-IVO",
+    "name": "IVO_strain_fingers_01",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-064",
+    "actor": "CHR-IVO",
+    "name": "IVO_strain_fingers_02",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-065",
+    "actor": "CHR-IVO",
+    "name": "IVO_paired_enter",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-066",
+    "actor": "CHR-IVO",
+    "name": "IVO_paired_balance_left",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-067",
+    "actor": "CHR-IVO",
+    "name": "IVO_paired_balance_right",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-068",
+    "actor": "CHR-IVO",
+    "name": "IVO_paired_lower",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-069",
+    "actor": "CHR-IVO",
+    "name": "IVO_paired_raise",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-070",
+    "actor": "CHR-IVO",
+    "name": "IVO_paired_brace",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-071",
+    "actor": "CHR-IVO",
+    "name": "IVO_paired_exit",
+    "category": "Hold and load",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-072",
+    "actor": "CHR-IVO",
+    "name": "IVO_wade_loop",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-073",
+    "actor": "CHR-IVO",
+    "name": "IVO_water_enter",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-074",
+    "actor": "CHR-IVO",
+    "name": "IVO_surface_idle",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-075",
+    "actor": "CHR-IVO",
+    "name": "IVO_surface_swim",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-076",
+    "actor": "CHR-IVO",
+    "name": "IVO_dive_start",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-077",
+    "actor": "CHR-IVO",
+    "name": "IVO_swim_forward",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-078",
+    "actor": "CHR-IVO",
+    "name": "IVO_swim_up",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-079",
+    "actor": "CHR-IVO",
+    "name": "IVO_swim_down",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-080",
+    "actor": "CHR-IVO",
+    "name": "IVO_swim_turn",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-081",
+    "actor": "CHR-IVO",
+    "name": "IVO_swim_hold_onearm",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-082",
+    "actor": "CHR-IVO",
+    "name": "IVO_surface_recover",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-083",
+    "actor": "CHR-IVO",
+    "name": "IVO_breath_warning_01",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-084",
+    "actor": "CHR-IVO",
+    "name": "IVO_breath_warning_02",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-085",
+    "actor": "CHR-IVO",
+    "name": "IVO_climb_from_water",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-086",
+    "actor": "CHR-IVO",
+    "name": "IVO_wet_shiver",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-087",
+    "actor": "CHR-IVO",
+    "name": "IVO_bell_enter",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-088",
+    "actor": "CHR-IVO",
+    "name": "IVO_bell_air_recover",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-089",
+    "actor": "CHR-IVO",
+    "name": "IVO_bell_latch",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-090",
+    "actor": "CHR-IVO",
+    "name": "IVO_bell_exit",
+    "category": "Water",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-091",
+    "actor": "CHR-IVO",
+    "name": "IVO_mother_two_taps_receive",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-092",
+    "actor": "CHR-IVO",
+    "name": "IVO_mother_two_taps_reply",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-093",
+    "actor": "CHR-IVO",
+    "name": "IVO_stare_fingernail",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-094",
+    "actor": "CHR-IVO",
+    "name": "IVO_restrained_eye_reaction",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-095",
+    "actor": "CHR-IVO",
+    "name": "IVO_cuff_recognition",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-096",
+    "actor": "CHR-IVO",
+    "name": "IVO_pull_mother_failed",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-097",
+    "actor": "CHR-IVO",
+    "name": "IVO_refusal_recoil",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-098",
+    "actor": "CHR-IVO",
+    "name": "IVO_cradle_look",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-099",
+    "actor": "CHR-IVO",
+    "name": "IVO_root_handover",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-100",
+    "actor": "CHR-IVO",
+    "name": "IVO_goodbye_hand",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-101",
+    "actor": "CHR-IVO",
+    "name": "IVO_open_final_hand",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-102",
+    "actor": "CHR-IVO",
+    "name": "IVO_accept_survivor_hand",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-103",
+    "actor": "CHR-IVO",
+    "name": "IVO_gate_pass",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-104",
+    "actor": "CHR-IVO",
+    "name": "IVO_fall_failure",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-105",
+    "actor": "CHR-IVO",
+    "name": "IVO_crush_failure",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-106",
+    "actor": "CHR-IVO",
+    "name": "IVO_capture_failure",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-107",
+    "actor": "CHR-IVO",
+    "name": "IVO_drown_failure",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-108",
+    "actor": "CHR-IVO",
+    "name": "IVO_shield_face",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-109",
+    "actor": "CHR-IVO",
+    "name": "IVO_flinch_small",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-110",
+    "actor": "CHR-IVO",
+    "name": "IVO_look_attention",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-111",
+    "actor": "CHR-IVO",
+    "name": "IVO_breathing_rest",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-112",
+    "actor": "CHR-IVO",
+    "name": "IVO_breathing_effort",
+    "category": "Narrative and reactions",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-113",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_repair_idle",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-114",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_cover_request",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-115",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_guide_walk",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-116",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_landing_catch",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-117",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_hold_landing",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-118",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_transport_secure",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-119",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_look_back",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-120",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_two_taps",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-121",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_root_breath",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-122",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_root_hand_recognition",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-123",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_refuse_replacement",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-124",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_final_handover",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-125",
+    "actor": "CHR-ANJA",
+    "name": "ANJA_final_release",
+    "category": "Mother",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-126",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_idle_watch",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-127",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_walk_patrol",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-128",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_turn",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-129",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_listen",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-130",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_inspect_sheet",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-131",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_detect",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-132",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_approach",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-133",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_run_pursuit",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-134",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_reach_capture",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-135",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_capture_secure",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-136",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_blocked_door_catch",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-137",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_blocked_cart_react",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-138",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_harness_held_pose",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-139",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_held_eye_track",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-140",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_held_breath",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-141",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_recover_release",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-142",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_transfer_attach",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-143",
+    "actor": "CHR-CUST-A",
+    "name": "CUST_transport_push",
+    "category": "Custodian shared",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-144",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_park",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-145",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_load_detect",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-146",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_orient",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-147",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_reach",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-148",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_secure_sack",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-149",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_secure_target",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-150",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_retract",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-151",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_unload",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-152",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_return",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-153",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_drive_arrest",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-154",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_drive_release",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-155",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_obstructed",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-156",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_hose_tension",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-157",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_gaze_tracking",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-158",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_breathing",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-159",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_submerged_reach",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-160",
+    "actor": "RIG-PORTER",
+    "name": "PORTER_dock_tip",
+    "category": "Porter rig and person",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-161",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_standing_strain",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-162",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_seated_strain",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-163",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_leaning_left",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-164",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_leaning_right",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-165",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_overhead_strain",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-166",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_wrist_strain",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-167",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_eye_independent",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-168",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_finger_flex",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-169",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_load_relax",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-170",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_first_step_stumble",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-171",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_steady_self",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-172",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_help_neighbor",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-173",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_queue_exit",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-174",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_brace_rail",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-175",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_brace_bed",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-176",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_catch_elbow",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-177",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_recover_balance",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-178",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_evacuate_walk",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-179",
+    "actor": "CHR-BEARER-01",
+    "name": "BEARER_evacuate_pause",
+    "category": "Shared bearer/cohort",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-180",
+    "actor": "CHR-ORREN",
+    "name": "ORREN_pawl_release",
+    "category": "Orren",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-181",
+    "actor": "CHR-ORREN",
+    "name": "ORREN_uncurl_hand",
+    "category": "Orren",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-182",
+    "actor": "CHR-ORREN",
+    "name": "ORREN_test_knee",
+    "category": "Orren",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-183",
+    "actor": "CHR-ORREN",
+    "name": "ORREN_stand_slow",
+    "category": "Orren",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-184",
+    "actor": "CHR-ORREN",
+    "name": "ORREN_limp_walk",
+    "category": "Orren",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-185",
+    "actor": "CHR-ORREN",
+    "name": "ORREN_help_other",
+    "category": "Orren",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-186",
+    "actor": "CHR-ORREN",
+    "name": "ORREN_manual_gate_hold",
+    "category": "Orren",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-187",
+    "actor": "CHR-ORREN",
+    "name": "ORREN_gate_release",
+    "category": "Orren",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-188",
+    "actor": "CHR-ORREN",
+    "name": "ORREN_final_wait",
+    "category": "Orren",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-189",
+    "actor": "RIG-WARD",
+    "name": "WARD_cradle_idle",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-190",
+    "actor": "RIG-WARD",
+    "name": "WARD_take_balance",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-191",
+    "actor": "RIG-WARD",
+    "name": "WARD_first_support_lift",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-192",
+    "actor": "RIG-WARD",
+    "name": "WARD_first_step_settle",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-193",
+    "actor": "RIG-WARD",
+    "name": "WARD_support_transfer",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-194",
+    "actor": "RIG-WARD",
+    "name": "WARD_front_advance",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-195",
+    "actor": "RIG-WARD",
+    "name": "WARD_rear_follow",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-196",
+    "actor": "RIG-WARD",
+    "name": "WARD_brace_static",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-197",
+    "actor": "RIG-WARD",
+    "name": "WARD_narrow_lower",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-198",
+    "actor": "RIG-WARD",
+    "name": "WARD_narrow_advance",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-199",
+    "actor": "RIG-WARD",
+    "name": "WARD_crouch_enter",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-200",
+    "actor": "RIG-WARD",
+    "name": "WARD_crouch_traverse",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-201",
+    "actor": "RIG-WARD",
+    "name": "WARD_rise_align",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-202",
+    "actor": "RIG-WARD",
+    "name": "WARD_kneel_approach",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-203",
+    "actor": "RIG-WARD",
+    "name": "WARD_porch_align",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-204",
+    "actor": "RIG-WARD",
+    "name": "WARD_support_lock",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-205",
+    "actor": "RIG-WARD",
+    "name": "WARD_park_final",
+    "category": "Ward rig authored poses",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-206",
+    "actor": "FAUNA-WADER",
+    "name": "FAUNA_wader_idle",
+    "category": "Ambient life",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-207",
+    "actor": "FAUNA-WADER",
+    "name": "FAUNA_wader_forage",
+    "category": "Ambient life",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-208",
+    "actor": "FAUNA-WADER",
+    "name": "FAUNA_wader_startle",
+    "category": "Ambient life",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-209",
+    "actor": "FAUNA-WADER",
+    "name": "FAUNA_wader_fly",
+    "category": "Ambient life",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-210",
+    "actor": "FAUNA-FISH",
+    "name": "FAUNA_fish_idle",
+    "category": "Ambient life",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": true,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "ANM-211",
+    "actor": "FAUNA-FISH",
+    "name": "FAUNA_fish_dart",
+    "category": "Ambient life",
+    "source_requirement": "Authored motion/pose with named contact events; approve from actual gameplay camera.",
+    "loop": false,
+    "acceptance": "Contact, silhouette and interruption reviewed; motor remains responsive; no unexplained input lock.",
+    "status": "Backlog"
+  }
+]

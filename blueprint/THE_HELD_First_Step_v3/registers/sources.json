@@ -1,0 +1,154 @@
+[
+  {
+    "id": "R01",
+    "publisher": "Marek Bogdan / Playdead",
+    "title": "The Lighting of INSIDE",
+    "url": "https://blog.playdead.com/articles/the_lighting_of_inside/lighting_of_inside.html",
+    "accessed": "2026-09-08",
+    "scope": "Article and lighting stills inspected; art-directed reference principle, not copied implementation."
+  },
+  {
+    "id": "R02",
+    "publisher": "Marek Bogdan / Playdead",
+    "title": "The Bits and Pieces",
+    "url": "https://blog.playdead.com/articles/the_bits_and_pieces/bits_and_pieces.html",
+    "accessed": "2026-09-08",
+    "scope": "Developer model-design account; subtraction and composition."
+  },
+  {
+    "id": "R03",
+    "publisher": "Playdead",
+    "title": "Ebeltoft animation presentation",
+    "url": "https://docs.google.com/presentation/d/1QN99FZUQl3KE4c7eg9-GLLEl3Og0FqreJbiTrCc8ZAk/htmlpresent",
+    "accessed": "2026-09-08",
+    "scope": "Published Danish slides inspected; animation/input/contact principles, not measured gameplay."
+  },
+  {
+    "id": "R04",
+    "publisher": "Playdead / GDC",
+    "title": "Huddle up! Making the [SPOILER] of INSIDE",
+    "url": "https://gdcvault.com/play/1024472/Huddle-up-Making-the-SPOILER",
+    "accessed": "2026-09-08",
+    "scope": "Session description inspected; no claim of full video playback."
+  },
+  {
+    "id": "R05",
+    "publisher": "Jakob Schmid",
+    "title": "The Boy from INSIDE — AES 2016",
+    "url": "https://www.schmid.dk/talks/2016-02-11-aes/schmid-AES_2016-The_Boy_from_INSIDE.pdf",
+    "accessed": "2026-09-08",
+    "scope": "PDF text and selected diagrams/screenshots inspected; contextual character audio."
+  },
+  {
+    "id": "R06",
+    "publisher": "Martin Stig Andersen / GDC",
+    "title": "A Game That Listens — The Audio of INSIDE",
+    "url": "https://www.gdcvault.com/play/1023731/A-Game-That-Listens-The",
+    "accessed": "2026-09-08",
+    "scope": "Session description inspected; game/audio feedback and respawn continuity."
+  },
+  {
+    "id": "R07",
+    "publisher": "Playdead",
+    "title": "Tools, Tricks and Technologies for Reaching Stutter-Free 60 FPS in INSIDE",
+    "url": "https://docs.google.com/presentation/d/1dew0TynVmtQf8OMLEz_YtRxK32a_0SAZU9-vgyMRPlA/htmlpresent",
+    "accessed": "2026-09-08",
+    "scope": "Published performance slides; use high-level profiling/streaming lessons, not obsolete blanket micro-optimization rules."
+  },
+  {
+    "id": "R08",
+    "publisher": "Marek Bogdan / Playdead",
+    "title": "The Weight of Detail",
+    "url": "https://blog.playdead.com/articles/the_weight_of_detail/weight_of_detail.html",
+    "accessed": "2026-09-08",
+    "scope": "Article inspected; motion fetch unavailable, no claim to have watched GIFs."
+  },
+  {
+    "id": "R09",
+    "publisher": "Unity",
+    "title": "Unity 6 releases and support",
+    "url": "https://unity.com/releases/unity-6/support",
+    "accessed": "2026-09-08",
+    "scope": "6.3 LTS support through December 2027 checked; production upgrade review required."
+  },
+  {
+    "id": "R10",
+    "publisher": "Unity",
+    "title": "URP introduction, Unity 6.3",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/Manual/urp/urp-introduction.html",
+    "accessed": "2026-09-08",
+    "scope": "Official rendering documentation; package family recommendation requires compatibility spike."
+  },
+  {
+    "id": "R11",
+    "publisher": "Unity",
+    "title": "Input System manual",
+    "url": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.17/manual/index.html",
+    "accessed": "2026-09-08",
+    "scope": "Official action/input reference; exact project version locked in M00."
+  },
+  {
+    "id": "R12",
+    "publisher": "Unity",
+    "title": "Cinemachine manual",
+    "url": "https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html",
+    "accessed": "2026-09-08",
+    "scope": "Official camera package reference; directed content still authored by team."
+  },
+  {
+    "id": "R13",
+    "publisher": "Unity",
+    "title": "Timeline manual",
+    "url": "https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html",
+    "accessed": "2026-09-08",
+    "scope": "Official timeline reference; not authority for durable narrative state."
+  },
+  {
+    "id": "R14",
+    "publisher": "Unity",
+    "title": "Addressables: loading scenes",
+    "url": "https://docs.unity3d.com/Packages/com.unity.addressables@2.7/manual/LoadingScenes.html",
+    "accessed": "2026-09-08",
+    "scope": "Scene activation queue behavior and handle lifecycle; confirm against locked package."
+  },
+  {
+    "id": "R15",
+    "publisher": "Unity",
+    "title": "Character Controller component reference",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/Manual/class-CharacterController.html",
+    "accessed": "2026-09-08",
+    "scope": "Controller candidate only; custom moving-platform/contact requirements still need tests."
+  },
+  {
+    "id": "R16",
+    "publisher": "Unity",
+    "title": "Physics.Simulate",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/ScriptReference/Physics.Simulate.html",
+    "accessed": "2026-09-08",
+    "scope": "Fixed-step guidance; no cross-hardware bitwise-determinism claim."
+  },
+  {
+    "id": "R17",
+    "publisher": "Unity",
+    "title": "AudioSource.PlayScheduled",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/ScriptReference/AudioSource.PlayScheduled.html",
+    "accessed": "2026-09-08",
+    "scope": "DSP scheduling reference; gameplay state remains authoritative."
+  },
+  {
+    "id": "R18",
+    "publisher": "Unity",
+    "title": "Unity Test Framework manual",
+    "url": "https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html",
+    "accessed": "2026-09-08",
+    "scope": "Official EditMode/PlayMode/player testing reference; exact version tested in M00."
+  },
+  {
+    "id": "R19",
+    "publisher": "Playdead",
+    "title": "INSIDE official page",
+    "url": "https://playdead.com/games/inside/",
+    "accessed": "2026-09-08",
+    "scope": "Official stills inspected; official trailer endpoint unavailable in this session."
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "C01",
+    "name": "The Upper Terrace",
+    "minutes": 18,
+    "span": "0–18",
+    "question": "Where are they taking Mother?",
+    "look": "Intimate ash-blue domestic rooms; damp stair concrete; one warm practical light.",
+    "new": "Direct Hold, trust in movement, first readable pursuit.",
+    "landmark": "Hostel visible across the district at exit.",
+    "transition": "Service door opens onto wind and allotment roofs."
+  },
+  {
+    "id": "C02",
+    "name": "The Tidal Gardens",
+    "minutes": 22,
+    "span": "18–40",
+    "question": "Why does safety equipment hunt a child?",
+    "look": "Horizontal reed screens, salt earth, wind and open gray sky.",
+    "new": "Flow diversion, environmental autonomy, load-sensing Porter.",
+    "landmark": "Two uneven hostel chimneys beyond vegetable beds.",
+    "transition": "Runoff culvert rises into laundry ventilation."
+  },
+  {
+    "id": "C03",
+    "name": "The Laundryworks",
+    "minutes": 24,
+    "span": "40–64",
+    "question": "Who keeps an anchored burden still?",
+    "look": "Hanging fabric layers, matte concrete, quiet amber task lighting.",
+    "new": "Transfer, cloth visibility, wet mass and the porcelain reveal.",
+    "landmark": "Hostel curtain glimpsed through a high exterior vent.",
+    "transition": "Linen dispatch tunnel enters the passenger exchange."
+  },
+  {
+    "id": "C04",
+    "name": "The Passenger Exchange",
+    "minutes": 25,
+    "span": "64–89",
+    "question": "Can a person be controlled and still be aware?",
+    "look": "Ordered public geometry; pale concourse over dark occupied waiting rails.",
+    "new": "Compensating crowd, conscious restraint, independent relief.",
+    "landmark": "Hostel facade appears beyond a tram terminal window.",
+    "transition": "Maintenance stair descends behind transit counterweights."
+  },
+  {
+    "id": "C05",
+    "name": "The Counterweight Cut",
+    "minutes": 27,
+    "span": "89–116",
+    "question": "What happens when the structure follows my balance?",
+    "look": "Pale chalk, large negative space, dark suspended masses.",
+    "new": "Paired interface, controlled impact, repeated threat with new geometry.",
+    "landmark": "Hostel relocation shoes glimpsed from below without revealing the whole.",
+    "transition": "Chalk slide leads to the submerged original street."
+  },
+  {
+    "id": "C06",
+    "name": "The Drowned Street",
+    "minutes": 27,
+    "span": "116–143",
+    "question": "Can I move a place to breathe rather than conquer the water?",
+    "look": "Green-gray water, submerged ordinary shopfronts, bands of weak daylight.",
+    "new": "Swim, air pocket, buoyancy, obsolete rescue route.",
+    "landmark": "Hostel curtain seen above a gap in later construction.",
+    "transition": "A drained service room exposes bearer access."
+  },
+  {
+    "id": "C07",
+    "name": "The Burden House",
+    "minutes": 27,
+    "span": "143–170",
+    "question": "Can I relieve Mother without becoming her replacement?",
+    "look": "Close domestic backs, dry dust, body-sized cavities, pressure and contact.",
+    "new": "Recognized machine rhythms, room-scale balance, irreversible root conversion.",
+    "landmark": "Survivors enter the hostel through a high opening.",
+    "transition": "Root-load conduit follows a passage into the seawall."
+  },
+  {
+    "id": "C08",
+    "name": "The Unfinished Sea",
+    "minutes": 25,
+    "span": "170–195",
+    "question": "What must change before it is safe to let go?",
+    "look": "Cool retained basin contrasted with low ordinary sea; broad horizon.",
+    "new": "System-scale causality, tested discharge, receiving pads, open cradle.",
+    "landmark": "Hostel and route now shown as a mechanical problem, not yet a full body.",
+    "transition": "Ivo enters the hostel service cradle without a loading break."
+  },
+  {
+    "id": "C09",
+    "name": "The First Step",
+    "minutes": 30,
+    "span": "195–225",
+    "question": "Can I carry these people until nobody has to hold them?",
+    "look": "Recognizable rooms become articulated architecture, then return to human scale.",
+    "new": "Occupied building control, kneeling evacuation, root release and voluntary help.",
+    "landmark": "The familiar two chimneys and curtain identify the Walking Ward.",
+    "transition": "Ordinary footsteps, accepted hand, darkness, then credits."
+  }
+]

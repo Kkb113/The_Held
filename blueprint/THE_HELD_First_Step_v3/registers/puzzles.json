@@ -1,0 +1,449 @@
+[
+  {
+    "id": "PZ-01",
+    "title": "Kitchen chair and cover",
+    "reasoning": "Teach physical interaction",
+    "prerequisites": [],
+    "sequences": [
+      "SQ-01-01"
+    ],
+    "success_predicate": "Cover accessible and interaction completed with free hands",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-02",
+    "title": "First shutter",
+    "reasoning": "Teach arrest timing",
+    "prerequisites": [
+      "PZ-01"
+    ],
+    "sequences": [
+      "SQ-01-03"
+    ],
+    "success_predicate": "Ivo crosses readable clearance without changing selected target",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-03",
+    "title": "Rotating tread",
+    "reasoning": "Choose useful orientation",
+    "prerequisites": [
+      "PZ-02"
+    ],
+    "sequences": [
+      "SQ-01-03"
+    ],
+    "success_predicate": "Stable arrested surface permits the demonstrated gap",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-04",
+    "title": "Pursuit door",
+    "reasoning": "Release as separation",
+    "prerequisites": [
+      "PZ-03"
+    ],
+    "sequences": [
+      "SQ-01-04"
+    ],
+    "success_predicate": "Ivo reaches safe recess and door separates the visible guard",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-05",
+    "title": "Wind panel",
+    "reasoning": "Select connected motion",
+    "prerequisites": [
+      "PZ-03"
+    ],
+    "sequences": [
+      "SQ-02-01"
+    ],
+    "success_predicate": "Traverse panel while unconnected wind remains active",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-06",
+    "title": "Garden diversion",
+    "reasoning": "Resolve flow instead of stop",
+    "prerequisites": [
+      "PZ-05"
+    ],
+    "sequences": [
+      "SQ-02-02"
+    ],
+    "success_predicate": "Latched side channel lowers float onto traversable stop",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-07",
+    "title": "First Porter",
+    "reasoning": "Read bounded capture space",
+    "prerequisites": [
+      "PZ-04"
+    ],
+    "sequences": [
+      "SQ-02-03"
+    ],
+    "success_predicate": "Cross connected grate through known drive arrest and stone refuges",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-08",
+    "title": "Laundry bridge transfer",
+    "reasoning": "External ownership",
+    "prerequisites": [
+      "PZ-06"
+    ],
+    "sequences": [
+      "SQ-03-01"
+    ],
+    "success_predicate": "Anchor sustains bridge and support permits leaving without losing load",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-09",
+    "title": "Hanging corridor",
+    "reasoning": "Spatial access and concealment",
+    "prerequisites": [
+      "PZ-08"
+    ],
+    "sequences": [
+      "SQ-03-02"
+    ],
+    "success_predicate": "Rack arrangement opens exit and thick cover blocks demonstrated sight",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-10",
+    "title": "Wet blanket counterweight",
+    "reasoning": "Change material state",
+    "prerequisites": [
+      "PZ-06",
+      "PZ-08"
+    ],
+    "sequences": [
+      "SQ-03-03"
+    ],
+    "success_predicate": "Saturated rack positions lift; drain and latch make next passage safe",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-11",
+    "title": "Queue deck jack",
+    "reasoning": "Relieve involuntary compensation",
+    "prerequisites": [
+      "PZ-08"
+    ],
+    "sequences": [
+      "SQ-04-02"
+    ],
+    "success_predicate": "Mechanical jack supports deck and queue-body constraint relaxes",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-12",
+    "title": "Conscious guard/cart/shutter",
+    "reasoning": "Allocate one Hold and plan release",
+    "prerequisites": [
+      "PZ-04",
+      "PZ-11"
+    ],
+    "sequences": [
+      "SQ-04-03"
+    ],
+    "success_predicate": "Prepositioned cart blocks guard after release; shutter can be Held to exit",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-13",
+    "title": "Orren's stair pawl",
+    "reasoning": "Remove a human dependency",
+    "prerequisites": [
+      "PZ-11"
+    ],
+    "sequences": [
+      "SQ-04-04"
+    ],
+    "success_predicate": "Ratchet bears staircase and OrrenReleased commits",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-14",
+    "title": "Exposed counterweight sweep",
+    "reasoning": "Read mass trajectory",
+    "prerequisites": [
+      "PZ-03"
+    ],
+    "sequences": [
+      "SQ-05-01"
+    ],
+    "success_predicate": "Traverse known safe pockets and bounded sweep clearance",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-15",
+    "title": "Balance carrier",
+    "reasoning": "Teach reciprocal posture",
+    "prerequisites": [
+      "PZ-08",
+      "PZ-14"
+    ],
+    "sequences": [
+      "SQ-05-02"
+    ],
+    "success_predicate": "Carrier reaches parked contact and station exit becomes safe",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-16",
+    "title": "Useful falling mass",
+    "reasoning": "Reconfigure energy path",
+    "prerequisites": [
+      "PZ-15"
+    ],
+    "sequences": [
+      "SQ-05-03"
+    ],
+    "success_predicate": "Receiving cradle catches released block and raises walkway",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-17",
+    "title": "Porter diversion and moving exit",
+    "reasoning": "Commit to release under pursuit",
+    "prerequisites": [
+      "PZ-07",
+      "PZ-16"
+    ],
+    "sequences": [
+      "SQ-05-04"
+    ],
+    "success_predicate": "Salvage redirects capture and resumed drive aligns exit platform",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-18",
+    "title": "First swim",
+    "reasoning": "Learn breath and recovery",
+    "prerequisites": [
+      "PZ-06"
+    ],
+    "sequences": [
+      "SQ-06-01"
+    ],
+    "success_predicate": "Ivo reaches dry landing with visible recovery opportunity",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-19",
+    "title": "Moving air shelter",
+    "reasoning": "Position safety instead of immunity",
+    "prerequisites": [
+      "PZ-08",
+      "PZ-18"
+    ],
+    "sequences": [
+      "SQ-06-02"
+    ],
+    "success_predicate": "Guided bell and pocket reach upper safe access with hose valid",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-20",
+    "title": "Obsolete rescue dock",
+    "reasoning": "Exploit consistent rescue rule",
+    "prerequisites": [
+      "PZ-07",
+      "PZ-19"
+    ],
+    "sequences": [
+      "SQ-06-03"
+    ],
+    "success_predicate": "Bell avoids tip capture and Ivo secures upper guide from far side",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-21",
+    "title": "Chamber drain",
+    "reasoning": "Reveal through state change",
+    "prerequisites": [
+      "PZ-06",
+      "PZ-19"
+    ],
+    "sequences": [
+      "SQ-06-04"
+    ],
+    "success_predicate": "Water lowered safely and maintenance record/route exposed",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-22",
+    "title": "Reciprocal domestic room",
+    "reasoning": "Reinterpret familiar control",
+    "prerequisites": [
+      "PZ-15"
+    ],
+    "sequences": [
+      "SQ-07-02"
+    ],
+    "success_predicate": "Room inclines clear of obstruction and parks on support",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-23",
+    "title": "Support instead of root transfer",
+    "reasoning": "Apply relief to Anja's load",
+    "prerequisites": [
+      "PZ-13",
+      "PZ-22"
+    ],
+    "sequences": [
+      "SQ-07-04"
+    ],
+    "success_predicate": "Receiving frame holds room; local root strain reduced and cohort route opens",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-24",
+    "title": "Discharge proof",
+    "reasoning": "Predict large flow safely",
+    "prerequisites": [
+      "PZ-06",
+      "PZ-16",
+      "PZ-21"
+    ],
+    "sequences": [
+      "SQ-08-02"
+    ],
+    "success_predicate": "Deflector latched, blockage clear, limited test reaches safe outlet",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-25",
+    "title": "Ward receiving pads",
+    "reasoning": "Prepare future support graph",
+    "prerequisites": [
+      "PZ-23",
+      "PZ-24"
+    ],
+    "sequences": [
+      "SQ-08-03"
+    ],
+    "success_predicate": "Pads/culvert deployed and obsolete pins released without losing occupied refuge",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-26",
+    "title": "Open cradle and balance",
+    "reasoning": "Unify previously learned controls",
+    "prerequisites": [
+      "PZ-15",
+      "PZ-22",
+      "PZ-25"
+    ],
+    "sequences": [
+      "SQ-08-04",
+      "SQ-09-01"
+    ],
+    "success_predicate": "Station occupied; valid balance handover; current safe support maintained",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-27",
+    "title": "Narrow support",
+    "reasoning": "Carry occupants through load transition",
+    "prerequisites": [
+      "PZ-26"
+    ],
+    "sequences": [
+      "SQ-09-03"
+    ],
+    "success_predicate": "Ward center/support envelope permits next route edge without pitching rooms",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-28",
+    "title": "Crouch under girder",
+    "reasoning": "Change architecture's posture",
+    "prerequisites": [
+      "PZ-27"
+    ],
+    "sequences": [
+      "SQ-09-04"
+    ],
+    "success_predicate": "Lowered clearance envelope passes girder and restores receiving-pad alignment",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-29",
+    "title": "Kneel and support",
+    "reasoning": "End dependence before evacuation",
+    "prerequisites": [
+      "PZ-28"
+    ],
+    "sequences": [
+      "SQ-09-05"
+    ],
+    "success_predicate": "Porch aligns; twelve survivors exit; locks carry building and cradle releases Ivo",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-30",
+    "title": "Final handover",
+    "reasoning": "Take only unloaded governor",
+    "prerequisites": [
+      "PZ-24",
+      "PZ-29"
+    ],
+    "sequences": [
+      "SQ-09-06"
+    ],
+    "success_predicate": "Mother-to-Ivo ownership transfer after verified safe prerequisites",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  },
+  {
+    "id": "PZ-31",
+    "title": "Deliberate root release",
+    "reasoning": "Finish the prepared emergency",
+    "prerequisites": [
+      "PZ-30"
+    ],
+    "sequences": [
+      "SQ-09-07"
+    ],
+    "success_predicate": "Voluntary armed release commits root fact and safe discharge; postrelease retry is coherent",
+    "reset_policy": "Restore coherent entry or last supported reasoning milestone from sequence card; preserve earlier durable relief facts.",
+    "status": "Backlog"
+  }
+]

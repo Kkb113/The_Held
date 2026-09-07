@@ -1,0 +1,20 @@
+﻿id,sequence,prerequisites,meaning
+BraceOwned,SQ-01-02,[],Brace acquired from reachable floor; player equipment restored on load.
+TransferLearned,SQ-03-01,"[""BraceOwned""]",Successful external anchor transfer observed.
+LaundryLoadsRelieved,SQ-03-03,"[""TransferLearned""]",Required laundry loads parked on mechanical supports; three attendants remain confined until route opens.
+QueueReleased,SQ-04-02,"[""TransferLearned""]",Jack supports tilted deck; six constrained queue people may leave by safe route.
+OrrenReleased,SQ-04-04,"[""TransferLearned""]",Stair pawl supports Orren load.
+BalanceLearned,SQ-05-02,"[""TransferLearned""]",Carrier safely parked and open station exited.
+BellRouteCleared,SQ-06-03,"[""BraceOwned""]",Upper bell guide secured after escape from obsolete dock.
+AnjaRecognized,SQ-07-03,"[""BalanceLearned""]",Cuff/taps recognition and refusal phase completed.
+CohortRoutesOpen,SQ-07-04,"[""LaundryLoadsRelieved"", ""QueueReleased"", ""OrrenReleased""]",Two local bearers relieved and safe paths to hostel opened.
+RootLoadReduced,SQ-07-04,"[""AnjaRecognized""]",Mechanical receiving frame takes local load.
+DischargeProved,SQ-08-02,"[""RootLoadReduced""]",Limited proof flow follows latched deflector to safe outlet.
+WardPadsPrepared,SQ-08-03,"[""DischargeProved""]",Receiving support pads and root-return culvert available.
+WardOccupied,SQ-08-04,"[""CohortRoutesOpen""]",All twelve live cohort slots at their assigned safe interior bays.
+FirstStepSeen,SQ-09-02,"[""BalanceLearned"", ""WardPadsPrepared"", ""WardOccupied""]",Progress-driven reveal completed without implying a different rig.
+WardSupported,SQ-09-05,"[""FirstStepSeen"", ""WardPadsPrepared""]",Mechanical locks carry the hostel on inland supports.
+CohortEvacuated,SQ-09-05,"[""WardSupported"", ""WardOccupied""]",All twelve slots have completed their visible safe exit route.
+RootHandoverComplete,SQ-09-06,"[""DischargeProved"", ""CohortEvacuated"", ""WardSupported""]",Unloaded governor transferred from mother to Ivo.
+RootReleased,SQ-09-07,"[""RootHandoverComplete""]",Deliberate armed gameplay release; postrelease escape phase committed.
+EndingComplete,SQ-09-08,"[""RootReleased""]","Voluntary gate help, offered hand and final walking/fade completed."

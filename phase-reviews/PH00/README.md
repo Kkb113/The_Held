@@ -1,3 +1,5 @@
+> **Historical v1 evidence.** This review predates First Step v3. Its design and phase labels are superseded by the [current roadmap](../../implementation.md); no v3 test passes are inferred. See [history](../../history/README.md).
+
 # PH00 review — Reproducible Unreal foundation
 
 Build: `0.0.1-PH00`. Date: 7 September 2026. Status: **Accepted by the user for progression through the subsequent explicit PH01 instruction. Undocumented external checks below remain unverified.**

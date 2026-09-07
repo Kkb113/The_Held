@@ -1,0 +1,19 @@
+﻿id,risk,owner,review_gate,mitigation,fallback,status
+RSK-01,Walking Ward feels like unrelated vehicle,Director,M09,Test small-to-large control transfer before art; keep same inputs and human stakes,"Cut incidental interior physics, not reciprocal control or First Step",Open
+RSK-02,Ward costs exceed small-team capacity,Producer,M13,Measure one support/room/reveal workflow; bound route and rig,Reduce visible rooms and decorative props while keeping twelve roster slots,Open
+RSK-03,Hold physics is inconsistent,Technical lead,M02,Author coordinates and ownership transactions; differential frame-rate tests,Remove uncontrolled joints from critical assemblies,Open
+RSK-04,Water creates unfair deaths,Designer,M08,"Visible air pockets, timed leg margins, breath assistance and coherent reset","Shorten swims and simplify bell route, not water clarity",Open
+RSK-05,Anja fate feels arbitrary,Narrative director,M14,Distinguish removable harness from irreversible root; establish no healing/time rewind,"Strengthen visual causal evidence, not exposition dump",Open
+RSK-06,Final release occurs accidentally,Technical lead,M09,Separate canceled input from deliberate arm/release; restore disarmed,Block shipping until every focus/device/pause test passes,Open
+RSK-07,Survivor path bugs block ending,AI engineer,M14,"Unique roster, authored safe routes and concealed recovery","Reduce background dynamic navigation, preserve independent choice",Open
+RSK-08,Environmental repetition,Lead designer,M12,Track reasoning language and palette/scale changes per sequence,Merge weak repeats and strengthen transitions rather than slow traversal,Open
+RSK-09,Campaign duration too short/long,Director/producer,M14,Fresh timed runs with solve/stall separation,Reallocate authored beats; no forced waits to meet 225 minutes,Open
+RSK-10,Visuals drift toward photorealism,Art lead,M07,"Gameplay-camera matte/simple-form benchmark, grayscale review",Remove high-frequency textures and uncontrolled gloss,Open
+RSK-11,Readable subtlety becomes invisibility,Art/audio leads,M13,"Low brightness, reduced effects, captions and no-audio tests",Strengthen posture/composition; avoid neon markers by default,Open
+RSK-12,Animation backlog exceeds capacity,Producer/animation lead,M13,Reuse adult skeleton; separate authored hero contacts from reusable layers,Reduce decorative variants before core contact and finale animation,Open
+RSK-13,Streaming breaks active relationships,Engineering,M07,Dependency pin graph and single authoritative actor,Smaller chunks or simpler proxies; never unload live owner,Open
+RSK-14,Engine support expires during schedule,Technical lead,M15,Compatibility lock and planned support review; tested upgrade branch,Upgrade before late stabilization or procure appropriate support after review,Open
+RSK-15,No production-rate evidence,Producer,M13,Log actual integration/rework time per slice task,Rebaseline staffing/date instead of preserving invented estimate,Open
+RSK-16,Rights or distribution requirements missed,Producer,M18,"Asset/license inventory, qualified review and truthful captures",Replace unlicensed content before candidate approval,Open
+RSK-17,Accessibility added too late,UI/design lead,M01,Toggle/remap/captions/breath/reduced-motion built into prototypes,Never fork story outcomes by assistance settings,Open
+RSK-18,Key specialist unavailable,Producer,M00,"Shared documentation, source files, cross-training and contractor buffer",Reduce concurrent content work rather than abandon technical ownership,Open

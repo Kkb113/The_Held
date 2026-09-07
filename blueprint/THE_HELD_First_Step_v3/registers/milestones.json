@@ -1,0 +1,371 @@
+[
+  {
+    "id": "M00",
+    "title": "Project foundation and reference capture",
+    "start_week": 1,
+    "end_week": 2,
+    "dependencies": [],
+    "build": "Create repository, clean build pipeline, editor/package lock, naming rules, ID registry, input shell and ownership of every first-sprint task. Capture a licensed local INSIDE reference session and compare observations to the proposed metrics.",
+    "assets": "Metric block meshes, temporary Ivo capsule, neutral material, original placeholder glyphs, reference review template.",
+    "systems": "Bootstrap, build automation, test runner and basic settings; no external account needed to launch.",
+    "playable": "Packaged executable opens a metric room and exits cleanly on two machines.",
+    "tests": "Clean checkout/build, controller recognition, package compatibility, source-license inventory and initial frame-time capture.",
+    "problems": "Unreproducible local setup, unsupported package combination, accidental external-service dependency, copied reference assets.",
+    "exit_gate": "Technical lead signs a reproducible clean-machine build; director signs evidence-versus-assumption reference sheet; producer assigns M01–M09 owners.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M01",
+    "title": "Movement and interaction prototype",
+    "start_week": 3,
+    "end_week": 5,
+    "dependencies": [
+      "M00"
+    ],
+    "build": "Build the controller gym: run/stop/turn, gaps, slopes, steps, ledges, ladders, crouch, chair push and rejected heavy interaction. Establish socket and hand-occupation rules.",
+    "assets": "Temporary Ivo rig, locomotion/interaction clips, simple contact surfaces and grip points.",
+    "systems": "Input, lane motor, buffering, ledge queries, interaction resolver, initial presentation state.",
+    "playable": "A five-minute traversal loop with no debug-only movement and a controller/keyboard alternative.",
+    "tests": "Thirty, sixty and 120 fps; reversal responsiveness; capsule clearance; wrong approach; remapping; sustained-input assistance.",
+    "problems": "Sliding feet, delayed valid jumps, inconsistent step height, root-motion penetration, ambiguous target choice.",
+    "exit_gate": "Routine gap and stop tests pass repeatedly; fresh users can move and interact without verbal coaching; movement values are recorded, not hidden in prefabs.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M02",
+    "title": "Central Hold mechanic prototype",
+    "start_week": 4,
+    "end_week": 7,
+    "dependencies": [
+      "M00",
+      "M01"
+    ],
+    "build": "Implement slider/rotator drivers, one personal owner, transfer anchor, support capture, range warning and resumable release. Add the live ownership graph.",
+    "assets": "Shutter, tread, single socket, anchor, brace vane and support block; temporary sounds and hand poses.",
+    "systems": "Mechanism drivers, atomic transactions, ownership validation, hand requirements and initial state serialization.",
+    "playable": "A repeatable gym that arrests, transfers, resumes and physically supports the same mechanisms.",
+    "tests": "Transfer/release on adjacent ticks, two requests for one owner, leaving range, pause/device cancellation, reload while held.",
+    "problems": "Double owners, free-fall transfer frame, unlimited stored impulse, random target changes, water/time-freeze ambiguity.",
+    "exit_gate": "Ownership and release invariants pass automated fixtures; a tester describes what stops and what continues; no random power failures.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M03",
+    "title": "First complete puzzle prototype",
+    "start_week": 6,
+    "end_week": 9,
+    "dependencies": [
+      "M01",
+      "M02"
+    ],
+    "build": "Build first shutter/tread and a small support-relief fixture. Include entry observation, wrong-angle recovery, solved-state checkpoint and exit predicate.",
+    "assets": "Gameplay-grade shutter/tread collision, support pawl, marker-free camera volumes and basic foot/hand audio.",
+    "systems": "Moving support, swept crush, support graph, puzzle facts and local reset.",
+    "playable": "A six-to-eight-minute room sequence with an actual solution and recoverable failed approaches.",
+    "tests": "Watch unfamiliar players without hints; attempt wrong order and edge jumps; restart before/after support.",
+    "problems": "Puzzle only understandable from debug labels, unstable physics, excessive waiting, unnecessary repeat traversal.",
+    "exit_gate": "Solution follows visible causality; repeated success does not depend on a lucky collision; reset restores a solvable arrangement.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M04",
+    "title": "Core gameplay loop and narrative-state prototype",
+    "start_week": 8,
+    "end_week": 11,
+    "dependencies": [
+      "M02",
+      "M03"
+    ],
+    "build": "Join arrival, observation, manipulation, bodily response, traversal and consequence. Implement sequence facts and event phases, not only disconnected test rooms.",
+    "assets": "Small service route, bearer-hand placeholder, first contextual after-motion, coherent ambient bed.",
+    "systems": "Sequence exits, ledger, checkpoints, idempotent events, debug fixture loading.",
+    "playable": "Ten-minute continuous route including a transfer and an early hint of a hidden bearer.",
+    "tests": "Quit/reload at each event phase; distinguish useful action from disturbing consequence; measure dead time.",
+    "problems": "Narrative props unrelated to puzzle, event duplication, camera taking control for too long, compulsory confusion.",
+    "exit_gate": "Full loop works from menu to checkpoint resume; player understanding and uncertainty match the intended stage.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M05",
+    "title": "Horror and tension prototype",
+    "start_week": 10,
+    "end_week": 13,
+    "dependencies": [
+      "M04"
+    ],
+    "build": "Build thin-sheet/thick-blanket visibility and a restrained-body reveal. Tune anticipation, pause, approach and release rather than adding random scares.",
+    "assets": "Two cloth types, search light, restrained torso with eyes/breath, directional sound layers and caption alternatives.",
+    "systems": "Visibility tags, camera composition, audio state and interruptible narrative reaction.",
+    "playable": "An eight-minute tension route with one safe teaching moment, one threat and one quiet realization.",
+    "tests": "Muted audio, low brightness, grayscale and reduced-motion modes; ask what the player believed was alive and aware.",
+    "problems": "Unreadable cover, scare sting doing all the work, apparent robot rather than person, repetition exposing scripted trick.",
+    "exit_gate": "Players explain the danger before failure and notice continuing awareness without exposition; sensory cues agree.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M06",
+    "title": "Custodian and Porter prototypes",
+    "start_week": 11,
+    "end_week": 16,
+    "dependencies": [
+      "M03",
+      "M05"
+    ],
+    "build": "Implement both threat families, including covered/exposed harnesses and Porter detect/reach/secure/retract. Build sack demonstration, chase obstruction and rescue-dock behavior in fixtures.",
+    "assets": "Rough adult rigs, Porter carriage/rail/hose, exposed socket, capture poses, readable warning sounds.",
+    "systems": "Perception, route pursuit, harness restraint, swept capture and Porter load zones.",
+    "playable": "Separate representative Custodian and Porter encounters with correct retries.",
+    "tests": "Sight obstruction, last-known position, no teleport, one-Hold allocation, capture from moving supports, repeated pause.",
+    "problems": "Unexplained detection, unavoidable rail reach, decorative shields treated as immunity, capture through barriers.",
+    "exit_gate": "Each encounter can be predicted from its teaching event and debug trace; ten repeated retries remain solvable.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M07",
+    "title": "First integrated environment and pipeline",
+    "start_week": 12,
+    "end_week": 17,
+    "dependencies": [
+      "M04",
+      "M05"
+    ],
+    "build": "Bring a Laundry bay to representative environment quality while creating reusable import, lighting, camera and streaming workflows.",
+    "assets": "One final-quality wall/column/rail kit, Ivo material benchmark, laundry cart, sheet, anchor, lighting and VFX bundle.",
+    "systems": "Streaming, camera, contact IK, pooled audio/VFX, asset validator and capture tool.",
+    "playable": "Five-to-eight-minute packaged environment with genuine transitions rather than editor teleport.",
+    "tests": "Lighting-only readability, floor-device profiling, cold load, backwards movement, material scale and socket import.",
+    "problems": "Photorealistic noise, hidden path, texture inconsistency, hitches, hand penetration, art requiring bespoke scripts.",
+    "exit_gate": "Art/audio leads approve gameplay-camera benchmark; import and performance evidence are repeatable on clean assets.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M08",
+    "title": "Swimming and air-bell risk prototype",
+    "start_week": 14,
+    "end_week": 20,
+    "dependencies": [
+      "M02",
+      "M03",
+      "M06"
+    ],
+    "build": "Build bounded water, head-air tests, breath/recovery, one-arm Hold swimming, guided bell and obsolete tipping dock.",
+    "assets": "Swim poses, basic water shader, bell/winch/hose, pocket debug volume and submerged Porter variant.",
+    "systems": "Water graph, swimming motor, breath assistance, buoyancy constraints and coherent water snapshots.",
+    "playable": "A ten-minute underwater route from first swim to moving air pocket and escape from the retrieve-and-tip apparatus.",
+    "tests": "Surface thrash, breath exploit, timed swim legs, bell pose restore, input switching, accessibility and low effects.",
+    "problems": "Invisible air rules, camera hiding the next opening, pocket that never spills, cheap drowning, free physics softlocks.",
+    "exit_gate": "New players understand where breath exists; route margins and coherent reloads pass; dock danger is visibly caused by tipping.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M09",
+    "title": "Reciprocal balance and Walking Ward risk proof",
+    "start_week": 14,
+    "end_week": 22,
+    "dependencies": [
+      "M02",
+      "M03"
+    ],
+    "build": "Build the quarry carrier, movable room and rough inhabited Ward on a support route. Implement narrow support, crouch and protected final release using synthetic prerequisite facts initially.",
+    "assets": "Greybox hostel with two chimneys/curtain, four supports, cradle, simple occupants, girder, receiving pads, domestic sound cue.",
+    "systems": "Shared station input, support graph, guided gait, room-local presentation, root-input guard; integrate real roster later.",
+    "playable": "A twelve-to-fifteen-minute progression from small carrier to First Step and two Ward maneuvers.",
+    "tests": "Do players transfer controls without a new tutorial? Do they care about occupants? Pause, release, off-focus and support restore.",
+    "problems": "Comedy robot tone, unrelated vehicle controls, impossible unsupported steps, tedious foot micromanagement, accidental ending.",
+    "exit_gate": "Director/engineering/animation approve controllable and emotionally legible reversal; blocking risks resolved before bulk campaign art.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M10",
+    "title": "First fifteen-minute chronological build",
+    "start_week": 18,
+    "end_week": 22,
+    "dependencies": [
+      "M04",
+      "M06",
+      "M07"
+    ],
+    "build": "Integrate actual kitchen, landing, transport, brace pickup, shutter and tread; stage the beginning of pursuit at the fifteen-minute boundary.",
+    "assets": "Ivo/Anja production rigs, domestic props, landing/transport hardware, opening contacts and two-tap audio.",
+    "systems": "Full opening event phases, saved brace ownership, controller UI, camera transition and checkpoints.",
+    "playable": "The actual first fifteen minutes from a new game, not a montage of later rooms.",
+    "tests": "Onboarding with no coaching, opening control within seconds, child/mother relationship, restart at transport phases.",
+    "problems": "Exposition dependency, lengthy noninteractive intro, lost brace, confusing target, mother animations preventing progress.",
+    "exit_gate": "Fresh players know whom they are following and can use Hold; every opening interruption resumes coherently.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M11",
+    "title": "First complete chapter",
+    "start_week": 21,
+    "end_week": 25,
+    "dependencies": [
+      "M10"
+    ],
+    "build": "Finish C01 including full pursuit, exterior transition and hostel landmark. Add complete chapter save/quit/retry handling.",
+    "assets": "Final C01 art/audio pass, Custodian doorway catch, garden threshold and landmark proxy.",
+    "systems": "All chapter systems including streamed exit and durable DoorBlocked/BraceOwned state.",
+    "playable": "The full approximately eighteen-minute Upper Terrace chapter in a packaged build.",
+    "tests": "Entire chapter on keyboard/controller, low-spec preliminary profile, capture retries and fast traversal into next chunk.",
+    "problems": "Chapter exit hitch, pursuit too hard after successful tutorial, landmark oversold, duplicated guards.",
+    "exit_gate": "No blocker/softlock; all C01 sequence cards have signed design/engineering/art/audio/QA review.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M12",
+    "title": "First thirty-minute continuous build",
+    "start_week": 24,
+    "end_week": 28,
+    "dependencies": [
+      "M11",
+      "M06"
+    ],
+    "build": "Add the Gardens through its early Porter encounter, preserving the actual chronological path and weather/acoustic transition.",
+    "assets": "Garden kit, windscreen, wader, sluice/float, loading terrace and Porter presentation.",
+    "systems": "Flow diversion, natural ambient behavior, Porter teaching, streaming and cross-chapter ledger.",
+    "playable": "First thirty active minutes without debug jumps; the remaining garden route may continue beyond this test boundary.",
+    "tests": "Pacing, mechanic recurrence versus repetition, environmental variety, route inference and memory of Anja.",
+    "problems": "Open area feels empty, reused angle puzzle overstays, water rules conflict, story urgency disappears.",
+    "exit_gate": "C01–C02 transition works without a loading screen or reset; fresh-player timing data identifies revisions before art lock.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M13",
+    "title": "Shipping-quality vertical slice and flagship benchmark",
+    "start_week": 25,
+    "end_week": 34,
+    "dependencies": [
+      "M07",
+      "M08",
+      "M09",
+      "M12"
+    ],
+    "build": "Finish all four Laundry sequences at representative shipping quality. In parallel finish a three-to-six-minute First Step quality benchmark to prove the late-game art/animation/audio cost.",
+    "assets": "Final Ivo, transfer bridge, sheet/rack/blanket systems, hand reveal, Custodian, room kit, full audio/mix/lighting; Ward hero interior and reveal subset.",
+    "systems": "Movement, Hold, puzzles, stealth, saves, streaming, captions, performance capture and integrated presentation; final-quality Ward subset.",
+    "playable": "Continuous twenty-four-minute Laundry chapter from entry to exit, plus separate flagship benchmark. Neither is passed by a trailer or static screenshot.",
+    "tests": "At least two rounds of unfamiliar players, packaged floor-machine tests, long retry soak, pause/reload matrix, sensory sign-off and actual task-time logging.",
+    "problems": "Beautiful but unreadable image, gameplay not matching benchmark, hand reveal missed, late-game feature hidden from budget, unrepeatable quality.",
+    "exit_gate": "All disciplines sign a representative result; known blockers closed; measured throughput produces a revised staffing/schedule estimate before bulk production.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M14",
+    "title": "Full end-to-end playable campaign",
+    "start_week": 35,
+    "end_week": 56,
+    "dependencies": [
+      "M13"
+    ],
+    "build": "Build all nine chapters in greybox or gameplay-grade art, including real underwater route, Anja reveal, discharge proof, twelve-person evacuation and canonical ending.",
+    "assets": "Complete functional collision/rig/socket set; readable stand-in art/audio for all beats; no missing story-critical actor.",
+    "systems": "All mandatory mechanics and dependencies integrated; synthetic finale flags replaced with real progression.",
+    "playable": "New game to final fade with no editor commands, teleport, placeholder win button or skipped climax.",
+    "tests": "Full fresh runs, chapter times, prerequisite graph, all checkpoints and story comprehension. Record per-sequence stalls and recurring failures.",
+    "problems": "Late route contradiction, repetitive puzzle grammar, impossible body/hand use, unearned transformation, incomplete ending.",
+    "exit_gate": "Every sequence has a working route, coherent reset and event chain; campaign reaches the actual ending. Content may be visually unfinished, but design is complete enough to estimate.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M15",
+    "title": "Alpha — feature and content complete",
+    "start_week": 57,
+    "end_week": 78,
+    "dependencies": [
+      "M14"
+    ],
+    "build": "Finish every planned feature, sequence, mandatory asset family and supported setting; replace critical stand-ins; freeze new mechanics.",
+    "assets": "All character/environment/puzzle assets present at alpha quality; complete animation and audio coverage; menus, captions and credits.",
+    "systems": "Feature-complete gameplay, persistence, streaming, cohort, Ward, localization pipeline and release guard.",
+    "playable": "Whole campaign with all player-facing systems and content represented; only polish/optimization/localization fixes remain.",
+    "tests": "Regression suite, unsupported-order play, long-run memory, controller hotplug, all root phases and save migration fixtures.",
+    "problems": "Feature creep, borrowed placeholder rights, missing accessibility, art that requires changed collision, content only working in editor.",
+    "exit_gate": "No missing required feature or sequence; scope frozen; bug severity and polish backlog triaged; engine-support review completed.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M16",
+    "title": "Beta — stable representative experience",
+    "start_week": 79,
+    "end_week": 94,
+    "dependencies": [
+      "M15"
+    ],
+    "build": "Resolve major usability/logic defects and bring the whole campaign close to intended final sensory quality. Conduct full external playtesting and localization review.",
+    "assets": "Near-final lighting/animation/audio/VFX; localized UI/captions; approved reference screenshots and content disclosures.",
+    "systems": "Stable saves and integrated quality settings; measured performance and recovery paths.",
+    "playable": "Complete representative game suitable for an external test cohort under controlled distribution.",
+    "tests": "Fresh full-playthrough median, narrative interviews, missed reveals, comfort/accessibility, minimum-spec matrix and save compatibility.",
+    "problems": "Duration inflated by confusion, subtle cues unreadable, ending interpreted as arbitrary punishment, Ward repetition, low-spec lost information.",
+    "exit_gate": "No progression blockers or reproducible save loss; key comprehension targets met; remaining work is bounded fixes/polish rather than redesign.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M17",
+    "title": "Optimization and final polish",
+    "start_week": 95,
+    "end_week": 106,
+    "dependencies": [
+      "M16"
+    ],
+    "build": "Optimize measured CPU/GPU/memory bottlenecks and polish contact, camera, sound transitions and brief failures without changing the creative contract.",
+    "assets": "LOD/texture/shader refinements, compressed audio policy, final contact clips, quality-tier profiles.",
+    "systems": "Stable frame pacing, asset residency, pooling, loading, audio priorities and reduced-effects equivalents.",
+    "playable": "Full game at agreed quality/performance tiers with final-length transitions and release candidate content.",
+    "tests": "Cold/warm routes, maximum Ward view, long sessions, repeat respawns, shader warmup and hardware-specific faults.",
+    "problems": "Optimizations alter physics, low settings hide danger, stripped animation events break puzzles, memory growth across reloads.",
+    "exit_gate": "Measured budgets met on documented fixtures; all gameplay regressions rerun; no content removed silently to win a benchmark.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M18",
+    "title": "Release candidate and delivery rehearsal",
+    "start_week": 107,
+    "end_week": 112,
+    "dependencies": [
+      "M17"
+    ],
+    "build": "Produce versioned candidates, freeze content, verify installation/update/uninstall and backup/restore. Finish rights, credits, store materials and support procedures.",
+    "assets": "Final package, original captures/key art, licenses, credits, disclosures and known-issue/support templates.",
+    "systems": "Shipping configuration, debug stripping, save compatibility, error reporting and reproducible artifact archive.",
+    "playable": "Exact candidate build distributed through the intended test channel and played from a clean machine to ending.",
+    "tests": "Clean install and offline launch, missing/corrupt save, full disk, input devices, ending resume and update from supported prior save.",
+    "problems": "Development-only dependency, incorrect build hash, absent notice, store claim not matching game, new last-minute content regression.",
+    "exit_gate": "Zero open ship-blocking defects; evidence and sign-offs archived; rollback candidate exists and support owner is assigned.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M19",
+    "title": "Final production build and launch",
+    "start_week": 113,
+    "end_week": 116,
+    "dependencies": [
+      "M18"
+    ],
+    "build": "Sign off the exact shipping build, archive source/build provenance and perform release smoke checks. Release only after gates, not merely because the week arrives.",
+    "assets": "Approved executable/content, storefront assets, credits and support documentation.",
+    "systems": "All shipping services/configuration and local save behavior verified in final distribution form.",
+    "playable": "Public release candidate identical to signed artifact; complete campaign and settings available offline.",
+    "tests": "Final install/continue/new-game/critical scenes/ending smoke on distribution build; verify no content differs from approved candidate.",
+    "problems": "Wrong package uploaded, accidental debug flag, launch hotfix without regression, unowned support queue.",
+    "exit_gate": "Director, technical lead, producer and QA approve artifact hash; rollback and hotfix triage are ready; no known blocker waived by schedule alone.",
+    "status": "Backlog"
+  },
+  {
+    "id": "M20",
+    "title": "Reserve, stabilization and post-release review",
+    "start_week": 117,
+    "end_week": 120,
+    "dependencies": [
+      "M19"
+    ],
+    "build": "Use reserve before launch when gates slip; otherwise handle verified defects, compatibility reports and a production retrospective. No unplanned expansion is assumed.",
+    "assets": "Targeted corrected assets only; archived repro saves and support captures.",
+    "systems": "Hotfix branch, regression selection, save migration safety and release notes.",
+    "playable": "Stable supported build; fixes preserve existing player progress and canonical ending.",
+    "tests": "Every fix includes reproducible test plus affected chapter/root/save regression; monitor patterns rather than isolated preference.",
+    "problems": "Reserve consumed by scope growth, risky engine upgrade, patch invalidates saves, reactive redesign of locked story.",
+    "exit_gate": "Critical issues resolved or transparently documented; final archive and retrospective identify maintainable owners and future port decision.",
+    "status": "Backlog"
+  }
+]

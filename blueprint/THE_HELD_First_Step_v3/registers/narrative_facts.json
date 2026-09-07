@@ -1,0 +1,160 @@
+[
+  {
+    "id": "BraceOwned",
+    "sequence": "SQ-01-02",
+    "prerequisites": [],
+    "meaning": "Brace acquired from reachable floor; player equipment restored on load."
+  },
+  {
+    "id": "TransferLearned",
+    "sequence": "SQ-03-01",
+    "prerequisites": [
+      "BraceOwned"
+    ],
+    "meaning": "Successful external anchor transfer observed."
+  },
+  {
+    "id": "LaundryLoadsRelieved",
+    "sequence": "SQ-03-03",
+    "prerequisites": [
+      "TransferLearned"
+    ],
+    "meaning": "Required laundry loads parked on mechanical supports; three attendants remain confined until route opens."
+  },
+  {
+    "id": "QueueReleased",
+    "sequence": "SQ-04-02",
+    "prerequisites": [
+      "TransferLearned"
+    ],
+    "meaning": "Jack supports tilted deck; six constrained queue people may leave by safe route."
+  },
+  {
+    "id": "OrrenReleased",
+    "sequence": "SQ-04-04",
+    "prerequisites": [
+      "TransferLearned"
+    ],
+    "meaning": "Stair pawl supports Orren load."
+  },
+  {
+    "id": "BalanceLearned",
+    "sequence": "SQ-05-02",
+    "prerequisites": [
+      "TransferLearned"
+    ],
+    "meaning": "Carrier safely parked and open station exited."
+  },
+  {
+    "id": "BellRouteCleared",
+    "sequence": "SQ-06-03",
+    "prerequisites": [
+      "BraceOwned"
+    ],
+    "meaning": "Upper bell guide secured after escape from obsolete dock."
+  },
+  {
+    "id": "AnjaRecognized",
+    "sequence": "SQ-07-03",
+    "prerequisites": [
+      "BalanceLearned"
+    ],
+    "meaning": "Cuff/taps recognition and refusal phase completed."
+  },
+  {
+    "id": "CohortRoutesOpen",
+    "sequence": "SQ-07-04",
+    "prerequisites": [
+      "LaundryLoadsRelieved",
+      "QueueReleased",
+      "OrrenReleased"
+    ],
+    "meaning": "Two local bearers relieved and safe paths to hostel opened."
+  },
+  {
+    "id": "RootLoadReduced",
+    "sequence": "SQ-07-04",
+    "prerequisites": [
+      "AnjaRecognized"
+    ],
+    "meaning": "Mechanical receiving frame takes local load."
+  },
+  {
+    "id": "DischargeProved",
+    "sequence": "SQ-08-02",
+    "prerequisites": [
+      "RootLoadReduced"
+    ],
+    "meaning": "Limited proof flow follows latched deflector to safe outlet."
+  },
+  {
+    "id": "WardPadsPrepared",
+    "sequence": "SQ-08-03",
+    "prerequisites": [
+      "DischargeProved"
+    ],
+    "meaning": "Receiving support pads and root-return culvert available."
+  },
+  {
+    "id": "WardOccupied",
+    "sequence": "SQ-08-04",
+    "prerequisites": [
+      "CohortRoutesOpen"
+    ],
+    "meaning": "All twelve live cohort slots at their assigned safe interior bays."
+  },
+  {
+    "id": "FirstStepSeen",
+    "sequence": "SQ-09-02",
+    "prerequisites": [
+      "BalanceLearned",
+      "WardPadsPrepared",
+      "WardOccupied"
+    ],
+    "meaning": "Progress-driven reveal completed without implying a different rig."
+  },
+  {
+    "id": "WardSupported",
+    "sequence": "SQ-09-05",
+    "prerequisites": [
+      "FirstStepSeen",
+      "WardPadsPrepared"
+    ],
+    "meaning": "Mechanical locks carry the hostel on inland supports."
+  },
+  {
+    "id": "CohortEvacuated",
+    "sequence": "SQ-09-05",
+    "prerequisites": [
+      "WardSupported",
+      "WardOccupied"
+    ],
+    "meaning": "All twelve slots have completed their visible safe exit route."
+  },
+  {
+    "id": "RootHandoverComplete",
+    "sequence": "SQ-09-06",
+    "prerequisites": [
+      "DischargeProved",
+      "CohortEvacuated",
+      "WardSupported"
+    ],
+    "meaning": "Unloaded governor transferred from mother to Ivo."
+  },
+  {
+    "id": "RootReleased",
+    "sequence": "SQ-09-07",
+    "prerequisites": [
+      "RootHandoverComplete"
+    ],
+    "meaning": "Deliberate armed gameplay release; postrelease escape phase committed."
+  },
+  {
+    "id": "EndingComplete",
+    "sequence": "SQ-09-08",
+    "prerequisites": [
+      "RootReleased"
+    ],
+    "meaning": "Voluntary gate help, offered hand and final walking/fade completed."
+  }
+]

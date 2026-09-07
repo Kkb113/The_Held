@@ -1,3 +1,5 @@
+> **Historical v1 evidence.** This review predates First Step v3. Its design and phase labels are superseded by the [current roadmap](../../implementation.md); no v3 test passes are inferred. See [history](../../history/README.md).
+
 # PH01 — Responsive traversal in a coherent route
 
 Status: **In review, not Accepted**. User explicitly authorized this phase after the PH00 playtest. No PH02 work is included. Original blueprint and campaign sequence definitions remain unchanged.

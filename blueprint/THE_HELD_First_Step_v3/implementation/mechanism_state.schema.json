@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "THE HELD authored mechanism snapshot v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "actor_id",
+    "motion_family",
+    "coordinate",
+    "velocity",
+    "owner",
+    "support",
+    "driver_phase"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "actor_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "motion_family": {
+      "enum": [
+        "Slider",
+        "Hinge",
+        "Rotator",
+        "Tracked",
+        "GuidedFloat",
+        "PairedAssembly"
+      ]
+    },
+    "coordinate": {
+      "type": "number"
+    },
+    "velocity": {
+      "type": "number"
+    },
+    "driver_phase": {
+      "type": "number",
+      "minimum": 0
+    },
+    "owner": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "id"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "FreeDriver",
+            "Personal",
+            "Anchor",
+            "Station",
+            "MechanicalSupport"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "support": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "engaged",
+        "id"
+      ],
+      "properties": {
+        "engaged": {
+          "type": "boolean"
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

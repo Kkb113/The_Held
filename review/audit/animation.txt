@@ -1,9 +1,0 @@
-{"group": "Ivo locomotion", "allocation": 30, "coverage": "Idle, walk/run, starts/stops, turns, jump/fall/land, crouch/crawl.", "unit": "Clips / poses", "status": "Not started"}
-{"group": "Ivo traversal and grip", "allocation": 24, "coverage": "Ladder, ledge catch/climb/drop, push/pull, lever, short slide and balance.", "unit": "Clips / poses", "status": "Not started"}
-{"group": "Ivo Hold and station", "allocation": 22, "coverage": "Acquire/maintain/release, transfer, range strain, four stages, connect/withdraw.", "unit": "Clips / poses", "status": "Not started"}
-{"group": "Ivo narrative and failure", "allocation": 14, "coverage": "Two-tap variants, wrist echo, sleeve snag, open hand, short capture/fall/crush outcomes.", "unit": "Clips / poses", "status": "Not started"}
-{"group": "Anja", "allocation": 12, "coverage": "Repair, follow/wait, landing brace, transport, recognition, refusal, final hand.", "unit": "Clips / poses", "status": "Not started"}
-{"group": "Custodian shared set", "allocation": 22, "coverage": "Patrol/inspect/search/chase, reach/capture, harness held/recovery, blocked heave.", "unit": "Clips / poses", "status": "Not started"}
-{"group": "Porter", "allocation": 10, "coverage": "Cycle poses/transitions, reach, secure, retract, held/resume and facial micro-motion.", "unit": "Clips / poses", "status": "Not started"}
-{"group": "Bearers and survivors", "allocation": 20, "coverage": "Six braced pose families, relief, stand, careful movement, waiting/helping.", "unit": "Clips / poses", "status": "Not started"}
-{"group": "Orren/paired finale", "allocation": 8, "coverage": "Distinct relief/recovery, helping, gate hold and final paired walk.", "unit": "Clips / poses", "status": "Not started"}

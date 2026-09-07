@@ -1,0 +1,164 @@
+[
+  {
+    "id": "RSK-01",
+    "risk": "Walking Ward feels like unrelated vehicle",
+    "owner": "Director",
+    "review_gate": "M09",
+    "mitigation": "Test small-to-large control transfer before art; keep same inputs and human stakes",
+    "fallback": "Cut incidental interior physics, not reciprocal control or First Step",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-02",
+    "risk": "Ward costs exceed small-team capacity",
+    "owner": "Producer",
+    "review_gate": "M13",
+    "mitigation": "Measure one support/room/reveal workflow; bound route and rig",
+    "fallback": "Reduce visible rooms and decorative props while keeping twelve roster slots",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-03",
+    "risk": "Hold physics is inconsistent",
+    "owner": "Technical lead",
+    "review_gate": "M02",
+    "mitigation": "Author coordinates and ownership transactions; differential frame-rate tests",
+    "fallback": "Remove uncontrolled joints from critical assemblies",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-04",
+    "risk": "Water creates unfair deaths",
+    "owner": "Designer",
+    "review_gate": "M08",
+    "mitigation": "Visible air pockets, timed leg margins, breath assistance and coherent reset",
+    "fallback": "Shorten swims and simplify bell route, not water clarity",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-05",
+    "risk": "Anja fate feels arbitrary",
+    "owner": "Narrative director",
+    "review_gate": "M14",
+    "mitigation": "Distinguish removable harness from irreversible root; establish no healing/time rewind",
+    "fallback": "Strengthen visual causal evidence, not exposition dump",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-06",
+    "risk": "Final release occurs accidentally",
+    "owner": "Technical lead",
+    "review_gate": "M09",
+    "mitigation": "Separate canceled input from deliberate arm/release; restore disarmed",
+    "fallback": "Block shipping until every focus/device/pause test passes",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-07",
+    "risk": "Survivor path bugs block ending",
+    "owner": "AI engineer",
+    "review_gate": "M14",
+    "mitigation": "Unique roster, authored safe routes and concealed recovery",
+    "fallback": "Reduce background dynamic navigation, preserve independent choice",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-08",
+    "risk": "Environmental repetition",
+    "owner": "Lead designer",
+    "review_gate": "M12",
+    "mitigation": "Track reasoning language and palette/scale changes per sequence",
+    "fallback": "Merge weak repeats and strengthen transitions rather than slow traversal",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-09",
+    "risk": "Campaign duration too short/long",
+    "owner": "Director/producer",
+    "review_gate": "M14",
+    "mitigation": "Fresh timed runs with solve/stall separation",
+    "fallback": "Reallocate authored beats; no forced waits to meet 225 minutes",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-10",
+    "risk": "Visuals drift toward photorealism",
+    "owner": "Art lead",
+    "review_gate": "M07",
+    "mitigation": "Gameplay-camera matte/simple-form benchmark, grayscale review",
+    "fallback": "Remove high-frequency textures and uncontrolled gloss",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-11",
+    "risk": "Readable subtlety becomes invisibility",
+    "owner": "Art/audio leads",
+    "review_gate": "M13",
+    "mitigation": "Low brightness, reduced effects, captions and no-audio tests",
+    "fallback": "Strengthen posture/composition; avoid neon markers by default",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-12",
+    "risk": "Animation backlog exceeds capacity",
+    "owner": "Producer/animation lead",
+    "review_gate": "M13",
+    "mitigation": "Reuse adult skeleton; separate authored hero contacts from reusable layers",
+    "fallback": "Reduce decorative variants before core contact and finale animation",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-13",
+    "risk": "Streaming breaks active relationships",
+    "owner": "Engineering",
+    "review_gate": "M07",
+    "mitigation": "Dependency pin graph and single authoritative actor",
+    "fallback": "Smaller chunks or simpler proxies; never unload live owner",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-14",
+    "risk": "Engine support expires during schedule",
+    "owner": "Technical lead",
+    "review_gate": "M15",
+    "mitigation": "Compatibility lock and planned support review; tested upgrade branch",
+    "fallback": "Upgrade before late stabilization or procure appropriate support after review",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-15",
+    "risk": "No production-rate evidence",
+    "owner": "Producer",
+    "review_gate": "M13",
+    "mitigation": "Log actual integration/rework time per slice task",
+    "fallback": "Rebaseline staffing/date instead of preserving invented estimate",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-16",
+    "risk": "Rights or distribution requirements missed",
+    "owner": "Producer",
+    "review_gate": "M18",
+    "mitigation": "Asset/license inventory, qualified review and truthful captures",
+    "fallback": "Replace unlicensed content before candidate approval",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-17",
+    "risk": "Accessibility added too late",
+    "owner": "UI/design lead",
+    "review_gate": "M01",
+    "mitigation": "Toggle/remap/captions/breath/reduced-motion built into prototypes",
+    "fallback": "Never fork story outcomes by assistance settings",
+    "status": "Open"
+  },
+  {
+    "id": "RSK-18",
+    "risk": "Key specialist unavailable",
+    "owner": "Producer",
+    "review_gate": "M00",
+    "mitigation": "Shared documentation, source files, cross-training and contractor buffer",
+    "fallback": "Reduce concurrent content work rather than abandon technical ownership",
+    "status": "Open"
+  }
+]

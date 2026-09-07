@@ -1,0 +1,41 @@
+﻿id,name,owner,dependencies,milestone,acceptance,status
+SYS-01,Bootstrap and service lifetime,Engineering,[],M00,Single clock/player/save authority; clean startup and return to menu without duplicate services,Backlog
+SYS-02,Input and accessibility routing,Gameplay/UI,"[""SYS-01""]",M01,Remap and toggle work; canceled input is not voluntary release; focus/device tests pass,Backlog
+SYS-03,Lane capsule motor,Gameplay,"[""SYS-02""]",M01,Run/turn/jump/crouch/step pass contact gym at 30/60/120 fps,Backlog
+SYS-04,Ledge and ladder interaction,Gameplay/animation,"[""SYS-03""]",M01,Clearance and hand constraints validated; blocked climb returns safely,Backlog
+SYS-05,Contextual interaction resolver,Gameplay,"[""SYS-03""]",M01,Stable socket selection and informative denial; no target switching during committed action,Backlog
+SYS-06,Hold ownership transactions,Gameplay,"[""SYS-05""]",M02,"One personal owner, atomic transfer, legal release, support capture and idempotence tests pass",Backlog
+SYS-07,Mechanism drivers,Gameplay/physics,"[""SYS-01""]",M02,Bounded slider/hinge/rotator/track coordinates resume consistently after Hold,Backlog
+SYS-08,Supports and load graph,Gameplay,"[""SYS-06"", ""SYS-07""]",M03,Mechanical support removes bearer requirement; no orphan owner or cyclic unsupported state,Backlog
+SYS-09,Moving support and crush,Gameplay/physics,"[""SYS-03"", ""SYS-07""]",M03,Relative platform motion and swept closing volumes pass all frame-rate fixtures,Backlog
+SYS-10,Puzzle facts and sequence exits,Design/engineering,"[""SYS-08""]",M04,Exit depends on physical predicate; sequence jump cannot bypass root prerequisites,Backlog
+SYS-11,Checkpoint snapshot service,Engineering,"[""SYS-06"", ""SYS-10""]",M04,Coherent state restores after every ownership/support boundary,Backlog
+SYS-12,Save integrity and migration,Engineering,"[""SYS-11""]",M10,Interrupted write preserves prior generation; supported schemas migrate and invalid data fails safely,Backlog
+SYS-13,Local streaming and residency,Engineering,"[""SYS-01"", ""SYS-11""]",M07,Active relationships pin chunks; no activation deadlock or unbalanced asset handle,Backlog
+SYS-14,Camera volumes and leads,Technical art,"[""SYS-03""]",M07,Route/threat/interaction all legible at standard and alternate aspect ratios,Backlog
+SYS-15,Animation presentation state,Animation/engineering,"[""SYS-03"", ""SYS-05""]",M01,Responsive motor plus additive contact/gaze/breath; animation never owns puzzle outcome,Backlog
+SYS-16,Foot/hand contact IK,Animation/technical art,"[""SYS-15""]",M07,Contacts meet moving sockets; correction cannot drag capsule through obstruction,Backlog
+SYS-17,Audio router and mixes,Audio/engineering,"[""SYS-01"", ""SYS-15""]",M05,Critical cue allocation and dry/wet/breath state remain synchronized through restart,Backlog
+SYS-18,VFX reaction bundles,VFX/technical art,"[""SYS-07""]",M07,Connected response with scalable cosmetic pools; Hold never freezes unrelated particles,Backlog
+SYS-19,Custodian perception and pursuit,Gameplay/AI,"[""SYS-03"", ""SYS-09""]",M06,Sight/hearing/last known route explain capture; covered and exposed harness rules visible,Backlog
+SYS-20,Harness restraint and awareness,Gameplay/animation,"[""SYS-06"", ""SYS-19""]",M06,Body channel arrests while eyes/breath persist; no immunity introduced for convenience,Backlog
+SYS-21,Porter rail rescue AI,Gameplay/AI,"[""SYS-07"", ""SYS-09""]",M06,Detect/reach/secure/retract cycle stays bounded; sack demonstration and three encounter contexts agree,Backlog
+SYS-22,Sheet concealment,Design/AI,"[""SYS-19""]",M05,Wet thin silhouette differs from thick cover; visibility derives from tagged blockers not arbitrary camera state,Backlog
+SYS-23,Water volume graph,Gameplay/technical art,"[""SYS-07""]",M08,Level/flow/head and rendered surface agree; bounded overflow and drainage are recoverable,Backlog
+SYS-24,Swimming and breath,Gameplay/animation,"[""SYS-03"", ""SYS-23""]",M08,"Surface hysteresis, one-hand swim, warnings, refill and assistance pass timed routes",Backlog
+SYS-25,Bell air pocket and winch,Gameplay/physics,"[""SYS-06"", ""SYS-23"", ""SYS-24""]",M08,Pocket follows pose/level; tipping spills air; saved hose/pocket/player remain coherent,Backlog
+SYS-26,Wet-cloth mass,Gameplay/technical art,"[""SYS-07"", ""SYS-23""]",M13,Saturation and drainage drive predictable rack/lift position without uncontrolled fluid simulation,Backlog
+SYS-27,Reciprocal balance station,Gameplay/animation,"[""SYS-06"", ""SYS-08""]",M09,"Same travel/posture/Hold vocabulary on carrier, room and Ward; only safe exit permitted",Backlog
+SYS-28,Ward support/gait planner,Gameplay/technical art,"[""SYS-09"", ""SYS-27""]",M09,Authored support edges and clearances prevent impossible steps; narrow support and crouch puzzles pass,Backlog
+SYS-29,Ward local-room presentation,Technical art/animation,"[""SYS-15"", ""SYS-28""]",M09,Interior actors/props move locally and stay contained; readable domestic consequences,Backlog
+SYS-30,Survivor roster and safe routes,Gameplay/AI,"[""SYS-10"", ""SYS-15""]",M14,Twelve unique slots; independent movement on safe routes; no duplicates or stranded mandatory actors,Backlog
+SYS-31,Narrative event phases,Design/engineering,"[""SYS-10"", ""SYS-11""]",M04,Idempotent opening/reveals/ending survive interruption and do not steal unrelated control,Backlog
+SYS-32,Final root release guard,Engineering/UI,"[""SYS-02"", ""SYS-12"", ""SYS-30"", ""SYS-31""]",M09,Pause/focus/disconnect/quit never commits release; prerequisites and postrelease persistence enforced,Backlog
+SYS-33,UI and settings,UI/engineering,"[""SYS-02"", ""SYS-12""]",M10,"Menus, slots, caption settings and readable save errors work on controller and keyboard",Backlog
+SYS-34,Localization and captions,UI/audio,"[""SYS-17"", ""SYS-33""]",M13,No audio-only required solution; text expansion and sound direction caption layouts pass,Backlog
+SYS-35,Sequence/ownership debug tools,Tools/engineering,"[""SYS-06"", ""SYS-10""]",M04,Designers inspect live owner/support graph and jump to approved fixtures without editing scripts,Backlog
+SYS-36,Camera/storyboard capture tool,Tools/technical art,"[""SYS-14""]",M07,Standard/reduced-effects contact sheets generated for each sequence review,Backlog
+SYS-37,Asset import validation,Tools/technical art,"[""SYS-01""]",M07,Scale/sockets/collision/shader/LOD/source checks catch bad exports before merge,Backlog
+SYS-38,Build and regression automation,Engineering/QA,"[""SYS-01""]",M00,Clean checkout packages; EditMode/PlayMode reports and build provenance archived,Backlog
+SYS-39,Performance capture and route replay,Engineering/QA,"[""SYS-13"", ""SYS-38""]",M07,"Packaged cold/warm route captures include frame time, allocation, memory and streaming stalls",Backlog
+SYS-40,Release packaging and recovery,Production/engineering,"[""SYS-12"", ""SYS-33"", ""SYS-38""]",M18,"Clean install/update/uninstall, valid saves, credits/licenses and debug-stripping checks pass",Backlog

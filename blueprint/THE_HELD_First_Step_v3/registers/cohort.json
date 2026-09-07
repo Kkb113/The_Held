@@ -1,0 +1,122 @@
+[
+  {
+    "id": "COH-01",
+    "origin": "Exchange queue",
+    "asset": "CHR-BEARER-04",
+    "release_sequence": "SQ-04-02",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  },
+  {
+    "id": "COH-02",
+    "origin": "Exchange queue",
+    "asset": "CHR-BEARER-01",
+    "release_sequence": "SQ-04-02",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  },
+  {
+    "id": "COH-03",
+    "origin": "Exchange queue",
+    "asset": "CHR-BEARER-04",
+    "release_sequence": "SQ-04-02",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  },
+  {
+    "id": "COH-04",
+    "origin": "Exchange queue",
+    "asset": "CHR-BEARER-01",
+    "release_sequence": "SQ-04-02",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  },
+  {
+    "id": "COH-05",
+    "origin": "Exchange queue",
+    "asset": "CHR-BEARER-04",
+    "release_sequence": "SQ-04-02",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  },
+  {
+    "id": "COH-06",
+    "origin": "Exchange queue",
+    "asset": "CHR-BEARER-01",
+    "release_sequence": "SQ-04-02",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  },
+  {
+    "id": "COH-07",
+    "origin": "Laundry attendants",
+    "asset": "CHR-BEARER-02",
+    "release_sequence": "SQ-03-03 (load relieved); SQ-07-04 (route opened)",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  },
+  {
+    "id": "COH-08",
+    "origin": "Laundry attendants",
+    "asset": "CHR-BEARER-02",
+    "release_sequence": "SQ-03-03 (load relieved); SQ-07-04 (route opened)",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  },
+  {
+    "id": "COH-09",
+    "origin": "Laundry attendants",
+    "asset": "CHR-BEARER-02",
+    "release_sequence": "SQ-03-03 (load relieved); SQ-07-04 (route opened)",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  },
+  {
+    "id": "COH-10",
+    "origin": "Burden House",
+    "asset": "CHR-BEARER-03",
+    "release_sequence": "SQ-07-04",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  },
+  {
+    "id": "COH-11",
+    "origin": "Burden House",
+    "asset": "CHR-BEARER-03",
+    "release_sequence": "SQ-07-04",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  },
+  {
+    "id": "COH-12",
+    "origin": "Orren",
+    "asset": "CHR-ORREN",
+    "release_sequence": "SQ-04-04",
+    "safe_destination": "Relief hostel, then inland receiving platform",
+    "final_exit": "SQ-09-05",
+    "authority_rule": "One live presentation per slot; Ward and route proxies mutually exclusive.",
+    "status": "Backlog"
+  }
+]

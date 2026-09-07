@@ -1,38 +1,27 @@
-# THE HELD — Production Package v1.0
+# The Held: The First Step
 
-Production baseline: 7 September 2026.
+Updated 8 September 2026. The First Step v3 replaces the previous game blueprint. The imported package is the creative baseline; the root roadmap defines how this workspace will build it.
 
-## Start here
+## Read in this order
 
-Read THE_HELD_Master_Blueprint_v1.pdf for the 75-page master specification. The DOCX is the editable document; Markdown is the plain-text source. The PDF contents page includes internal navigation links. Use THE_HELD_Production_Registers_v1.xlsx to assign work and track gates.
+1. [New master blueprint](blueprint/THE_HELD_First_Step_v3/THE_HELD_First_Step_Master_v3.md) — complete story, forty sequences, puzzles and production contracts.
+2. [Implementation roadmap](implementation.md) — revision 3.0, **draft for user review**, thirty-seven sequential phases FS00–FS36. No phase has started.
+3. [Story and production review](review/v3/Story_and_Production_Review.md) — complete reading, research, twelve contract clarifications and their implementation deadlines.
+4. [Original package navigation](blueprint/THE_HELD_First_Step_v3/START_HERE.md) — original PDF, DOCX, workbook, registers, schemas and source-package validation.
+5. [Visual reference board](review/visual-references/README.md) — preserved user prototypes and official INSIDE studies, interpreted against v3.
 
-The canonical protagonist is Ivo, a 13-year-old boy. The campaign target is 225 minutes / 3 hours 45 minutes / 3.75 decimal hours. The brief's separate five-to-five-and-a-half-hour mention is not part of this scope.
+The campaign starts in Ivo and Anja's apartment. FS01 makes the actual kitchen playable; FS11 assembles the first approximately fifteen minutes. Early Laundry and Ward fixtures prove production risks without changing the campaign order.
 
-## Production files
+## Workspace decisions
 
-- Master blueprint: full narrative, 48 sequence cards, controller/Hold contracts, puzzle and enemy behavior, art/audio/animation standards, TDD, assets, milestones, QA, risks and delivery.
-- Workbook: 13 sheets covering Dashboard, Chapters, Sequences, Assets, Systems, Environment Kits, Animation, Audio, Milestones, Tests, Risks, First Sprint and Sources.
-- registers/: 12 JSON registers and matching UTF-8 CSV exports for task-tracker import. The sequences JSON/CSV contains the complete room-card fields, not only the workbook summary.
-- PACKAGE_MANIFEST.json: file hashes and scope counts for this delivered package.
+Unreal, Blender, Visual Studio, C++/Blueprints and Python remain the tools. Final REAPER audio follows gameplay completion; temporary informative cues and audio integration hooks belong in early playable builds. The package's Unity proposal and overlapping staffing schedule do not override these user decisions. See [development direction](DEVELOPMENT_DIRECTION.md).
 
-## Planning units
+Existing PH00/PH01 code, art, builds and test evidence are preserved for inspection and possible reuse. They are historical work against the superseded design, not an accepted First Step campaign. No runtime files were changed by this migration. Old blueprint files and registers have been removed from the active checkout; their recovery reference is in [history](history/README.md).
 
-8 chapters; 48 sequences; 29 numbered puzzle concepts; 200 asset-family work packages; 40 system/state work packages; 18 milestone records including setup and stabilization; 48 initial test cases; 14 risks; 20 first-sprint tasks; 15 primary-source entries.
+## Package integrity
 
-Initial allocations: 162 animation clips/poses, 348 audio exports/stems/variants and 212 environment-module slots. These are planning budgets, not completed assets or mandatory unique file counts. Reuse and measured throughput should revise them.
+Source archive: `THE_HELD_First_Step_Production_Package_v3.zip`.
 
-## What has and has not been validated
+SHA-256: `1e64f6bb4a1d75ecb95d09dbbf301b460afc0ca20539984678b5ce041cfb8f37`.
 
-The files were checked for document/register consistency, chapter-time totals, reference completeness, workbook formula errors and rendered document layout. These checks do not validate game mechanics, commercial performance, production cost or player response.
-
-No Unity project, final models, paintings, audio recordings or playable game is included. All work statuses are initial. The specification is ready to begin controlled preproduction; bulk content production is gated on M11, the final-quality 25-minute Laundry vertical slice. Numeric feel/performance/schedule values are proposed starting points to test.
-
-## Immediate next action
-
-Execute M00/M01 and the 20 first-sprint work packages. Prove movement, resumed motion, atomic ownership transfer, support-based relief, a small station and safe interruption of final-root-like input before commissioning the full inventory.
-
-## File conventions
-
-IDs are stable. Rename display titles without renaming IDs. Sequences reference package families. Test and milestone statuses must be updated only with evidence. Changes to personal/station Hold semantics, root ownership, save schema or narrative causality require synchronized changes to the master and registers.
-
-The master includes source URLs and explicit research limitations. Reference art is not included or licensed for reuse. THE HELD is a working title, not a cleared commercial name.
+The imported files are unchanged. [Audit results](review/v3/package_audit.json) cover 45 manifest-listed files, register IDs and document/workbook coverage. [Planning validation](review/v3/planning_validation.json) is data validation, not evidence that the game tests have passed. All 131 supplied game tests remain Not run for v3. Optional JSON Schema validation was unavailable in the current Python runtime.

@@ -1,0 +1,29 @@
+{
+  "scope": "Roadmap structure, ID coverage and authored local links; no game tests.",
+  "phase_count": 37,
+  "required_fields_per_phase": 8,
+  "coverage": {
+    "sequences": {
+      "expected": 40,
+      "mapped_exactly_once": true
+    },
+    "puzzles": {
+      "expected": 31,
+      "mapped_exactly_once": true
+    },
+    "systems": {
+      "expected": 40,
+      "mapped_exactly_once": true
+    },
+    "tests": {
+      "expected": 131,
+      "mapped_exactly_once": true
+    },
+    "narrative_facts": {
+      "expected": 19,
+      "mapped_exactly_once": true
+    }
+  },
+  "local_links_checked": 28,
+  "status": "PASS"
+}

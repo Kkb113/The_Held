@@ -1,0 +1,24 @@
+{
+  "package": "THE HELD First Step v3",
+  "scope": "Planning-data consistency only; all unbuilt game tests remain Not run.",
+  "counts": {
+    "chapters": 9,
+    "sequences": 40,
+    "assets": 164,
+    "systems": 40,
+    "puzzles": 31,
+    "animation": 211,
+    "audio": 52,
+    "sources": 19,
+    "cohort": 12,
+    "milestones": 21,
+    "risks": 18,
+    "sprint01": 20,
+    "tests": 131,
+    "narrative_facts": 19
+  },
+  "campaign_minutes": 225,
+  "checkpoint_ids": 40,
+  "schema_validation": "passed for supplied examples and sequence shapes",
+  "status": "PASS"
+}

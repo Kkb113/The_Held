@@ -1,0 +1,336 @@
+{
+  "scope": "Document and planning-data audit only. No engine tests or new playtests executed.",
+  "package_integrity": [
+    {
+      "path": "CHANGELOG.md",
+      "pass": true
+    },
+    {
+      "path": "DELIVERY_CHECKS.json",
+      "pass": true
+    },
+    {
+      "path": "START_HERE.md",
+      "pass": true
+    },
+    {
+      "path": "THE_HELD_First_Step_Master_v3.docx",
+      "pass": true
+    },
+    {
+      "path": "THE_HELD_First_Step_Master_v3.md",
+      "pass": true
+    },
+    {
+      "path": "THE_HELD_First_Step_Master_v3.pdf",
+      "pass": true
+    },
+    {
+      "path": "THE_HELD_First_Step_Production_Registers_v3.xlsx",
+      "pass": true
+    },
+    {
+      "path": "implementation/README.md",
+      "pass": true
+    },
+    {
+      "path": "implementation/event.example.json",
+      "pass": true
+    },
+    {
+      "path": "implementation/event.schema.json",
+      "pass": true
+    },
+    {
+      "path": "implementation/mechanism_state.example.json",
+      "pass": true
+    },
+    {
+      "path": "implementation/mechanism_state.schema.json",
+      "pass": true
+    },
+    {
+      "path": "implementation/root_release.example.json",
+      "pass": true
+    },
+    {
+      "path": "implementation/root_release.schema.json",
+      "pass": true
+    },
+    {
+      "path": "implementation/sequence.schema.json",
+      "pass": true
+    },
+    {
+      "path": "registers/animation.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/animation.json",
+      "pass": true
+    },
+    {
+      "path": "registers/assets.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/assets.json",
+      "pass": true
+    },
+    {
+      "path": "registers/audio.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/audio.json",
+      "pass": true
+    },
+    {
+      "path": "registers/chapters.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/chapters.json",
+      "pass": true
+    },
+    {
+      "path": "registers/cohort.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/cohort.json",
+      "pass": true
+    },
+    {
+      "path": "registers/milestones.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/milestones.json",
+      "pass": true
+    },
+    {
+      "path": "registers/narrative_facts.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/narrative_facts.json",
+      "pass": true
+    },
+    {
+      "path": "registers/puzzles.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/puzzles.json",
+      "pass": true
+    },
+    {
+      "path": "registers/risks.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/risks.json",
+      "pass": true
+    },
+    {
+      "path": "registers/sequences.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/sequences.json",
+      "pass": true
+    },
+    {
+      "path": "registers/sources.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/sources.json",
+      "pass": true
+    },
+    {
+      "path": "registers/sprint01.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/sprint01.json",
+      "pass": true
+    },
+    {
+      "path": "registers/systems.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/systems.json",
+      "pass": true
+    },
+    {
+      "path": "registers/tests.csv",
+      "pass": true
+    },
+    {
+      "path": "registers/tests.json",
+      "pass": true
+    },
+    {
+      "path": "validate_package.py",
+      "pass": true
+    },
+    {
+      "path": "validation_report.json",
+      "pass": true
+    }
+  ],
+  "mirrors": {
+    "animation": {
+      "rows": 211,
+      "ordered_ids_match": true
+    },
+    "assets": {
+      "rows": 164,
+      "ordered_ids_match": true
+    },
+    "audio": {
+      "rows": 52,
+      "ordered_ids_match": true
+    },
+    "chapters": {
+      "rows": 9,
+      "ordered_ids_match": true
+    },
+    "cohort": {
+      "rows": 12,
+      "ordered_ids_match": true
+    },
+    "milestones": {
+      "rows": 21,
+      "ordered_ids_match": true
+    },
+    "narrative_facts": {
+      "rows": 19,
+      "ordered_ids_match": true
+    },
+    "puzzles": {
+      "rows": 31,
+      "ordered_ids_match": true
+    },
+    "risks": {
+      "rows": 18,
+      "ordered_ids_match": true
+    },
+    "sequences": {
+      "rows": 40,
+      "ordered_ids_match": true
+    },
+    "sources": {
+      "rows": 19,
+      "ordered_ids_match": true
+    },
+    "sprint01": {
+      "rows": 20,
+      "ordered_ids_match": true
+    },
+    "systems": {
+      "rows": 40,
+      "ordered_ids_match": true
+    },
+    "tests": {
+      "rows": 131,
+      "ordered_ids_match": true
+    }
+  },
+  "master_lines": 3815,
+  "master_words": 46616,
+  "pdf_pages": 120,
+  "all_sequence_ids_present_in_documents": {
+    "markdown": true,
+    "docx": true,
+    "pdf": true
+  },
+  "workbook_sheets": [
+    "Dashboard",
+    "Chapters",
+    "Sequences",
+    "Puzzles",
+    "Assets",
+    "Systems",
+    "Animation",
+    "Audio",
+    "Milestones",
+    "Tests",
+    "Risks",
+    "Sprint01",
+    "Cohort",
+    "NarrativeFacts",
+    "Sources"
+  ],
+  "workbook_ids": {
+    "Chapters": {
+      "required_ids": 9,
+      "missing": []
+    },
+    "Sequences": {
+      "required_ids": 40,
+      "missing": []
+    },
+    "Puzzles": {
+      "required_ids": 31,
+      "missing": []
+    },
+    "Assets": {
+      "required_ids": 164,
+      "missing": []
+    },
+    "Systems": {
+      "required_ids": 40,
+      "missing": []
+    },
+    "Animation": {
+      "required_ids": 211,
+      "missing": []
+    },
+    "Audio": {
+      "required_ids": 52,
+      "missing": []
+    },
+    "Milestones": {
+      "required_ids": 21,
+      "missing": []
+    },
+    "Tests": {
+      "required_ids": 131,
+      "missing": []
+    },
+    "Risks": {
+      "required_ids": 18,
+      "missing": []
+    },
+    "Sprint01": {
+      "required_ids": 20,
+      "missing": []
+    },
+    "Cohort": {
+      "required_ids": 12,
+      "missing": []
+    },
+    "NarrativeFacts": {
+      "required_ids": 19,
+      "missing": []
+    },
+    "Sources": {
+      "required_ids": 19,
+      "missing": []
+    }
+  },
+  "workbook_formula_count": 76,
+  "workbook_cached_errors": [],
+  "workbook_limit": "Read-only IDs and cached-error checks; no native Excel recalculation or cell-by-cell prose equality claim.",
+  "animation_count": 211,
+  "audio_variants": 399,
+  "game_test_statuses": {
+    "Not run": 131
+  },
+  "document_limit": "Master Markdown read in full; PDF/DOCX extraction verifies sequence coverage, not exact typography/prose equivalence.",
+  "source_zip_sha256": "1e64f6bb4a1d75ecb95d09dbbf301b460afc0ca20539984678b5ce041cfb8f37"
+}

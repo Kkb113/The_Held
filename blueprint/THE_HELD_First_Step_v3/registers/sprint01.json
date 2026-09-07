@@ -1,0 +1,222 @@
+[
+  {
+    "id": "SP-01",
+    "task": "Create source repository and binary locking",
+    "owner": "Engineering",
+    "dependencies": [],
+    "done_when": "Clean checkout with documented editor version and no copied proprietary assets",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-02",
+    "task": "Resolve engine/package matrix",
+    "owner": "Technical lead",
+    "dependencies": [
+      "SP-01"
+    ],
+    "done_when": "Locked manifest builds and launches on second machine",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-03",
+    "task": "Define stable IDs and register importer contract",
+    "owner": "Engineering/design",
+    "dependencies": [
+      "SP-01"
+    ],
+    "done_when": "Duplicate/missing-ID tests fail clearly",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-04",
+    "task": "Build metric floor/gap/slope gym",
+    "owner": "Level design",
+    "dependencies": [],
+    "done_when": "2 m gap, steps and slopes visibly labeled in debug only",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-05",
+    "task": "Implement basic lane motor",
+    "owner": "Gameplay engineer",
+    "dependencies": [
+      "SP-02",
+      "SP-04"
+    ],
+    "done_when": "Run/turn/jump at 30/60/120 fps with recorded tuning",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-06",
+    "task": "Import temporary Ivo rig and locomotion",
+    "owner": "Animator",
+    "dependencies": [
+      "SP-04"
+    ],
+    "done_when": "Scale/feet align to capsule without delaying valid jump",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-07",
+    "task": "Create input actions and toggle intent model",
+    "owner": "Gameplay/UI",
+    "dependencies": [
+      "SP-02"
+    ],
+    "done_when": "Pause/focus/device canceled input is distinguishable from release",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-08",
+    "task": "Build slider and rotator runtime",
+    "owner": "Gameplay engineer",
+    "dependencies": [
+      "SP-03"
+    ],
+    "done_when": "Fixed-step q/v driver captures and resumes bounded states",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-09",
+    "task": "Implement Hold ownership unit fixtures",
+    "owner": "Technical lead",
+    "dependencies": [
+      "SP-07",
+      "SP-08"
+    ],
+    "done_when": "No double owner or unowned transfer frame",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-10",
+    "task": "Build first shutter safe-observation room",
+    "owner": "Level design",
+    "dependencies": [
+      "SP-05",
+      "SP-08"
+    ],
+    "done_when": "Full motion can be observed before lethal crossing",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-11",
+    "task": "Block support/pawl relief room",
+    "owner": "Level design",
+    "dependencies": [
+      "SP-04"
+    ],
+    "done_when": "Mechanical support visibly replaces a held load",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-12",
+    "task": "Capture licensed reference session",
+    "owner": "Director/animator",
+    "dependencies": [],
+    "done_when": "Observation sheet separates measured footage from assumptions",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-13",
+    "task": "Approve nonphotoreal material swatches",
+    "owner": "Art lead",
+    "dependencies": [
+      "SP-04"
+    ],
+    "done_when": "Matte concrete/steel/cloth/porcelain read from gameplay camera",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-14",
+    "task": "Draft nine-area geographic elevation",
+    "owner": "Director/environment art",
+    "dependencies": [],
+    "done_when": "Garden/laundry/exchange/cut/water/root/hostel connections are physically coherent",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-15",
+    "task": "Block Ward silhouette and support route",
+    "owner": "Technical artist",
+    "dependencies": [
+      "SP-04"
+    ],
+    "done_when": "Two chimneys/curtain, four shoes and clear receiving supports fit proposed envelope",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-16",
+    "task": "Prototype paired input on small carrier",
+    "owner": "Gameplay/technical art",
+    "dependencies": [
+      "SP-08",
+      "SP-15"
+    ],
+    "done_when": "Travel/posture/Hold mapping works without per-foot commands",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-17",
+    "task": "Define water/bell test geometry",
+    "owner": "Level design/engineering",
+    "dependencies": [
+      "SP-04"
+    ],
+    "done_when": "Guided bell and tipping dock explain pocket survival/loss",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-18",
+    "task": "Create audio state and cue naming sheet",
+    "owner": "Audio lead",
+    "dependencies": [
+      "SP-03"
+    ],
+    "done_when": "Foot/breath/load cues share authoritative tags; critical caption candidates marked",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-19",
+    "task": "Set automated build and test smoke",
+    "owner": "Engineering/QA",
+    "dependencies": [
+      "SP-02"
+    ],
+    "done_when": "Clean packaged build and test report archived with commit ID",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "SP-20",
+    "task": "Review risks and next sprint estimates",
+    "owner": "Producer/all leads",
+    "dependencies": [
+      "SP-09",
+      "SP-12",
+      "SP-15",
+      "SP-17",
+      "SP-19"
+    ],
+    "done_when": "Owners, unresolved questions and evidence-based next tasks signed; no bulk asset order",
+    "status": "Backlog",
+    "estimate_person_days": null
+  }
+]

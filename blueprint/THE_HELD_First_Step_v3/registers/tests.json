@@ -1,0 +1,1778 @@
+[
+  {
+    "id": "TST-001",
+    "title": "Kitchen chair and cover — intended route",
+    "references": [
+      "PZ-01",
+      "SQ-01-01"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-01-01 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Cover accessible and interaction completed with free hands; Fresh tester finds the door obstruction without a prompt in 60 seconds; alternate keyboard/controller inputs do not double-fire the cover event. Idling five minutes leaves a coherent scene.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-002",
+    "title": "Kitchen chair and cover — misuse and interruption",
+    "references": [
+      "PZ-01",
+      "SQ-01-01"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Nonlethal. The chair cannot tip into a softlock or be pushed through the exit. Anja has wait, look and repair loops rather than repeating a greeting. Repeated interaction plays a small acknowledgement, not another full scene. Entry canonical checkpoint; on cover completion save DoorClear, CoverLatched and TwoTapsSeen together. Respawn is beside the cleared doorway, never with the chair intersecting Ivo.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-003",
+    "title": "First shutter — intended route",
+    "references": [
+      "PZ-02",
+      "SQ-01-03"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-01-03 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Ivo crosses readable clearance without changing selected target; Ten attempts at 30/60/120 fps preserve clearance. Wrong-angle arrests are recoverable. A tester can explain that only the selected mechanism stops.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-004",
+    "title": "First shutter — misuse and interruption",
+    "references": [
+      "PZ-02",
+      "SQ-01-03"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Crush zones are attached to moving edges and only active while the sweep threatens Ivo. Tread falls reset locally. No first-use lethal event before the player can see a full cycle. Target selection does not switch midway through Hold. Checkpoint after the shutter and before the tread preserves BraceOwned and the solved shutter clearance. Tread phase resets to the same readable start; shutter is not re-solved after a later fall.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-005",
+    "title": "Rotating tread — intended route",
+    "references": [
+      "PZ-03",
+      "SQ-01-03"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-01-03 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Stable arrested surface permits the demonstrated gap; Ten attempts at 30/60/120 fps preserve clearance. Wrong-angle arrests are recoverable. A tester can explain that only the selected mechanism stops.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-006",
+    "title": "Rotating tread — misuse and interruption",
+    "references": [
+      "PZ-03",
+      "SQ-01-03"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Crush zones are attached to moving edges and only active while the sweep threatens Ivo. Tread falls reset locally. No first-use lethal event before the player can see a full cycle. Target selection does not switch midway through Hold. Checkpoint after the shutter and before the tread preserves BraceOwned and the solved shutter clearance. Tread phase resets to the same readable start; shutter is not re-solved after a later fall.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-007",
+    "title": "Pursuit door — intended route",
+    "references": [
+      "PZ-04",
+      "SQ-01-04"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-01-04 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Ivo reaches safe recess and door separates the visible guard; First-time players see both route and pursuer before danger. Median replay cost after a capture remains under 35 s. Fast players cannot outrun asset streaming.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-008",
+    "title": "Pursuit door — misuse and interruption",
+    "references": [
+      "PZ-04",
+      "SQ-01-04"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Capture requires a real approach and swept contact, not a camera trigger. Guard speed is tuned below Ivo’s full run with a head start; no hidden teleport or late rubber-band. A failure resets to the pursuit start, not the preceding tread. Entry pursuit snapshot has guard at top of stair and door at known phase. DoorBlocked is saved only after Ivo is in the exterior-safe zone. Repeated restart does not duplicate a second guard.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-009",
+    "title": "Wind panel — intended route",
+    "references": [
+      "PZ-05",
+      "SQ-02-01"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-02-01 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Traverse panel while unconnected wind remains active; A grayscale review keeps the panel distinct from decorative screens. Muting audio does not obscure the moving hazard. Hold never affects the bird or wind cloth.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-010",
+    "title": "Wind panel — misuse and interruption",
+    "references": [
+      "PZ-05",
+      "SQ-02-01"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "The first poor arrest drops the panel toward a shallow recoverable ledge rather than an instant death. Critical ground edges are not hidden by foreground reeds. Bird behavior does not introduce a stealth penalty. Save at stable stone before and after the panel. Bird state may be reconstructed from an ambient seed; panel phase and personal ownership must be exact.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-011",
+    "title": "Garden diversion — intended route",
+    "references": [
+      "PZ-06",
+      "SQ-02-02"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-02-02 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Latched side channel lowers float onto traversable stop; The player can infer the bad consequence of the initial Hold from the same shot. Solving by releasing early remains legal. Water volumes and float never overlap Ivo into a wall.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-012",
+    "title": "Garden diversion — misuse and interruption",
+    "references": [
+      "PZ-06",
+      "SQ-02-02"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "A wrong order raises water toward a visibly marked overflow, then stabilizes; it does not unexpectedly flood the entire chapter. Ivo can return to the ledge. Falls land in a shallow recovery pool. Persist DiversionOpen and basin target state at the exit checkpoint. Mid-puzzle death restores a coherent level/float combination. Do not save a float transform independently of its water driver.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-013",
+    "title": "First Porter — intended route",
+    "references": [
+      "PZ-07",
+      "SQ-02-03"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-02-03 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Cross connected grate through known drive arrest and stone refuges; A novice can state why stone is safer than grating. Holding indefinitely does not let the target switch. The rig cannot reach through the stone refuge or leave its rail.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-014",
+    "title": "First Porter — misuse and interruption",
+    "references": [
+      "PZ-07",
+      "SQ-02-03"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Detection precedes capture by a visible orient-and-reach sequence of at least 1.2 s. The first grate is recoverable by stepping back. No offscreen instant capture. Restart preserves the observed sack demonstration fact and restores the rig parked. Checkpoint before the grate; SackDemoSeen persists. Porter drive phase, route position and capture state reset together. The sack is excluded from repeat collision once the demo completes.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-015",
+    "title": "Laundry bridge transfer — intended route",
+    "references": [
+      "PZ-08",
+      "SQ-03-01"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-03-01 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Anchor sustains bridge and support permits leaving without losing load; At least four of five fresh testers distinguish personal Hold, anchor and mechanical support after play. Zero ownership gaps across 1,000 automated transfer attempts.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-016",
+    "title": "Laundry bridge transfer — misuse and interruption",
+    "references": [
+      "PZ-08",
+      "SQ-03-01"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Wrong-angle anchoring is reversible from either side using the return linkage. The bridge cannot permanently seal the player below it. Initial bridge movement has no enemy pressure. Capture bridge q, owner and pin state together. Exit checkpoint requires pin seated and no personal Hold. Hidden bearer strain matches ownership after reload.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-017",
+    "title": "Hanging corridor — intended route",
+    "references": [
+      "PZ-09",
+      "SQ-03-02"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-03-02 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Rack arrangement opens exit and thick cover blocks demonstrated sight; Occlusion tags agree with the image at all supported effects settings. Player never loses the critical landing behind a foreground sheet. Three consecutive failed attempts do not replay a solved manipulation.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-018",
+    "title": "Hanging corridor — misuse and interruption",
+    "references": [
+      "PZ-09",
+      "SQ-03-02"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "The Custodian detects exposure through tagged thin material but not thick cover, matching the rendered silhouettes. A wrong arrangement provides retreat before capture. Restart at the search approach preserves the solved frame positioning, not an entire re-push sequence. Save frame positions, latch states, cover tags, guard entry phase and B owner. Never rely on cloth simulation to recreate occlusion after reload.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-019",
+    "title": "Wet blanket counterweight — intended route",
+    "references": [
+      "PZ-10",
+      "SQ-03-03"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-03-03 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Saturated rack positions lift; drain and latch make next passage safe; Player can identify why wetness matters without a numeric weight label. No double-Hold solution is required. Saving at every quarter of saturation reconstructs matching height and audio.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-020",
+    "title": "Wet blanket counterweight — misuse and interruption",
+    "references": [
+      "PZ-10",
+      "SQ-03-03"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Overflow is safe and bounded. The rack is guided; cloth simulation cannot change its physical mass or catch in the lift. An incorrect stop can be released and retried from either bank. A support indicator prevents an ambiguous release. Store wetness scalar, inlet/drain states, lift q, anchor owner and service catch. Checkpoint after the catch; wetness resumes from authored state, not wall-clock elapsed time.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-021",
+    "title": "Queue deck jack — intended route",
+    "references": [
+      "PZ-11",
+      "SQ-04-02"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-04-02 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Mechanical jack supports deck and queue-body constraint relaxes; The player can explain why the group relaxed. No mandatory solution harms a civilian. A 20-run checkpoint loop retains jack support and unique survivor IDs.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-022",
+    "title": "Queue deck jack — misuse and interruption",
+    "references": [
+      "PZ-11",
+      "SQ-04-02"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Jack travel is rail-bounded and cannot be lost. Releasing too early lowers the deck toward a visible refuge shelf, allowing recovery; it does not randomly kill the waiting people. A wrong solution shows continuing strain. Persist JackPosition, JackRatchet, DeckSupported and assigned survivor slots atomically. Guard encounter afterward starts from this completed solve.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-023",
+    "title": "Conscious guard/cart/shutter — intended route",
+    "references": [
+      "PZ-12",
+      "SQ-04-03"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-04-03 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Prepositioned cart blocks guard after release; shutter can be Held to exit; Repeated play cannot skip cart preparation through hand exploits. Test restraint/release at every reach phase. The player identifies awareness without a close-up face cinematic.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-024",
+    "title": "Conscious guard/cart/shutter — misuse and interruption",
+    "references": [
+      "PZ-12",
+      "SQ-04-03"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Worker catch requires proximity. Arrested eyes and breath are cosmetic awareness, not extra attack mechanics. Cart barrier collision matches the visible frame. No solution requires Ivo to push heavy equipment with an occupied hand. Checkpoint after cart preparation; cart stop and worker state reset consistently. Exit checkpoint records ConsciousRestraintSeen and the worker safely behind the barrier.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-025",
+    "title": "Orren's stair pawl — intended route",
+    "references": [
+      "PZ-13",
+      "SQ-04-04"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-04-04 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Ratchet bears staircase and OrrenReleased commits; Testers remember Orren by appearance without dialogue. His relief never depends on an optional collectible. The supported stair remains stable in later route snapshots.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-026",
+    "title": "Orren's stair pawl — misuse and interruption",
+    "references": [
+      "PZ-13",
+      "SQ-04-04"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "No timed rescue pressure. A misaligned pawl gives tactile resistance and can be tried again. Orren is protected from the stair’s puzzle collision; unsafe releases remain intercepted by the old harness until support is correct. OrrenFreed commits only when support and route exit are available. Save Orren’s segment index, not a free-wandering transform. Reload cannot duplicate him in both the bay and hostel.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-027",
+    "title": "Exposed counterweight sweep — intended route",
+    "references": [
+      "PZ-14",
+      "SQ-05-01"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-05-01 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Traverse known safe pockets and bounded sweep clearance; Users can identify safe pockets in grayscale. Maximum camera distance still leaves Ivo readable. No hidden mass collider extends beyond its visual sweep envelope.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-028",
+    "title": "Exposed counterweight sweep — misuse and interruption",
+    "references": [
+      "PZ-14",
+      "SQ-05-01"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "The full sweep corridor is visible before commitment. Chalk effects never obscure a lethal edge. A falling minor stone is cosmetic unless explicitly tagged and staged as a hazard. Checkpoint at each stable refuge; driver phase starts in a readable position. Cosmetic debris is reseeded outside Ivo’s contact path, not replayed as damage.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-029",
+    "title": "Balance carrier — intended route",
+    "references": [
+      "PZ-15",
+      "SQ-05-02"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-05-02 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Carrier reaches parked contact and station exit becomes safe; Four of five fresh testers operate and exit within 90 seconds after first entry. Later Ward test uses the same inputs with no new control explanation. No input inversion during camera tracking.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-030",
+    "title": "Balance carrier — misuse and interruption",
+    "references": [
+      "PZ-15",
+      "SQ-05-02"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Teaching fixture is nonlethal. No hidden balancing stamina or stick-wobble minigame. The player cannot exit while the carrier lacks a support and materialize beside it. Save parked or locked support states. Mid-station suspend stores q, posture, phase, owner and Ivo’s station binding. Pausing cannot issue an exit or release.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-031",
+    "title": "Useful falling mass — intended route",
+    "references": [
+      "PZ-16",
+      "SQ-05-03"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-05-03 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Receiving cradle catches released block and raises walkway; The result is repeatable within 2 cm at all render rates. A player can predict which platform will rise before committing. No solution depends on a fortunate bounce.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-032",
+    "title": "Useful falling mass — misuse and interruption",
+    "references": [
+      "PZ-16",
+      "SQ-05-03"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Do not use uncontrolled rigidbody bounce for the puzzle-bearing mass. An authored impact event switches to the seated state after a short compression travel. Cosmetic chips may scatter but cannot knock the player off the safe platform. After the block seats, save CradleAligned, CradleLocked, BlockSeated and WalkwayRaised as one completion. Later deaths cannot demand dropping the block again.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-033",
+    "title": "Porter diversion and moving exit — intended route",
+    "references": [
+      "PZ-17",
+      "SQ-05-04"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-05-04 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Salvage redirects capture and resumed drive aligns exit platform; A correct full-speed run has generous clearance. Controller and keyboard timing both pass. The shared drive state cannot desynchronize on restart or a long pause.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-034",
+    "title": "Porter diversion and moving exit — misuse and interruption",
+    "references": [
+      "PZ-17",
+      "SQ-05-04"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "No unseen catch during the jump. Failure restores the refuge and bundle retrieval stage, preserving the completed counterweight puzzle. Slide direction is controllable within a safe lane; cinematic dust cannot cover the next landing. Checkpoint at refuge before final drive release. Store Porter route phase and exit-platform shared driver together. Successful slide arrival commits CuttingComplete.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-035",
+    "title": "First swim — intended route",
+    "references": [
+      "PZ-18",
+      "SQ-06-01"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-06-01 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Ivo reaches dry landing with visible recovery opportunity; Test 100 waterline crossings with no state chatter, surface jitter or infinite breath from boundary flicker. Novices identify both air exits before diving.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-036",
+    "title": "First swim — misuse and interruption",
+    "references": [
+      "PZ-18",
+      "SQ-06-01"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "First breath warning can be experienced safely beside a surface escape. No ambush during the swimming lesson. Surface collisions and camera bounds must not trap the player under a decorative ceiling. Checkpoints only on the dry landing and full-air pocket during onboarding. Record breath, wetness and water-region ID; restoring a safe checkpoint resets reserve to full.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-037",
+    "title": "Moving air shelter — intended route",
+    "references": [
+      "PZ-19",
+      "SQ-06-02"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-06-02 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Guided bell and pocket reach upper safe access with hose valid; A head can never be both drowning and receiving air in one authoritative tick. Pausing on a rising bell freezes guide, pocket and breath together. All safe catches can be undone from inside.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-038",
+    "title": "Moving air shelter — misuse and interruption",
+    "references": [
+      "PZ-19",
+      "SQ-06-02"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "The pocket requires head-inside validation; touching the bell exterior gives no air. Ivo’s one-arm swim variant is used while sustaining Hold. No timed mechanism continues to drain the safe pocket during observation. Mid-puzzle suspend stores bell q, mooring, dock catch, pocket local plane, hose state and breath. Resume inside the pocket requires its chunk resident before Ivo activates. Dock checkpoint is a safe full-air state.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-039",
+    "title": "Obsolete rescue dock — intended route",
+    "references": [
+      "PZ-20",
+      "SQ-06-03"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-06-03 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Bell avoids tip capture and Ivo secures upper guide from far side; Players recognize why the dock is unsafe before capture. The escape works with sound muted and breath assistance. No AI shortcut crosses a structural rib.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-040",
+    "title": "Obsolete rescue dock — misuse and interruption",
+    "references": [
+      "PZ-20",
+      "SQ-06-03"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Capture has a recoverable reach warning and one interrupted-grab opportunity before failure. If the bell is retrieved, show loss of shelter briefly and reset; do not require watching a long drowning scene. Checkpoint at the fully supplied pocket, with Porter out of reach. Porter route branch, retrieval target, bell guide state and gate state are one encounter snapshot. On success the dock is isolated and the Porter cannot follow into dry rooms.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-041",
+    "title": "Chamber drain — intended route",
+    "references": [
+      "PZ-21",
+      "SQ-06-04"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-06-04 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Water lowered safely and maintenance record/route exposed; The player sees a continuous material history, not collectible exposition. A save made during the drain restores the correct transition phase or its safe completed state without trapping Ivo.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-042",
+    "title": "Chamber drain — misuse and interruption",
+    "references": [
+      "PZ-21",
+      "SQ-06-04"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Keep the short dive within 8 seconds and show the contact from the shelf. Drain flow cannot pull Ivo into an invisible current death. The pump cannot empty a region that the active bell checkpoint still depends on. Persist PumpLatched, RoomDrained and safe stair availability together. Reload on the stair uses the drained volume; no visual water plane can disagree with swim logic.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-043",
+    "title": "Reciprocal domestic room — intended route",
+    "references": [
+      "PZ-22",
+      "SQ-07-02"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-07-02 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Room inclines clear of obstruction and parks on support; Players transfer carrier knowledge without tutorial. The scene reads as a domestic room, not a second industrial vehicle. Prop response is visible but never mechanically random.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-044",
+    "title": "Reciprocal domestic room — misuse and interruption",
+    "references": [
+      "PZ-22",
+      "SQ-07-02"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Wrong posture blocks travel with a visible structural contact. The station safely settles instead of throwing Ivo. The lock cannot confirm without genuine alignment and support contact. Store room guide q, tilt, support and station binding. If restoring a locked state, furniture settles to curated poses outside traversal. One-off cupboard slide does not retrigger as a collision hazard.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-045",
+    "title": "Support instead of root transfer — intended route",
+    "references": [
+      "PZ-23",
+      "SQ-07-04"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-07-04 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Receiving frame holds room; local root strain reduced and cohort route opens; All twelve survivor identities are accounted for without an escort grind. No one can be duplicated or stranded by streaming. The player understands that a change in architecture enabled the rescue.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-046",
+    "title": "Support instead of root transfer — misuse and interruption",
+    "references": [
+      "PZ-23",
+      "SQ-07-04"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "No exit from an unsupported station. The receiving frame cannot be moved while loaded. Wrong alignment blocks lowering into a safe contact state. Civilian movement starts only when the door and route are valid. Persist frame support, five release flags and the twelve-member cohort roster. Civilian exit segments are idempotent. The root hand’s reduced-strain presentation reads the same load fact.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-047",
+    "title": "Discharge proof — intended route",
+    "references": [
+      "PZ-24",
+      "SQ-08-02"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-08-02 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Deflector latched, blockage clear, limited test reaches safe outlet; Players predict the safe outlet before the test. An unsafe configuration is reversible and clearly different. Regression changes to basin geometry must invalidate and retest the proof latch.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-048",
+    "title": "Discharge proof — misuse and interruption",
+    "references": [
+      "PZ-24",
+      "SQ-08-02"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Test water never reaches civilians or traps Ivo on the return path. The valve can always be closed from the safe gallery. Decorative debris does not secretly block the certified channel. DischargeProved commits only when deflector pin, rack clearance and test outlet agree. Save hydraulic test phase or safe closed state; never a certified fact with an obstructed channel.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-049",
+    "title": "Ward receiving pads — intended route",
+    "references": [
+      "PZ-25",
+      "SQ-08-03"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-08-03 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Pads/culvert deployed and obsolete pins released without losing occupied refuge; A tester can point to the receiving route and explain why the building must move. The culvert’s geography makes the later return to Anja plausible. All required preparation is reachable before commitment.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-050",
+    "title": "Ward receiving pads — misuse and interruption",
+    "references": [
+      "PZ-25",
+      "SQ-08-03"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Do not allow entry into an occupied relocation machine before receiving supports are prepared. This is enforced by physical service interlocks and an unavailable open-cradle release, not an unexplained objective wall. No civilians are endangered during preparation. Save each pad lock and CulvertOpened. All preparations must remain visible in the finale. CohortReady validates twelve distinct slots, not twelve spawned clones.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-051",
+    "title": "Open cradle and balance — intended route",
+    "references": [
+      "PZ-26",
+      "SQ-08-04",
+      "SQ-09-01"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-08-04 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Station occupied; valid balance handover; current safe support maintained; Input remapping and toggle settings can complete the transfer. Quit/resume cannot close a permanent collar. The player knows how to release the station once mechanically supported.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-052",
+    "title": "Open cradle and balance — misuse and interruption",
+    "references": [
+      "PZ-26",
+      "SQ-08-04",
+      "SQ-09-01"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "No surprise permanent conversion. The open release hardware and the blocked-under-load rule are clearly visible. A failed preparation check offers a specific blocked handle response and a route back. Checkpoint immediately before ownership transfer and a supported station state afterward. Save station binding, parking clamps, route proof, pads and cohort together.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-053",
+    "title": "Narrow support — intended route",
+    "references": [
+      "PZ-27",
+      "SQ-09-03"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-09-03 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Ward center/support envelope permits next route edge without pitching rooms; Outcome is repeatable at 30/60/120 fps. A novice can recover from initial misalignment. The player never needs to solve by memorizing invisible foot order.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-054",
+    "title": "Narrow support — misuse and interruption",
+    "references": [
+      "PZ-27",
+      "SQ-09-03"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Default misalignment is recoverable. A severe committed failure resets to the last stable support without graphic civilian deaths. Holding offers unlimited thinking time; the puzzle still needs correct posture and support engagement. Commit stable support snapshots only at verified shoe contacts. Save route q, gait phase, posture, support mask, locks and each survivor bay binding. Interior props reset outside traversal hazards.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-055",
+    "title": "Crouch under girder — intended route",
+    "references": [
+      "PZ-28",
+      "SQ-09-04"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-09-04 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Lowered clearance envelope passes girder and restores receiving-pad alignment; The girder problem is understood visually from the approach. Camera motion reduction does not crop the roof. Collision and art margins remain valid after mesh revisions.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-056",
+    "title": "Crouch under girder — misuse and interruption",
+    "references": [
+      "PZ-28",
+      "SQ-09-04"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Roof contact is recoverable while both support pairs are safe. Decorative curtain/loose trim may brush without an invisible lethal collision. A committed unsafe lift under the girder gives a clear warning and local reset, not a long falling-house movie. Safe checkpoint before lowering and after far support. Store posture and clearance phase. Restoring a lowered state cannot spawn an upright collider through the girder.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-057",
+    "title": "Kneel and support — intended route",
+    "references": [
+      "PZ-29",
+      "SQ-09-05"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-09-05 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Porch aligns; twelve survivors exit; locks carry building and cradle releases Ivo; All twelve are visibly accounted for across framing, not necessarily simultaneously. Full-state reload preserves an empty safe hostel and Ivo outside the station. No remaining personal burden is silently discarded.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-058",
+    "title": "Kneel and support — misuse and interruption",
+    "references": [
+      "PZ-29",
+      "SQ-09-05"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "Evacuation begins only after stable support and route checks. Small prop obstructions are disabled or cleared before NPC traversal. A stuck NPC watchdog moves them to a nearby valid continuation out of sight, never kills them or increments the count invisibly. Persist WardSupported, twelve unique SurvivorSafe flags, CradleReleased and root-return access. The final gate needs Orren in the correct route segment, not a newly spawned duplicate.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-059",
+    "title": "Final handover — intended route",
+    "references": [
+      "PZ-30",
+      "SQ-09-06"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-09-06 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Mother-to-Ivo ownership transfer after verified safe prerequisites; Test every menu/input/disconnect edge around handover. Exactly one release event can fire. Players understand why they are letting go and why this does not destroy the refuge.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-060",
+    "title": "Final handover — misuse and interruption",
+    "references": [
+      "PZ-30",
+      "SQ-09-06"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "This contact is nonlethal. Unplugging a controller, losing focus, quitting or opening a menu cannot count as release. Rejected readiness checks report an explicit development assertion; shipping progression should make them impossible. RootReady, PlayerHasGovernor and FinalReleaseArmed are separate states. Suspend preserves the root safely; resume requires new deliberate intent. FinalReleaseCommitted is an idempotent irreversible event.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-061",
+    "title": "Deliberate root release — intended route",
+    "references": [
+      "PZ-31",
+      "SQ-09-07"
+    ],
+    "steps": "Load the authored initial state. Follow the solution in SQ-09-07 with controller, then keyboard. Repeat at 30/60/120 fps.",
+    "expected": "Voluntary armed release commits root fact and safe discharge; postrelease retry is coherent; The escape is solvable on first sight. A retry costs under 30 seconds and does not replay the emotional contact. The water effect agrees with the proved channel.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-062",
+    "title": "Deliberate root release — misuse and interruption",
+    "references": [
+      "PZ-31",
+      "SQ-09-07"
+    ],
+    "steps": "Use the wrong order; release early/late; approach every contact with occupied hands; pause and restart at each ownership/support transition.",
+    "expected": "No unfamiliar hazard language. A failure restores a post-release local checkpoint, never forces another goodbye or reverses Anja’s death. Structural collapse uses authored states; cinematic debris cannot create random blockers. Use a post-release immutable story ledger plus local escape snapshots. On reload, root remains released and survivors remain safe. Gate/hydraulic phases reconstruct as a coherent authored state.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-063",
+    "title": "The landing that cannot be released — narrative continuity",
+    "references": [
+      "SQ-01-02"
+    ],
+    "steps": "Enter slowly, rush through, stop before reveal, pause at each phase, quit/reload and replay from checkpoint.",
+    "expected": "Player can neither retrieve Anja through geometry nor lose the brace. Interrupt every transfer frame with pause/restart in testing; ownership and narrative phase remain valid. Commit AnjaTaken and BraceOwned only after the rig is clear and the brace attached. A quit during transfer resumes the coherent pre-transfer or post-transfer checkpoint; never half a transaction.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-064",
+    "title": "The people above the drain — narrative continuity",
+    "references": [
+      "SQ-02-04"
+    ],
+    "steps": "Enter slowly, rush through, stop before reveal, pause at each phase, quit/reload and replay from checkpoint.",
+    "expected": "No tester should spend more than 90 s looking for the ladder after reaching its room. Optional observation does not hide mandatory story comprehension. No chapter-loading hitch at the vent transition. Store chapter progress at the dry ladder base and laundry threshold. Ambient residents reconstruct from safe poses. Their schedules cannot block the route or advance unseen narrative facts.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-065",
+    "title": "A cover, not a machine — narrative continuity",
+    "references": [
+      "SQ-03-04"
+    ],
+    "steps": "Enter slowly, rush through, stop before reveal, pause at each phase, quit/reload and replay from checkpoint.",
+    "expected": "At least four of five first-time viewers notice an organic detail, without needing to identify whose hand. Low-vision contrast mode preserves its meaning. The scene remains unsettling without a sting. FingernailSeen persists after the interaction threshold. Re-entering plays idle hand motion, not another shard break. Save player on either side of the squeeze, never embedded halfway.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-066",
+    "title": "A waiting room beneath a waiting room — narrative continuity",
+    "references": [
+      "SQ-04-01"
+    ],
+    "steps": "Enter slowly, rush through, stop before reveal, pause at each phase, quit/reload and replay from checkpoint.",
+    "expected": "Viewers distinguish coordinated body response from coordinated intention. Looking away does not make the mandatory causal event happen permanently offscreen. Record CrowdCompensationSeen when the test completes or Ivo reaches the next inspection opening with the demonstration visible. Crowd individual IDs remain stable into evacuation.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-067",
+    "title": "You have heard this before — narrative continuity",
+    "references": [
+      "SQ-07-01"
+    ],
+    "steps": "Enter slowly, rush through, stop before reveal, pause at each phase, quit/reload and replay from checkpoint.",
+    "expected": "Fresh players connect at least one shown person to an earlier mechanism. Completed loads remain visibly relieved. Narrative cannot contradict the player’s saved interventions. Recognition flags are set at view-confirmed thresholds. Existing solved-puzzle facts drive the displayed load states. Sequence cannot show a bearer straining under a process already mechanically relieved.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-068",
+    "title": "Mother is not behind the machine — narrative continuity",
+    "references": [
+      "SQ-07-03"
+    ],
+    "steps": "Enter slowly, rush through, stop before reveal, pause at each phase, quit/reload and replay from checkpoint.",
+    "expected": "Testers distinguish removable harnesses from the root. They understand her refusal without captions. Repeated interaction cannot accidentally transfer the root permanently to Ivo. RootRecognitionSeen, HandContactSeen and ReplacementRefused commit at separate coherent beats. Anja remains root owner. A suspend during the contact resumes at its nearest authored safe contact state.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-069",
+    "title": "The storm has already passed — narrative continuity",
+    "references": [
+      "SQ-08-01"
+    ],
+    "steps": "Enter slowly, rush through, stop before reveal, pause at each phase, quit/reload and replay from checkpoint.",
+    "expected": "Players do not describe the water as time-frozen. They understand why simply switching off the root would still be unsafe. Low effects mode retains the level distinction. Store SeaRevealed after the viewing threshold. Preserve basin gate restraints and root ownership. The sea’s cosmetic phase is independent of saved hydraulic quantities.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-070",
+    "title": "The First Step — narrative continuity",
+    "references": [
+      "SQ-09-02"
+    ],
+    "steps": "Enter slowly, rush through, stop before reveal, pause at each phase, quit/reload and replay from checkpoint.",
+    "expected": "Fresh viewers identify the building before an external label. At least four of five express concern for occupants rather than treating it as an empty vehicle. Any comedy-walking response triggers art/gait revision. FirstStepSeen commits after the first supported landing and completed readable reveal. Cosmetic cup break becomes a persistent interior state; it cannot repeatedly crash on every reload.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-071",
+    "title": "Long enough to pass — narrative continuity",
+    "references": [
+      "SQ-09-08"
+    ],
+    "steps": "Enter slowly, rush through, stop before reveal, pause at each phase, quit/reload and replay from checkpoint.",
+    "expected": "The ending still communicates when sound is muted. Every survivor offered-hand variant aligns at Ivo’s height. Credits and completion state survive immediate application closure. CampaignComplete records after final walk, with chapter replay states separate from continue save. Reload before completion returns to the safe inland path; after completion menu offers credits/replay without overwriting the ending ledger.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-072",
+    "title": "Final release cancellation",
+    "references": [
+      "SYS-32"
+    ],
+    "steps": "Arm root release, then pause, alt-tab, disconnect controller, change input mapping and quit in separate runs.",
+    "expected": "Root never releases; ownership preserved and resume requires a fresh deliberate arm action.",
+    "method": "Manual + automated where applicable",
+    "priority": "Critical",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-073",
+    "title": "Root postrelease persistence",
+    "references": [
+      "SYS-12",
+      "SYS-32"
+    ],
+    "steps": "Commit release; die during escape, force-close during event and reload every supported saved phase.",
+    "expected": "Anja is not resurrected; no repeated goodbye required; escape starts from coherent safe postrelease state.",
+    "method": "Manual + automated where applicable",
+    "priority": "Critical",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-074",
+    "title": "Cohort uniqueness",
+    "references": [
+      "SYS-30"
+    ],
+    "steps": "Visit every release/route/Ward/evacuation phase while streaming both directions.",
+    "expected": "Exactly twelve stable slots; no duplicated live presentation; all intended survivors reach final exit.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-075",
+    "title": "Water/bell restore",
+    "references": [
+      "SYS-23",
+      "SYS-24",
+      "SYS-25"
+    ],
+    "steps": "Save at lower/moving/upper bell poses with different breath values and restart.",
+    "expected": "Head-air test, pocket, hose, water level and bell q agree on first visible frame.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-076",
+    "title": "Thin versus thick cloth",
+    "references": [
+      "SYS-22"
+    ],
+    "steps": "Cross search view behind each cloth class at low/high graphics and captions-only sound.",
+    "expected": "Sight rules and silhouette evidence remain consistent; no detection through defined opaque cover.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-077",
+    "title": "Ward support recovery",
+    "references": [
+      "SYS-28"
+    ],
+    "steps": "Interrupt every support edge and crouch stage; try reverse input and hold during support transfer.",
+    "expected": "Rig remains on valid contacts or recovers to last stable pose; no impossible foot snap or uncontrolled fall.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-078",
+    "title": "Moving-platform controller",
+    "references": [
+      "SYS-09"
+    ],
+    "steps": "Run/jump/turn on translating and rotating platforms and replay at varied render rates.",
+    "expected": "No frame-rate-dependent carry drift, unintended double velocity or clipped landing.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-079",
+    "title": "Save interrupted writes",
+    "references": [
+      "SYS-12"
+    ],
+    "steps": "Interrupt file write, fill disk, remove write permission and corrupt current save copy in test environment.",
+    "expected": "Previous valid generation recoverable; errors legible; no silent new game or settings loss.",
+    "method": "Manual + automated where applicable",
+    "priority": "Critical",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-080",
+    "title": "Streaming owner pinning",
+    "references": [
+      "SYS-13"
+    ],
+    "steps": "Hold and transfer across chunk boundaries; reverse quickly; test cold disk.",
+    "expected": "Owner/target chunks remain resident until resolved; no queue deadlock or missing interaction.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-081",
+    "title": "Input accessibility complete route",
+    "references": [
+      "SYS-02",
+      "SYS-33"
+    ],
+    "steps": "Complete representative rooms and finale using toggle Hold/grip, remaps and breath assistance.",
+    "expected": "Same canonical story and success predicates; no inaccessible simultaneous-input requirement.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-082",
+    "title": "No-audio critical route",
+    "references": [
+      "SYS-17",
+      "SYS-34"
+    ],
+    "steps": "Mute audio and enable captions; play search, breath, Porter and root interactions.",
+    "expected": "Critical decisions have visual/caption equivalents; no required musical timing.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-083",
+    "title": "Low-effects readability",
+    "references": [
+      "SYS-18",
+      "SYS-14"
+    ],
+    "steps": "Use minimum effects, low brightness within calibrated range and reduced motion.",
+    "expected": "Contacts, water/head relation, hazards and route still readable; reveal retains meaning.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-084",
+    "title": "First Step emotional transfer",
+    "references": [
+      "SYS-27",
+      "SYS-28",
+      "SYS-29"
+    ],
+    "steps": "Fresh players learn carrier/room then reach rough Ward without extra instruction; interview afterward.",
+    "expected": "Players understand shared controls and mention occupants/responsibility; not solely a funny robot or unrelated vehicle.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-085",
+    "title": "Story causality",
+    "references": [
+      "SYS-31"
+    ],
+    "steps": "After uninterrupted full run, ask what Hold does, who enforces it, why Anja cannot leave and why release is safe.",
+    "expected": "Players identify conscious bearers, institutional choice, irreversible root and preparation; origin of technology may remain uncertain.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-086",
+    "title": "Duration without filler",
+    "references": [
+      "SYS-10"
+    ],
+    "steps": "Record fresh full runs excluding pauses/menus; separate solve, travel, retry and stalled time per sequence.",
+    "expected": "Median target 210–240 minutes; no correction through forced waits or speed reduction.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-087",
+    "title": "Performance cold/warm",
+    "references": [
+      "SYS-39"
+    ],
+    "steps": "Capture release-like builds on recorded floor/target fixtures over opening, water and maximum Ward view.",
+    "expected": "Agreed frame-time/residency budgets pass; no hidden mechanical divergence at lower frame rate.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-088",
+    "title": "Long-session memory",
+    "references": [
+      "SYS-39"
+    ],
+    "steps": "Loop chapter loads/retries for two hours and perform a full campaign.",
+    "expected": "Memory stabilizes; no persistent audio voices, pooled debris growth or unreleased streaming handles.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-089",
+    "title": "Clean distribution run",
+    "references": [
+      "SYS-40"
+    ],
+    "steps": "Install actual distribution package on clean offline machine, play, save, update supported version and continue.",
+    "expected": "No dev dependency, missing license, broken continue or incorrect build provenance.",
+    "method": "Manual + automated where applicable",
+    "priority": "Critical",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-090",
+    "title": "Opening control and mother",
+    "references": [
+      "SYS-31"
+    ],
+    "steps": "Observe new player from first frame; do not give task hints.",
+    "expected": "Control begins within opening seconds; relationship and reason to follow Anja are clear before first lethal puzzle.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-091",
+    "title": "No source-art leakage",
+    "references": [
+      "SYS-37",
+      "SYS-40"
+    ],
+    "steps": "Scan shipping package and credits against asset/licensing register.",
+    "expected": "No reference screenshots, fonts without permitted embedding, unlicensed placeholders or debug captures ship.",
+    "method": "Manual + automated where applicable",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-092",
+    "title": "Bootstrap and service lifetime — system acceptance",
+    "references": [
+      "SYS-01"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Single clock/player/save authority; clean startup and return to menu without duplicate services",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-093",
+    "title": "Input and accessibility routing — system acceptance",
+    "references": [
+      "SYS-02"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Remap and toggle work; canceled input is not voluntary release; focus/device tests pass",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-094",
+    "title": "Lane capsule motor — system acceptance",
+    "references": [
+      "SYS-03"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Run/turn/jump/crouch/step pass contact gym at 30/60/120 fps",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-095",
+    "title": "Ledge and ladder interaction — system acceptance",
+    "references": [
+      "SYS-04"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Clearance and hand constraints validated; blocked climb returns safely",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-096",
+    "title": "Contextual interaction resolver — system acceptance",
+    "references": [
+      "SYS-05"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Stable socket selection and informative denial; no target switching during committed action",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-097",
+    "title": "Hold ownership transactions — system acceptance",
+    "references": [
+      "SYS-06"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "One personal owner, atomic transfer, legal release, support capture and idempotence tests pass",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-098",
+    "title": "Mechanism drivers — system acceptance",
+    "references": [
+      "SYS-07"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Bounded slider/hinge/rotator/track coordinates resume consistently after Hold",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-099",
+    "title": "Supports and load graph — system acceptance",
+    "references": [
+      "SYS-08"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Mechanical support removes bearer requirement; no orphan owner or cyclic unsupported state",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-100",
+    "title": "Moving support and crush — system acceptance",
+    "references": [
+      "SYS-09"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Relative platform motion and swept closing volumes pass all frame-rate fixtures",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-101",
+    "title": "Puzzle facts and sequence exits — system acceptance",
+    "references": [
+      "SYS-10"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Exit depends on physical predicate; sequence jump cannot bypass root prerequisites",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-102",
+    "title": "Checkpoint snapshot service — system acceptance",
+    "references": [
+      "SYS-11"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Coherent state restores after every ownership/support boundary",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-103",
+    "title": "Save integrity and migration — system acceptance",
+    "references": [
+      "SYS-12"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Interrupted write preserves prior generation; supported schemas migrate and invalid data fails safely",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-104",
+    "title": "Local streaming and residency — system acceptance",
+    "references": [
+      "SYS-13"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Active relationships pin chunks; no activation deadlock or unbalanced asset handle",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-105",
+    "title": "Camera volumes and leads — system acceptance",
+    "references": [
+      "SYS-14"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Route/threat/interaction all legible at standard and alternate aspect ratios",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-106",
+    "title": "Animation presentation state — system acceptance",
+    "references": [
+      "SYS-15"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Responsive motor plus additive contact/gaze/breath; animation never owns puzzle outcome",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-107",
+    "title": "Foot/hand contact IK — system acceptance",
+    "references": [
+      "SYS-16"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Contacts meet moving sockets; correction cannot drag capsule through obstruction",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-108",
+    "title": "Audio router and mixes — system acceptance",
+    "references": [
+      "SYS-17"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Critical cue allocation and dry/wet/breath state remain synchronized through restart",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-109",
+    "title": "VFX reaction bundles — system acceptance",
+    "references": [
+      "SYS-18"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Connected response with scalable cosmetic pools; Hold never freezes unrelated particles",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-110",
+    "title": "Custodian perception and pursuit — system acceptance",
+    "references": [
+      "SYS-19"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Sight/hearing/last known route explain capture; covered and exposed harness rules visible",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-111",
+    "title": "Harness restraint and awareness — system acceptance",
+    "references": [
+      "SYS-20"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Body channel arrests while eyes/breath persist; no immunity introduced for convenience",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-112",
+    "title": "Porter rail rescue AI — system acceptance",
+    "references": [
+      "SYS-21"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Detect/reach/secure/retract cycle stays bounded; sack demonstration and three encounter contexts agree",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-113",
+    "title": "Sheet concealment — system acceptance",
+    "references": [
+      "SYS-22"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Wet thin silhouette differs from thick cover; visibility derives from tagged blockers not arbitrary camera state",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-114",
+    "title": "Water volume graph — system acceptance",
+    "references": [
+      "SYS-23"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Level/flow/head and rendered surface agree; bounded overflow and drainage are recoverable",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-115",
+    "title": "Swimming and breath — system acceptance",
+    "references": [
+      "SYS-24"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Surface hysteresis, one-hand swim, warnings, refill and assistance pass timed routes",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-116",
+    "title": "Bell air pocket and winch — system acceptance",
+    "references": [
+      "SYS-25"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Pocket follows pose/level; tipping spills air; saved hose/pocket/player remain coherent",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-117",
+    "title": "Wet-cloth mass — system acceptance",
+    "references": [
+      "SYS-26"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Saturation and drainage drive predictable rack/lift position without uncontrolled fluid simulation",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-118",
+    "title": "Reciprocal balance station — system acceptance",
+    "references": [
+      "SYS-27"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Same travel/posture/Hold vocabulary on carrier, room and Ward; only safe exit permitted",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-119",
+    "title": "Ward support/gait planner — system acceptance",
+    "references": [
+      "SYS-28"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Authored support edges and clearances prevent impossible steps; narrow support and crouch puzzles pass",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-120",
+    "title": "Ward local-room presentation — system acceptance",
+    "references": [
+      "SYS-29"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Interior actors/props move locally and stay contained; readable domestic consequences",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-121",
+    "title": "Survivor roster and safe routes — system acceptance",
+    "references": [
+      "SYS-30"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Twelve unique slots; independent movement on safe routes; no duplicates or stranded mandatory actors",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-122",
+    "title": "Narrative event phases — system acceptance",
+    "references": [
+      "SYS-31"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Idempotent opening/reveals/ending survive interruption and do not steal unrelated control",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-123",
+    "title": "Final root release guard — system acceptance",
+    "references": [
+      "SYS-32"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Pause/focus/disconnect/quit never commits release; prerequisites and postrelease persistence enforced",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-124",
+    "title": "UI and settings — system acceptance",
+    "references": [
+      "SYS-33"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Menus, slots, caption settings and readable save errors work on controller and keyboard",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-125",
+    "title": "Localization and captions — system acceptance",
+    "references": [
+      "SYS-34"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "No audio-only required solution; text expansion and sound direction caption layouts pass",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-126",
+    "title": "Sequence/ownership debug tools — system acceptance",
+    "references": [
+      "SYS-35"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Designers inspect live owner/support graph and jump to approved fixtures without editing scripts",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-127",
+    "title": "Camera/storyboard capture tool — system acceptance",
+    "references": [
+      "SYS-36"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Standard/reduced-effects contact sheets generated for each sequence review",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-128",
+    "title": "Asset import validation — system acceptance",
+    "references": [
+      "SYS-37"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Scale/sockets/collision/shader/LOD/source checks catch bad exports before merge",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-129",
+    "title": "Build and regression automation — system acceptance",
+    "references": [
+      "SYS-38"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Clean checkout packages; EditMode/PlayMode reports and build provenance archived",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-130",
+    "title": "Performance capture and route replay — system acceptance",
+    "references": [
+      "SYS-39"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Packaged cold/warm route captures include frame time, allocation, memory and streaming stalls",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  },
+  {
+    "id": "TST-131",
+    "title": "Release packaging and recovery — system acceptance",
+    "references": [
+      "SYS-40"
+    ],
+    "steps": "Build the system fixture described in sections 18–19 and record a packaged regression capture.",
+    "expected": "Clean install/update/uninstall, valid saves, credits/licenses and debug-stripping checks pass",
+    "method": "EditMode/PlayMode + targeted manual review",
+    "priority": "High",
+    "status": "Not run",
+    "evidence": ""
+  }
+]

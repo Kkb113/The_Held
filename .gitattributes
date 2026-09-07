@@ -8,3 +8,9 @@
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.docx filter=lfs diff=lfs merge=lfs -text
 *.xlsx filter=lfs diff=lfs merge=lfs -text
+
+# Preserve the imported package bytes so its supplied manifest survives checkout.
+blueprint/THE_HELD_First_Step_v3/** -text
+blueprint/THE_HELD_First_Step_v3/registers/*.csv whitespace=cr-at-eol
+# The original Markdown uses two-space hard breaks; retain its source formatting.
+blueprint/THE_HELD_First_Step_v3/THE_HELD_First_Step_Master_v3.md whitespace=-blank-at-eol

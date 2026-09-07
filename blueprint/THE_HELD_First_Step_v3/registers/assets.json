@@ -1,0 +1,2350 @@
+[
+  {
+    "id": "CHR-IVO",
+    "category": "CHR",
+    "scope": "1.52 m boy mesh; ash-blue jacket; bare/shod hand sockets; brace fit; wet material; four additive strain presentations; close hand LOD",
+    "owner": "Character art + animation",
+    "first_use": "SQ-01-01",
+    "sequences": [
+      "SQ-01-01",
+      "SQ-01-02",
+      "SQ-01-03",
+      "SQ-01-04",
+      "SQ-02-01",
+      "SQ-02-02",
+      "SQ-02-03",
+      "SQ-02-04",
+      "SQ-03-01",
+      "SQ-03-02",
+      "SQ-03-03",
+      "SQ-03-04",
+      "SQ-04-01",
+      "SQ-04-02",
+      "SQ-04-03",
+      "SQ-04-04",
+      "SQ-05-01",
+      "SQ-05-02",
+      "SQ-05-03",
+      "SQ-05-04",
+      "SQ-06-01",
+      "SQ-06-02",
+      "SQ-06-03",
+      "SQ-06-04",
+      "SQ-07-01",
+      "SQ-07-02",
+      "SQ-07-03",
+      "SQ-07-04",
+      "SQ-08-01",
+      "SQ-08-02",
+      "SQ-08-03",
+      "SQ-08-04",
+      "SQ-09-01",
+      "SQ-09-02",
+      "SQ-09-06",
+      "SQ-09-07",
+      "SQ-09-08"
+    ],
+    "milestone": "M10",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-ANJA",
+    "category": "CHR",
+    "scope": "Repair-worker mesh; identifiable double-stitched cuff; normal/transport presentations; matching integrated hand presentation",
+    "owner": "Character art + animation",
+    "first_use": "SQ-01-01",
+    "sequences": [
+      "SQ-01-01",
+      "SQ-01-02",
+      "SQ-07-03",
+      "SQ-09-06"
+    ],
+    "milestone": "M10",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-ORREN",
+    "category": "CHR",
+    "scope": "Elderly worker mesh; bent shoe; missing coat button; constrained/free/recovered states on shared adult skeleton",
+    "owner": "Character art + animation",
+    "first_use": "SQ-04-04",
+    "sequences": [
+      "SQ-04-04",
+      "SQ-07-04",
+      "SQ-09-05",
+      "SQ-09-08"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-CUST-A",
+    "category": "CHR",
+    "scope": "Covered-contact Custodian; waterproof coat; padded harness; torch; visibly closed protective port",
+    "owner": "Character art + animation",
+    "first_use": "SQ-01-02",
+    "sequences": [
+      "SQ-01-02",
+      "SQ-01-04",
+      "SQ-03-02"
+    ],
+    "milestone": "M10",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-CUST-B",
+    "category": "CHR",
+    "scope": "Exposed-contact Custodian; same adult skeleton; readable porcelain socket; conscious facial micro-motion",
+    "owner": "Character art + animation",
+    "first_use": "SQ-04-03",
+    "sequences": [
+      "SQ-04-03"
+    ],
+    "milestone": "M06",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-PORTER",
+    "category": "CHR",
+    "scope": "Adult rescue-worker body and head fitted to rig; independent gaze and breathing; wet/dry variants",
+    "owner": "Character art + animation",
+    "first_use": "SQ-02-03",
+    "sequences": [
+      "SQ-02-03",
+      "SQ-05-04",
+      "SQ-06-03"
+    ],
+    "milestone": "M06",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-ROOT",
+    "category": "CHR",
+    "scope": "Anja-root visible body proxies; hand and cuff fidelity; irreversible integration visible without gore; shared identity, not new monster",
+    "owner": "Character art + animation",
+    "first_use": "SQ-07-03",
+    "sequences": [
+      "SQ-07-03",
+      "SQ-09-06",
+      "SQ-09-07"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-BEARER-01",
+    "category": "CHR",
+    "scope": "Queue worker base body A; leaning constraint poses; eyes and fingers independent of forced torso",
+    "owner": "Character art + animation",
+    "first_use": "SQ-03-01",
+    "sequences": [
+      "SQ-03-01",
+      "SQ-04-01",
+      "SQ-04-02",
+      "SQ-07-01"
+    ],
+    "milestone": "M13",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-BEARER-02",
+    "category": "CHR",
+    "scope": "Laundry attendant base body B; standing strain; wrist/drum relationship; released stumble",
+    "owner": "Character art + animation",
+    "first_use": "SQ-04-01",
+    "sequences": [
+      "SQ-04-01",
+      "SQ-04-02",
+      "SQ-07-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-BEARER-03",
+    "category": "CHR",
+    "scope": "Local bearer base body C; overhead support posture; load-release recovery",
+    "owner": "Character art + animation",
+    "first_use": "SQ-07-01",
+    "sequences": [
+      "SQ-07-01",
+      "SQ-07-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-BEARER-04",
+    "category": "CHR",
+    "scope": "Adult base body D for cohort variation; layered work clothes; nonuniform gait and recovery",
+    "owner": "Character art + animation",
+    "first_use": "SQ-07-04",
+    "sequences": [
+      "SQ-07-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-BEARER-HAND",
+    "category": "CHR",
+    "scope": "Readable hand/forearm insert; porcelain shell alignment; fingernail motion; single reveal variant",
+    "owner": "Character art + animation",
+    "first_use": "SQ-03-04",
+    "sequences": [
+      "SQ-03-04"
+    ],
+    "milestone": "M13",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-RESIDENTS",
+    "category": "CHR",
+    "scope": "Background resident variants assembled from adult bases; groceries and terrace gestures; no independent survival logic",
+    "owner": "Character art + animation",
+    "first_use": "SQ-02-04",
+    "sequences": [
+      "SQ-02-04",
+      "SQ-04-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CHR-SURVIVORS",
+    "category": "CHR",
+    "scope": "Twelve roster-based presentation prefabs assembled from bearer bases and Orren; no twelve additional unique sculpts",
+    "owner": "Character art + animation",
+    "first_use": "SQ-08-03",
+    "sequences": [
+      "SQ-08-03",
+      "SQ-09-01",
+      "SQ-09-02",
+      "SQ-09-03",
+      "SQ-09-04",
+      "SQ-09-05",
+      "SQ-09-08"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FAUNA-WADER",
+    "category": "FAUNA",
+    "scope": "Small coastal bird; forage/idle/flee; disconnected from Hold and harmless to stealth",
+    "owner": "Character art + animation",
+    "first_use": "SQ-02-01",
+    "sequences": [
+      "SQ-02-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FAUNA-FISH",
+    "category": "FAUNA",
+    "scope": "Sparse fish silhouettes; idle and disturbance response; no collectible or combat function",
+    "owner": "Character art + animation",
+    "first_use": "SQ-06-01",
+    "sequences": [
+      "SQ-06-01"
+    ],
+    "milestone": "M08",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-TERRACE",
+    "category": "ENV",
+    "scope": "Kitchen wall/window/door modules; apartment hall; landing; risers; exterior facade; trim; roof silhouette; repair alcove",
+    "owner": "Environment art",
+    "first_use": "SQ-01-01",
+    "sequences": [
+      "SQ-01-01",
+      "SQ-01-02"
+    ],
+    "milestone": "M10",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-SERVICE",
+    "category": "ENV",
+    "scope": "Concrete corridor straight/corner; door frame; stairwell; crawl throat; railing; utility recess; handrail conduit",
+    "owner": "Environment art",
+    "first_use": "SQ-01-03",
+    "sequences": [
+      "SQ-01-03",
+      "SQ-01-04",
+      "SQ-03-04"
+    ],
+    "milestone": "M10",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-GARDENS",
+    "category": "ENV",
+    "scope": "Raised beds; drain channel; bank corners; exposed ledges; allotment retaining walls; reed patch; stone refuges; loading grate",
+    "owner": "Environment art",
+    "first_use": "SQ-01-04",
+    "sequences": [
+      "SQ-01-04",
+      "SQ-02-01",
+      "SQ-02-02",
+      "SQ-02-03"
+    ],
+    "milestone": "M10",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-CULVERT",
+    "category": "ENV",
+    "scope": "Low drain tunnel; grate openings; crawl slope; daylight exit; root-return service culvert; drip ledges",
+    "owner": "Environment art",
+    "first_use": "SQ-02-04",
+    "sequences": [
+      "SQ-02-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-LAUNDRY",
+    "category": "ENV",
+    "scope": "Tall column bays; gantry rail; machine plinths; drying-frame track; brick/concrete walls; lower catch shelf; upper search catwalk",
+    "owner": "Environment art",
+    "first_use": "SQ-02-04",
+    "sequences": [
+      "SQ-02-04",
+      "SQ-03-01",
+      "SQ-03-02",
+      "SQ-03-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-EXCHANGE",
+    "category": "ENV",
+    "scope": "Public concourse; restrained waiting bay; tram platform edge; luggage recess; under-track supports; ticket/window silhouettes",
+    "owner": "Environment art",
+    "first_use": "SQ-04-01",
+    "sequences": [
+      "SQ-04-01",
+      "SQ-04-02",
+      "SQ-04-03",
+      "SQ-04-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-CUT",
+    "category": "ENV",
+    "scope": "Chalk walls; excavation ledges; counterweight shafts; receiving sockets; exposed track; salvage rack; large distant mass silhouettes",
+    "owner": "Environment art",
+    "first_use": "SQ-05-01",
+    "sequences": [
+      "SQ-05-01",
+      "SQ-05-02",
+      "SQ-05-03",
+      "SQ-05-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-DROWNED",
+    "category": "ENV",
+    "scope": "Submerged shop fronts; old tram stop; submerged windows; stairs; dry landing; bell guide shaft; waterline portals",
+    "owner": "Environment art",
+    "first_use": "SQ-06-01",
+    "sequences": [
+      "SQ-06-01",
+      "SQ-06-02",
+      "SQ-06-03",
+      "SQ-06-04"
+    ],
+    "milestone": "M08",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-BURDEN",
+    "category": "ENV",
+    "scope": "Reverse apartment walls; service slits; body-link bays; exposed bearing chambers; root approach; safe cohort exits",
+    "owner": "Environment art",
+    "first_use": "SQ-07-01",
+    "sequences": [
+      "SQ-07-01",
+      "SQ-07-02",
+      "SQ-07-03",
+      "SQ-07-04",
+      "SQ-09-06"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-SEAWALL",
+    "category": "ENV",
+    "scope": "Retaining gates; inspection walkway; ocean-facing aperture; basin wall; discharge duct; deflector pit; inland support piers",
+    "owner": "Environment art",
+    "first_use": "SQ-08-01",
+    "sequences": [
+      "SQ-08-01",
+      "SQ-08-02",
+      "SQ-08-03",
+      "SQ-09-03",
+      "SQ-09-04",
+      "SQ-09-07"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-WARD-INTERIOR",
+    "category": "ENV",
+    "scope": "Three-story room kit; kitchen; dormitory; stair spine; service cradle; front porch; window/curtain sockets; containment bounds",
+    "owner": "Environment art",
+    "first_use": "SQ-08-04",
+    "sequences": [
+      "SQ-08-04",
+      "SQ-09-01",
+      "SQ-09-02"
+    ],
+    "milestone": "M09",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-INLAND",
+    "category": "ENV",
+    "scope": "Dry receiving platform; ordinary gate wall; embankment steps; rail path; distant coast; final quiet walking lane",
+    "owner": "Environment art",
+    "first_use": "SQ-09-05",
+    "sequences": [
+      "SQ-09-05",
+      "SQ-09-08"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-LEVER",
+    "category": "GME",
+    "scope": "Shared one-hand lever family; rest/travel/latched states; visible mechanical linkage; interaction sockets",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-03-01",
+    "sequences": [
+      "SQ-03-01"
+    ],
+    "milestone": "M13",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-TRAM",
+    "category": "GME",
+    "scope": "Suspended transit carriage; bogie and support linkage; interior silhouettes; load-bearing deck interface",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-04-01",
+    "sequences": [
+      "SQ-04-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-BRACE",
+    "category": "GME",
+    "scope": "Portable restraint mesh; palm contact; ceramic vane; range-tension animation; nonmagical signal cue; hand-fit rig",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-01-02",
+    "sequences": [
+      "SQ-01-02",
+      "SQ-01-03"
+    ],
+    "milestone": "M10",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-WALL-FITTING",
+    "category": "GME",
+    "scope": "Standard single contact; exposed and covered mounting; cable socket; state vane; damaged porcelain reveal variant",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-01-01",
+    "sequences": [
+      "SQ-01-01",
+      "SQ-03-04"
+    ],
+    "milestone": "M10",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-ANCHOR",
+    "category": "GME",
+    "scope": "Transfer socket; compatible load plate; occupied/free readable states; concealed bearer connection",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-03-01",
+    "sequences": [
+      "SQ-03-01",
+      "SQ-03-02",
+      "SQ-03-03",
+      "SQ-04-02",
+      "SQ-04-04",
+      "SQ-05-03"
+    ],
+    "milestone": "M13",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-SHUTTER",
+    "category": "GME",
+    "scope": "Sliding shutter family; track; motor; contact; safe recess markers; swept crush volume; lower and upper stops",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-01-03",
+    "sequences": [
+      "SQ-01-03",
+      "SQ-01-04",
+      "SQ-04-03"
+    ],
+    "milestone": "M10",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-ROTATOR",
+    "category": "GME",
+    "scope": "Four-orientation rotating maintenance tread; axle; contact; walkable surfaces; bounded angle driver",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-01-03",
+    "sequences": [
+      "SQ-01-03"
+    ],
+    "milestone": "M10",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-LANDING",
+    "category": "GME",
+    "scope": "Hinged apartment landing; capture/support sockets; damaged edge; underfloor collision; transport load connection",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-01-02",
+    "sequences": [
+      "SQ-01-02"
+    ],
+    "milestone": "M10",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-WINDSCREEN",
+    "category": "GME",
+    "scope": "Broad hinged panel; wind driver; connected contact; recoverable fall shelf; clear walkable face",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-02-01",
+    "sequences": [
+      "SQ-02-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-SLUICE",
+    "category": "GME",
+    "scope": "Main gate; guide; wheel/one-hand latch; level linkage; visible high/low overflow markers",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-02-02",
+    "sequences": [
+      "SQ-02-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-DIVERSION",
+    "category": "GME",
+    "scope": "Latched branch gate; channel geometry; one-hand control; direction-readable flow outlet",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-02-02",
+    "sequences": [
+      "SQ-02-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-FLOAT",
+    "category": "GME",
+    "scope": "Rail-guided work float; lower/upper stops; bounded buoyancy; stable foot surface",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-02-02",
+    "sequences": [
+      "SQ-02-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-PORTER-DRIVE",
+    "category": "GME",
+    "scope": "Rail motor and exposed restraint contact; linked grate detector; actuator phase display through motion",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-02-03",
+    "sequences": [
+      "SQ-02-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-BRIDGE",
+    "category": "GME",
+    "scope": "Laundry bridge assembly; hinge; transfer contact; receiving support; railings; clear traversal face",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-03-01",
+    "sequences": [
+      "SQ-03-01"
+    ],
+    "milestone": "M13",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-DRYING-FRAME",
+    "category": "GME",
+    "scope": "Sliding/rotating fabric rack; grip sockets; travel stops; interaction/camera clearance envelope",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-03-02",
+    "sequences": [
+      "SQ-03-02"
+    ],
+    "milestone": "M13",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-WET-RACK",
+    "category": "GME",
+    "scope": "Blanket rack with dry/wet mass state; drainage geometry; bounded weight coordinate; attached cables",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-03-03",
+    "sequences": [
+      "SQ-03-03"
+    ],
+    "milestone": "M13",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-RINSE",
+    "category": "GME",
+    "scope": "Redirectable rinse outlet; lever; readable stream; saturated-cloth driver link",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-03-03",
+    "sequences": [
+      "SQ-03-03"
+    ],
+    "milestone": "M13",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-LIFT",
+    "category": "GME",
+    "scope": "Counterweighted service lift; guide; car floor; gate; support socket; constrained vertical driver",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-03-03",
+    "sequences": [
+      "SQ-03-03"
+    ],
+    "milestone": "M13",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-TILT-DECK",
+    "category": "GME",
+    "scope": "Exchange deck; pivot; queue linkage; support point; controlled tilt; occupancy-safe limits",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-04-02",
+    "sequences": [
+      "SQ-04-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-JACK",
+    "category": "GME",
+    "scope": "Mechanical service jack; crank requiring free hands; clear supported-state pawl; load plate",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-04-02",
+    "sequences": [
+      "SQ-04-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-GATE-CART",
+    "category": "GME",
+    "scope": "Track-guided barrier cart; two-hand grip; one-hand brake; fixed end stop; obstruction collision",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-04-03",
+    "sequences": [
+      "SQ-04-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-HARNESS",
+    "category": "GME",
+    "scope": "Exposed restraint brace; locked skeletal channels; torso control plus independent eyes/breath; shielded variant",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-04-03",
+    "sequences": [
+      "SQ-04-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-STAIR-PAWL",
+    "category": "GME",
+    "scope": "Stair support ratchet; lever; visible engaged teeth; released-body linkage",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-04-04",
+    "sequences": [
+      "SQ-04-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-SWEEP-DRIVE",
+    "category": "GME",
+    "scope": "Bounded counterweight sweep; safe floor pockets; contact and timed motor phases",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-05-01",
+    "sequences": [
+      "SQ-05-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-PAIRED-STATION",
+    "category": "GME",
+    "scope": "Two-hand/foot interface; accessible approach; control pose; visible support and exit lock; safe cancellation",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-05-02",
+    "sequences": [
+      "SQ-05-02",
+      "SQ-07-02",
+      "SQ-08-04",
+      "SQ-09-01"
+    ],
+    "milestone": "M09",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-COUNTERWEIGHT",
+    "category": "GME",
+    "scope": "Suspended masonry mass; suspension frame; authoritative drop coordinate; no cosmetic destruction dependency",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-05-01",
+    "sequences": [
+      "SQ-05-01",
+      "SQ-05-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-RECEIVING-CRADLE",
+    "category": "GME",
+    "scope": "Guided catch cradle; support stops; accepts released mass; linked lift cable; no bounce softlock",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-05-03",
+    "sequences": [
+      "SQ-05-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-LIFT-WALKWAY",
+    "category": "GME",
+    "scope": "Walkable raised segment; cable linkage; receiving stop; bounded vertical movement",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-05-03",
+    "sequences": [
+      "SQ-05-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-SALVAGE-RELEASE",
+    "category": "GME",
+    "scope": "One-hand release lever; suspended bundle; visible Porter capture path; persistent diverted state",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-05-04",
+    "sequences": [
+      "SQ-05-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-EXIT-PLATFORM",
+    "category": "GME",
+    "scope": "Rail-driven escape platform linked to Porter motor; fixed alignment window; ride-safe collision",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-05-04",
+    "sequences": [
+      "SQ-05-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-WATER-VOLUME",
+    "category": "GME",
+    "scope": "Bounded water regions; head-surface tests; port links; swimming/wetness/audio region definitions",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-06-01",
+    "sequences": [
+      "SQ-06-01",
+      "SQ-06-02",
+      "SQ-06-04",
+      "SQ-08-02"
+    ],
+    "milestone": "M08",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-AIR-BELL",
+    "category": "GME",
+    "scope": "Guided open-bottom bell; pocket shell; viewing gap; internal latch; hose socket; roof guide",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-06-02",
+    "sequences": [
+      "SQ-06-02",
+      "SQ-06-03"
+    ],
+    "milestone": "M08",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-AIR-POCKET",
+    "category": "GME",
+    "scope": "Moving retained-air volume; water-level/pose dependency; head-space preview; dock spill state",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-06-02",
+    "sequences": [
+      "SQ-06-02"
+    ],
+    "milestone": "M08",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-BELL-WINCH",
+    "category": "GME",
+    "scope": "Guided winch; lower/upper catches; contact; resumable phase; hose accommodation",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-06-02",
+    "sequences": [
+      "SQ-06-02",
+      "SQ-06-03"
+    ],
+    "milestone": "M08",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-DOCK-CRADLE",
+    "category": "GME",
+    "scope": "Obsolete retrieve-and-tip dock; clear rotation hazard; tipped bell spill relationship; limit stops",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-06-03",
+    "sequences": [
+      "SQ-06-03"
+    ],
+    "milestone": "M08",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-DRAIN-PUMP",
+    "category": "GME",
+    "scope": "Chamber drain valve/pump; bounded water-level change; exposed wall record; safe outlet",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-06-04",
+    "sequences": [
+      "SQ-06-04"
+    ],
+    "milestone": "M08",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-BODY-LINK",
+    "category": "GME",
+    "scope": "Visible restraint linkage between mechanism and bearer; torso correction channel; tension-only presentation cable",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-07-01",
+    "sequences": [
+      "SQ-07-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-RECEIVING-FRAME",
+    "category": "GME",
+    "scope": "Domestic support frame; movable in guided slot; clear lock; supports room without bearer",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-07-04",
+    "sequences": [
+      "SQ-07-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-BASIN-GATES",
+    "category": "GME",
+    "scope": "Retained-water gates; supported/personal/root relationships; controlled opening phase; contact and seals",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-08-01",
+    "sequences": [
+      "SQ-08-01",
+      "SQ-09-07"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-ROOT-SERVICE",
+    "category": "GME",
+    "scope": "Root handover mounting; Anja socket; portable governor contact; protected release input affordance",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-07-03",
+    "sequences": [
+      "SQ-07-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-TEST-VALVE",
+    "category": "GME",
+    "scope": "Limited proof-flow control; pressure gauge as readable movement; resettable test state; no irreversible early flood",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-08-02",
+    "sequences": [
+      "SQ-08-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-DEFLECTOR",
+    "category": "GME",
+    "scope": "Guided discharge deflector; receiving stops; latched safe angle; visible unsafe/tested outlet paths",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-08-02",
+    "sequences": [
+      "SQ-08-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-DEBRIS-RACK",
+    "category": "GME",
+    "scope": "Authored removable flow blockage; clear controls; guided debris state; pooled cosmetic fragments",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-08-02",
+    "sequences": [
+      "SQ-08-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-RECEIVING-PAD",
+    "category": "GME",
+    "scope": "Inland foundation pad family; support ID; height/readability marks; activated/deployed state",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-08-03",
+    "sequences": [
+      "SQ-08-03",
+      "SQ-09-03",
+      "SQ-09-05"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-RELOCATION-PIN",
+    "category": "GME",
+    "scope": "Obsolete hostel restraint; release handle; visible released/installed state; sequenced dependency",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-08-03",
+    "sequences": [
+      "SQ-08-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-GIRDER",
+    "category": "GME",
+    "scope": "Low overhead obstruction; clearance envelope; visual underside scrape cues; no break-through solution",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-09-04",
+    "sequences": [
+      "SQ-09-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-PORCH",
+    "category": "GME",
+    "scope": "Ward entrance ramp; kneel-to-ground relationship; cohort exit portal; collision lock at support",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-09-05",
+    "sequences": [
+      "SQ-09-05"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-SUPPORT-LOCK",
+    "category": "GME",
+    "scope": "Ward mechanical lock; load-transfer indicator; prevents station exit before safe support",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-05-02",
+    "sequences": [
+      "SQ-05-02",
+      "SQ-07-02",
+      "SQ-07-04",
+      "SQ-08-03",
+      "SQ-08-04",
+      "SQ-09-03",
+      "SQ-09-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-ROOT-GOVERNOR",
+    "category": "GME",
+    "scope": "Unloaded final sequencing governor; single contact; guarded handover/release state; root gate dependency",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-09-06",
+    "sequences": [
+      "SQ-09-06"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-ESCAPE-STAIR",
+    "category": "GME",
+    "scope": "Settling stair route; short authored collapses; stable retry ledges; post-release state variants",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-09-07",
+    "sequences": [
+      "SQ-09-07"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "GME-ORDINARY-GATE",
+    "category": "GME",
+    "scope": "Dead-terminal exit gate; manual hinge; Orren grip sockets; voluntary hold and release",
+    "owner": "Gameplay + technical art",
+    "first_use": "SQ-09-08",
+    "sequences": [
+      "SQ-09-08"
+    ],
+    "milestone": "M14",
+    "acceptance": "Authoritative state and sockets match puzzle card; visible state agrees with collision, sound and save restore; no softlock under wrong-order use.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "RIG-TRANSPORT",
+    "category": "RIG",
+    "scope": "Anja transport carriage; harness; rail wheels; transfer connection; two Custodian handling sockets",
+    "owner": "Technical art + animation",
+    "first_use": "SQ-01-02",
+    "sequences": [
+      "SQ-01-02"
+    ],
+    "milestone": "M10",
+    "acceptance": "All authored poses and support contacts pass with no player/cohort penetration; pause/load and reduced-motion presentation remain valid.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "RIG-PORTER",
+    "category": "RIG",
+    "scope": "Overhead rescue rail carriage; arms made of machinery; catch cradle; hose; rail reach and capture envelopes",
+    "owner": "Technical art + animation",
+    "first_use": "SQ-02-03",
+    "sequences": [
+      "SQ-02-03",
+      "SQ-05-04",
+      "SQ-06-03"
+    ],
+    "milestone": "M06",
+    "acceptance": "All authored poses and support contacts pass with no player/cohort penetration; pause/load and reduced-motion presentation remain valid.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "RIG-CARRIER",
+    "category": "RIG",
+    "scope": "Small quarry balance carrier; articulated shoes; paired station mount; parking lock; tilt/route controls",
+    "owner": "Technical art + animation",
+    "first_use": "SQ-05-02",
+    "sequences": [
+      "SQ-05-02"
+    ],
+    "milestone": "M09",
+    "acceptance": "All authored poses and support contacts pass with no player/cohort penetration; pause/load and reduced-motion presentation remain valid.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "RIG-DOMESTIC-ROOM",
+    "category": "RIG",
+    "scope": "Movable room assembly; constrained wall/floor; paired interface; receiving-frame contact; local props",
+    "owner": "Technical art + animation",
+    "first_use": "SQ-07-02",
+    "sequences": [
+      "SQ-07-02",
+      "SQ-07-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "All authored poses and support contacts pass with no player/cohort penetration; pause/load and reduced-motion presentation remain valid.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "RIG-ROOT",
+    "category": "RIG",
+    "scope": "Integrated root installation; mechanical collar; distributed contacts; Anja proxies; force-state presentation",
+    "owner": "Technical art + animation",
+    "first_use": "SQ-07-03",
+    "sequences": [
+      "SQ-07-03",
+      "SQ-09-06"
+    ],
+    "milestone": "M14",
+    "acceptance": "All authored poses and support contacts pass with no player/cohort penetration; pause/load and reduced-motion presentation remain valid.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "RIG-WARD",
+    "category": "RIG",
+    "scope": "Hostel shell; four hydraulic relocation shoes; guided gait; two chimneys; service cradle; rooms; crouch; porch; support locks",
+    "owner": "Technical art + animation",
+    "first_use": "SQ-08-03",
+    "sequences": [
+      "SQ-08-03",
+      "SQ-08-04",
+      "SQ-09-01",
+      "SQ-09-02",
+      "SQ-09-03",
+      "SQ-09-04",
+      "SQ-09-05"
+    ],
+    "milestone": "M09",
+    "acceptance": "All authored poses and support contacts pass with no player/cohort penetration; pause/load and reduced-motion presentation remain valid.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-CHAIR",
+    "category": "PRP",
+    "scope": "Lightweight kitchen chair; grip; safe slide; cover access; shared noncritical chair variations",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-01-01",
+    "sequences": [
+      "SQ-01-01"
+    ],
+    "milestone": "M10",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-CUP",
+    "category": "PRP",
+    "scope": "Cup/spoon domestic motif; small impact and vibration; Ward contained-physics variant",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-01-01",
+    "sequences": [
+      "SQ-01-01",
+      "SQ-09-02"
+    ],
+    "milestone": "M10",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-ANJA-CUFF",
+    "category": "PRP",
+    "scope": "Double-stitched sleeve identifier matched across human and integrated presentations",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-07-03",
+    "sequences": [
+      "SQ-07-03",
+      "SQ-09-06"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-REED-SCREEN",
+    "category": "PRP",
+    "scope": "Lightweight garden screening; wind deformation; distinct from connected puzzle panel",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-02-01",
+    "sequences": [
+      "SQ-02-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-SACK",
+    "category": "PRP",
+    "scope": "Supply sack; first Porter demonstration target; catch-compatible shape; soft-looking but bounded motion",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-02-03",
+    "sequences": [
+      "SQ-02-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-GROCERY",
+    "category": "PRP",
+    "scope": "Resident basket and parcels; background ordinary life; noninteractive collision-free dressing",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-02-04",
+    "sequences": [
+      "SQ-02-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-LAUNDRY-CART",
+    "category": "PRP",
+    "scope": "Trolley shell; wheels; cloth piles; optional guided push; readable solid cover",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-03-01",
+    "sequences": [
+      "SQ-03-01"
+    ],
+    "milestone": "M13",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-SHEET",
+    "category": "PRP",
+    "scope": "Thin wet translucent and thick opaque variants; silhouette behavior authored for stealth",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-03-02",
+    "sequences": [
+      "SQ-03-02"
+    ],
+    "milestone": "M13",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-BLANKET",
+    "category": "PRP",
+    "scope": "Dry/wet material and shape; rack attachment; mass-state visual cue",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-03-02",
+    "sequences": [
+      "SQ-03-02"
+    ],
+    "milestone": "M13",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-PORCELAIN-SHARD",
+    "category": "PRP",
+    "scope": "Tiny broken cover piece; snag/reveal interaction; readable shape without sparkle",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-03-04",
+    "sequences": [
+      "SQ-03-04"
+    ],
+    "milestone": "M13",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-LUGGAGE",
+    "category": "PRP",
+    "scope": "Bags/cases/cart loads for exchange; restricted silhouette clutter; no random route blockage",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-04-01",
+    "sequences": [
+      "SQ-04-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-ORREN-PROPS",
+    "category": "PRP",
+    "scope": "Bent shoe and missing-button coat variants; continuous identity at release/evacuation/gate",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-04-04",
+    "sequences": [
+      "SQ-04-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-GANTRY",
+    "category": "PRP",
+    "scope": "Steel background gantry family; cable guides; readable distant support mass",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-05-01",
+    "sequences": [
+      "SQ-05-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-FLOAT-CHAIR",
+    "category": "PRP",
+    "scope": "Guided decorative floating chair; water-level response; harmless to swimmer route",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-06-01",
+    "sequences": [
+      "SQ-06-01"
+    ],
+    "milestone": "M08",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-FLOOD-MARK",
+    "category": "PRP",
+    "scope": "Old waterline decals; salt band; repaint layering; consistent height across connected spaces",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-08-01",
+    "sequences": [
+      "SQ-08-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-OLD-HARNESS",
+    "category": "PRP",
+    "scope": "Removed restraint silhouettes; mounting scars; abandoned covers; visual institutional history",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-06-04",
+    "sequences": [
+      "SQ-06-04"
+    ],
+    "milestone": "M08",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-BED",
+    "category": "PRP",
+    "scope": "Dormitory bed; local Ward contact points; survivor brace socket; no free heavy projectile",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-07-02",
+    "sequences": [
+      "SQ-07-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-CUPBOARD",
+    "category": "PRP",
+    "scope": "Ward cupboard with bounded hinged door; catch and settle states; controlled interior clutter",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-07-02",
+    "sequences": [
+      "SQ-07-02",
+      "SQ-09-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-PALE-CURTAIN",
+    "category": "PRP",
+    "scope": "Landmark curtain with consistent tear and color; far proxy, near cloth and Ward-motion variants",
+    "owner": "Environment/prop art",
+    "first_use": "SQ-08-04",
+    "sequences": [
+      "SQ-08-04",
+      "SQ-09-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-RAIN",
+    "category": "FX",
+    "scope": "Sparse rain layers; contact splashes; always moves during Hold; quality-scalable without hiding routes",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-08-01",
+    "sequences": [
+      "SQ-08-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-DUST",
+    "category": "FX",
+    "scope": "Falling dust/motes; Hold distinction; no global freeze; bounded pooled emitter",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-01-03",
+    "sequences": [
+      "SQ-01-03",
+      "SQ-03-04"
+    ],
+    "milestone": "M10",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-WIND",
+    "category": "FX",
+    "scope": "Reed/cloth motion field and grit; decorative motion independent of restraint",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-02-01",
+    "sequences": [
+      "SQ-02-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-WATER-FLOW",
+    "category": "FX",
+    "scope": "Inlet/diversion/discharge stream meshes and particles; parameters from water graph",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-02-02",
+    "sequences": [
+      "SQ-02-02",
+      "SQ-03-03",
+      "SQ-08-02"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-CABLE",
+    "category": "FX",
+    "scope": "Cable tension and small oscillation; owner/load response; no luminous energy tether",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-02-03",
+    "sequences": [
+      "SQ-02-03",
+      "SQ-05-02",
+      "SQ-09-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-CONTACT",
+    "category": "FX",
+    "scope": "Tiny contact glint, ceramic vane response and fingertip pressure; clear without bloom dependence",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-07-01",
+    "sequences": [
+      "SQ-07-01"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-CHALK",
+    "category": "FX",
+    "scope": "Pale quarry dust, grit and chips; impact response at receiving mass",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-05-01",
+    "sequences": [
+      "SQ-05-01",
+      "SQ-05-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-IMPACT",
+    "category": "FX",
+    "scope": "Material impact particles; bounded debris pools; ground contact lighting response",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-05-03",
+    "sequences": [
+      "SQ-05-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-BUBBLES",
+    "category": "FX",
+    "scope": "Swim/bell bubble cues; air loss and breathing event tags; capped particle count",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-06-02",
+    "sequences": [
+      "SQ-06-02"
+    ],
+    "milestone": "M08",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-SILT",
+    "category": "FX",
+    "scope": "Underwater local disturbance with recovery fade; never hides essential destination indefinitely",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-06-01",
+    "sequences": [
+      "SQ-06-01"
+    ],
+    "milestone": "M08",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-WATER-MARK",
+    "category": "FX",
+    "scope": "Exposed wet/dry edge following drained region; environmental record reveal",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-06-04",
+    "sequences": [
+      "SQ-06-04"
+    ],
+    "milestone": "M08",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-DRIPS",
+    "category": "FX",
+    "scope": "Persistent droplets and water trails after leaving submerged area; wetness decay",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-02-04",
+    "sequences": [
+      "SQ-02-04"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-SEA",
+    "category": "FX",
+    "scope": "Calm outside sea surface and sparse foam; distinct from retained basin; low horizon movement",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-08-01",
+    "sequences": [
+      "SQ-08-01",
+      "SQ-09-08"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-DISCHARGE",
+    "category": "FX",
+    "scope": "Final gate outflow, spray and debris response; follows proofed route and authored phase",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-09-07",
+    "sequences": [
+      "SQ-09-07"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-WARD-DUST",
+    "category": "FX",
+    "scope": "Foundation dust and interior settling on First Step; per-support origins; controlled opacity",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-09-02",
+    "sequences": [
+      "SQ-09-02",
+      "SQ-09-03"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-SETTLE",
+    "category": "FX",
+    "scope": "Post-release small structural settling; no undeclared lethal cosmetic rubble",
+    "owner": "VFX + technical art",
+    "first_use": "SQ-09-07",
+    "sequences": [
+      "SQ-09-07"
+    ],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "MAT-SURFACES",
+    "category": "MAT",
+    "scope": "Shared matte concrete, chalk, painted steel, wet stone, cloth, skin and porcelain masters; bounded local wear",
+    "owner": "Technical art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M13",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "MAT-WATER",
+    "category": "MAT",
+    "scope": "Bounded water shader, reflection/refraction quality levels, surface/head alignment debug",
+    "owner": "Technical art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M08",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "MAT-GLASS",
+    "category": "MAT",
+    "scope": "Simple pane/frosted-glass material; transparent sorting reviewed in sheet and water scenes",
+    "owner": "Technical art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M13",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "MAT-FOG",
+    "category": "MAT",
+    "scope": "Layered depth fog and local light shafts; quality and accessibility variants",
+    "owner": "Technical art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M13",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "LGT-PROFILES",
+    "category": "LGT",
+    "scope": "Nine chapter lighting profiles plus reveal/underwater/root presets; grayscale read tests",
+    "owner": "Lighting",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M13",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-HOSTEL-PROXY",
+    "category": "ENV",
+    "scope": "Distant hostel LOD/proxy with two chimneys and pale curtain; no duplicate gameplay authority",
+    "owner": "Environment art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-SHARED-PIPES",
+    "category": "ENV",
+    "scope": "Straight/elbow/tee/valve pipe kit; wall and ceiling mounts; scale convention",
+    "owner": "Environment art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-SHARED-RAILS",
+    "category": "ENV",
+    "scope": "Railing/handrail/conduit modular kit; socket-compatible corners and damaged ends",
+    "owner": "Environment art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-SHARED-DOORS",
+    "category": "ENV",
+    "scope": "Domestic/service doors and frames; clearance and grip sockets; closed/open variants",
+    "owner": "Environment art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "ENV-SHARED-FIXTURES",
+    "category": "ENV",
+    "scope": "Lamps, meters, terminal housings and signs; limited readable civic icon set",
+    "owner": "Environment art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "UI-BOOT",
+    "category": "UI",
+    "scope": "Title, initial brightness, input device prompt and first-run accessibility entry",
+    "owner": "UI/UX + gameplay",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M15",
+    "acceptance": "Controller/keyboard navigation, remap, text expansion, scale and safe-area pass; settings survive restart and do not cause irreversible input.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "UI-MAIN",
+    "category": "UI",
+    "scope": "New/continue/slots/settings/credits/quit screens; keyboard/controller focus; safe-area support",
+    "owner": "UI/UX + gameplay",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M15",
+    "acceptance": "Controller/keyboard navigation, remap, text expansion, scale and safe-area pass; settings survive restart and do not cause irreversible input.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "UI-PAUSE",
+    "category": "UI",
+    "scope": "Resume/restart/settings/quit; clear restart confirmation and protected root behavior",
+    "owner": "UI/UX + gameplay",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M15",
+    "acceptance": "Controller/keyboard navigation, remap, text expansion, scale and safe-area pass; settings survive restart and do not cause irreversible input.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "UI-SETTINGS",
+    "category": "UI",
+    "scope": "Remap, toggle Hold/grip, breath assist, reduced motion, captions, mix, brightness and display menus",
+    "owner": "UI/UX + gameplay",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M15",
+    "acceptance": "Controller/keyboard navigation, remap, text expansion, scale and safe-area pass; settings survive restart and do not cause irreversible input.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "UI-GLYPHS",
+    "category": "UI",
+    "scope": "Licensed or original keyboard/controller glyph atlas; switch by active device, readable scales",
+    "owner": "UI/UX + gameplay",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M15",
+    "acceptance": "Controller/keyboard navigation, remap, text expansion, scale and safe-area pass; settings survive restart and do not cause irreversible input.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "UI-CAPTIONS",
+    "category": "UI",
+    "scope": "Directional non-dialogue sound captions; size/background controls; critical cue priority",
+    "owner": "UI/UX + gameplay",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M15",
+    "acceptance": "Controller/keyboard navigation, remap, text expansion, scale and safe-area pass; settings survive restart and do not cause irreversible input.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "UI-SAVE",
+    "category": "UI",
+    "scope": "Small saving/failure/recovery indicators; no intrusive checkpoint ceremony",
+    "owner": "UI/UX + gameplay",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M15",
+    "acceptance": "Controller/keyboard navigation, remap, text expansion, scale and safe-area pass; settings survive restart and do not cause irreversible input.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "UI-ERROR",
+    "category": "UI",
+    "scope": "Corrupt save, disk failure and incompatible version recovery panels; preserve old progress",
+    "owner": "UI/UX + gameplay",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M15",
+    "acceptance": "Controller/keyboard navigation, remap, text expansion, scale and safe-area pass; settings survive restart and do not cause irreversible input.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "UI-CREDITS",
+    "category": "UI",
+    "scope": "Scroll and licenses; skippable after ending; no required lore or sequel reveal",
+    "owner": "UI/UX + gameplay",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M15",
+    "acceptance": "Controller/keyboard navigation, remap, text expansion, scale and safe-area pass; settings survive restart and do not cause irreversible input.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "UI-ROOT-CONFIRM",
+    "category": "UI",
+    "scope": "Accessible deliberate release affordance; re-arm after pause/focus/device loss",
+    "owner": "UI/UX + gameplay",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M15",
+    "acceptance": "Controller/keyboard navigation, remap, text expansion, scale and safe-area pass; settings survive restart and do not cause irreversible input.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "UI-INPUT-HELP",
+    "category": "UI",
+    "scope": "Minimal contextual first-use prompts; fade after confirmed use; replayable help in pause",
+    "owner": "UI/UX + gameplay",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M15",
+    "acceptance": "Controller/keyboard navigation, remap, text expansion, scale and safe-area pass; settings survive restart and do not cause irreversible input.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CIN-OPENING",
+    "category": "CIN",
+    "scope": "Event-relative kitchen/landing/transport camera and interaction phase asset",
+    "owner": "Direction + animation",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CIN-FINGER",
+    "category": "CIN",
+    "scope": "Porcelain snag, fragment and living fingernail reveal; optional observation hold",
+    "owner": "Direction + animation",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CIN-EYES",
+    "category": "CIN",
+    "scope": "Conscious restraint gaze event; body/micro-motion separation test",
+    "owner": "Direction + animation",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CIN-ANJA",
+    "category": "CIN",
+    "scope": "Cuff recognition, two taps, failed extraction and refusal sequence; interrupt-safe phases",
+    "owner": "Direction + animation",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CIN-SEA",
+    "category": "CIN",
+    "scope": "Camera reveal contrasting retained basin with calm lower sea; continuous control",
+    "owner": "Direction + animation",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CIN-FIRST-STEP",
+    "category": "CIN",
+    "scope": "Progress-driven pullback; room reactions; domestic prop cue; reduced-motion variant",
+    "owner": "Direction + animation",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CIN-ROOT",
+    "category": "CIN",
+    "scope": "Handover, goodbye, deliberate release and postrelease recovery phase assets",
+    "owner": "Direction + animation",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "CIN-END",
+    "category": "CIN",
+    "scope": "Ordinary gate and offered hand; final walking and fade; no loss of agency before gesture",
+    "owner": "Direction + animation",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-FOOT-CONTACT",
+    "category": "FX",
+    "scope": "Surface-specific dust/splash traces; animation foot-contact event integration",
+    "owner": "VFX + technical art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "FX-LIGHT-RESPONSE",
+    "category": "FX",
+    "scope": "Selected fixture flicker/rim response to mass impacts; no random epilepsy-inducing strobe",
+    "owner": "VFX + technical art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-PORCELAIN-COVERS",
+    "category": "PRP",
+    "scope": "Intact/cracked/removed cover states for repeated institutional fitting language",
+    "owner": "Environment/prop art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-TOOLS",
+    "category": "PRP",
+    "scope": "Anja's screwdriver, cover fasteners and small repair tray; opening contact scale",
+    "owner": "Environment/prop art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-SIGNAGE",
+    "category": "PRP",
+    "scope": "Original evacuation/relief/safety symbols and sparse local text; localization-safe optional language",
+    "owner": "Environment/prop art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-HANDRAIL",
+    "category": "PRP",
+    "scope": "Human-worn hand-contact finish and double-tap sound surface; reused throughout route",
+    "owner": "Environment/prop art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "PRP-INTERIOR-LOOSE",
+    "category": "PRP",
+    "scope": "Controlled Ward dishes, books and small parcels; containment pools, no lethal projectiles",
+    "owner": "Environment/prop art",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "DATA-COHORT",
+    "category": "DATA",
+    "scope": "Twelve stable survivor IDs, look variants, release facts and route presentation configurations",
+    "owner": "Design + engineering",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "DATA-CAMERA",
+    "category": "DATA",
+    "scope": "Sequence camera volumes, emphasis targets, occlusion masks and reveal paths",
+    "owner": "Design + engineering",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "DATA-PUZZLES",
+    "category": "DATA",
+    "scope": "Thirty-one puzzle definitions, initial states, support graphs and exit predicates",
+    "owner": "Design + engineering",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "DATA-CHECKPOINTS",
+    "category": "DATA",
+    "scope": "Forty primary checkpoint definitions plus authored internal safe phases",
+    "owner": "Design + engineering",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "DATA-AUDIO",
+    "category": "DATA",
+    "scope": "Cue router definitions, buses, mixes, priorities, captions and phase mapping",
+    "owner": "Design + engineering",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "DATA-LOCALIZATION",
+    "category": "DATA",
+    "scope": "Stable strings, glyph metadata, captions and UI layout expansion tests",
+    "owner": "Design + engineering",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M14",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "BUILD-STORE",
+    "category": "BUILD",
+    "scope": "Original key art/capsule plan, truthful screenshots/trailer capture, description, disclosures and credits",
+    "owner": "Production",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M18",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  },
+  {
+    "id": "BUILD-LICENSES",
+    "category": "BUILD",
+    "scope": "Third-party inventory, source permissions, legal notices and attribution records",
+    "owner": "Production",
+    "first_use": "Shared",
+    "sequences": [],
+    "milestone": "M18",
+    "acceptance": "At authored gameplay distance: correct silhouette/scale, named sockets, simple collision, legal material/LOD budget, no missing source or license; integrate in earliest sequence and verify pause/reload.",
+    "status": "Backlog",
+    "estimate_person_days": null
+  }
+]

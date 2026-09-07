@@ -1,0 +1,53 @@
+﻿id,bus,scope,initial_variants,driver,first_use,priority_note,caption_required,status
+FOL-STONE,Ivo feet,Dry stone step/run/land,12,"Surface, speed and foot event",C01,Critical near-body detail,False,Backlog
+FOL-METAL,Ivo feet,Metal plate/grate/rail contact,12,Surface and load,C01,Route and material grounding,False,Backlog
+FOL-WOOD,Ivo feet,Domestic timber/damp boards,8,Surface and speed,C01,Domestic identity,False,Backlog
+FOL-WET,Ivo feet,Wet steps and droplets decaying after water,12,Wetness and depth,C02,Physical continuity,False,Backlog
+FOL-CLOTH,Body,Jacket/grip/crouch cloth movement,12,Animation effort,C01,Quiet proximity,False,Backlog
+FOL-HANDS,Body,"Porcelain, rail and tool hand contacts",10,Socket and pressure,C01,Connect body to action,False,Backlog
+VOC-IVO,Body,Breath/rest/effort/fear/recover nonverbal set,18,Breath and activity,C01,No audio-only vital cue,False,Backlog
+VOC-WATER,Body,Swim breath/warning/surface recovery,10,Breath reserve phase,C06,Fair submerged warning,False,Backlog
+VOC-ANJA,People,"Effort, transport, root breathing and final exhale",8,Narrative phase,C01,Restrained intimacy,False,Backlog
+VOC-CUST,People,"Effort, restrained breathing, capture reactions",10,AI/constraint phase,C01,"Human, not monster",False,Backlog
+VOC-BEARER,People,Individual strained/free breaths and recovery,16,Load and roster variant,C03,Consciousness behind structure,False,Backlog
+SIG-TAPS,Narrative,"Two taps on hand, rail and root contact",6,Authored contact,C01,Recognizable relationship,False,Backlog
+SFX-BRACE,Hold,Acquire/release/deny/range warning,8,Ownership transaction,C01,No magical beam sound,True,Backlog
+SFX-ANCHOR,Hold,Transfer vane and sustaining strain,6,Owner and load,C03,Useful action acquires cost,True,Backlog
+SFX-SHUTTER,Machinery,Motor/stop/load/catch/impact layers,8,Authored phase and velocity,C01,Restart phase exact,False,Backlog
+SFX-ROTATOR,Machinery,Rotation axle/stop/strain,6,Angle driver,C01,Orientation feedback,False,Backlog
+SFX-SLUICE,Machinery,"Gate guide, lever and restrained water load",7,Gate and water state,C02,Local flow causality,False,Backlog
+SFX-FLOAT,Machinery,Guide creak and lower/upper stop,4,Float height,C02,Readable level response,False,Backlog
+SFX-RACK,Machinery,"Drying frame slide, hinge and catch",8,Frame q and collision,C03,Spatial puzzle feedback,False,Backlog
+SFX-WET-RACK,Machinery,"Saturation drip, cable tension, draining",6,Wet mass and lift,C03,Weight change audible,False,Backlog
+SFX-JACK,Machinery,"Crank, pawl and supported settling",6,Support transaction,C04,Relief confirmation,False,Backlog
+SFX-CART,Machinery,"Brake, wheel roll, stop and guard obstruction",6,Cart driver,C04,One-Hold plan payoff,False,Backlog
+SFX-TRAM,Machinery,Suspended tram strain and floor lean,6,Linked deck/load,C04,Human compensation context,False,Backlog
+SFX-COUNTER,Machinery,"Cable travel, falling mass and cradle catch",10,Bounded trajectory,C05,Clear impending weight,False,Backlog
+SFX-PAIRED,Machinery,"Contact, shift, brace, park and exit",8,Station mode and load,C05,Same vocabulary across scales,False,Backlog
+SFX-PORTER,Threat,"Detect, rail move, reach, secure, retract, tip",14,Rail AI phase,C02,Predictable threat timing,True,Backlog
+SFX-CUST-STEPS,Threat,Floor and stair pursuit footsteps,12,AI feet and surface,C01,Real spatial approach,True,Backlog
+SFX-TORCH,Threat,Torch handling and sheet search movement,6,Search phase,C03,No false critical cue,True,Backlog
+SFX-BELL,Water,"Winch, hull, internal latch and guide catch",8,Bell q and pocket,C06,Shelter presence,True,Backlog
+SFX-AIR,Water,"Hose flow, bubble loss and pocket spill",8,Retained-air state,C06,Visible equivalent mandatory,True,Backlog
+SFX-DRAIN,Water,"Drain startup, level fall and final trickle",6,Water graph,C06,Reveal through drainage,True,Backlog
+SFX-ROOT,Narrative,"Distributed strain, breath-linked structure, relaxation",10,Root phase,C07,Mechanical rhythm becomes human,False,Backlog
+SFX-WARD,Finale,"Support shoes, hydraulic strain, room creaks, settling",16,Gait/support/posture,C09,Scale without monster roar,True,Backlog
+SFX-DOMESTIC,Finale,Cup/spoon/cupboard/bed/cloth small events,12,Interior acceleration and hero events,"C01,C09",Small sound makes scale intimate,True,Backlog
+SFX-DISCHARGE,Finale,"Governor, gates, flow, channel impacts",12,Release ledger and phase,"C08,C09",Test/release correspondence,True,Backlog
+SFX-GATE,Ending,Ordinary manual gate and voluntary release,4,Orren hand contact,C09,End without machine ownership,False,Backlog
+AMB-TERRACE,Ambience,"Interior room, rain outside, distant evacuation",4,Acoustic region,C01,Domestic close space,False,Backlog
+AMB-GARDENS,Ambience,"Wind, reeds, runoff and distant town",5,Region and weather,C02,First open breath,False,Backlog
+AMB-LAUNDRY,Ambience,"Ventilation, distant rollers and sheet movement",5,Room/shaft,C03,Quiet holds remain audible,False,Backlog
+AMB-EXCHANGE,Ambience,Public upper hall and restrained lower bays,4,Depth region,C04,Social division through acoustics,False,Backlog
+AMB-CUT,Ambience,"Wind across pale void, grit and cables",4,Exposure/height,C05,Brightness and scale,False,Backlog
+AMB-DROWNED,Ambience,"Transmitted creaks, water pressure, pocket interior",5,Water/head region,C06,No blanket underwater silence,False,Backlog
+AMB-BURDEN,Ambience,Small mechanical breath rhythms in wall cavities,4,Load relationships,C07,Recognition before reveal,False,Backlog
+AMB-SEAWALL,Ambience,Retained basin versus ordinary calm sea,5,Side of wall,C08,Original emergency reinterpreted,False,Backlog
+AMB-INLAND,Ambience,"Unsynchronized footsteps, dry wind, settling distance",4,Ending phase,C09,Imperfect relief,False,Backlog
+FAU-BIRD,Ambient life,"Wader call, feet and wing departure",5,Fauna state,C02,Not bound to Hold,False,Backlog
+MUS-PRESSURE,Music,Low tension and irregular tonal strain stems,4,Dramatic state,C01–C05,Avoid perpetual music,False,Backlog
+MUS-RECOGNITION,Music,Fragile sparse motif around familiar gestures,3,Recognition events,"C03,C07",Never explains by melodrama,False,Backlog
+MUS-DEPTH,Music,Submerged texture with clear breath space,3,C06 tension,C06,Do not mask warnings,False,Backlog
+MUS-CARRY,Music,Ward effort tonal layer and subtraction on support,4,Support and strain,C09,No heroic victory theme,False,Backlog
+MUS-RELEASE,Music,Very sparse release and ending tail,3,Final ledger,C09,Grief plus relief,False,Backlog
+UI-SELECT,UI,"Focus, accept, cancel, error and save failure",6,UI event,Shared,"Soft, clear, remappable mix",False,Backlog

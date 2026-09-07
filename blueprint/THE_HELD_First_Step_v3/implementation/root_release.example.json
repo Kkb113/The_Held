@@ -1,0 +1,14 @@
+{
+  "phase": "IvoOwnsGovernor",
+  "focused": true,
+  "paused": false,
+  "device_connected": true,
+  "fresh_arm_required": true,
+  "prerequisites": [
+    "DischargeProved",
+    "WardSupported",
+    "CohortEvacuated",
+    "RootHandoverComplete"
+  ],
+  "last_transaction": "txn-root-handover-example"
+}

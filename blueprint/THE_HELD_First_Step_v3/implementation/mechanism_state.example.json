@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "actor_id": "C03.Bridge.A",
+  "motion_family": "Hinge",
+  "coordinate": 0.0,
+  "velocity": 0.0,
+  "owner": {
+    "kind": "MechanicalSupport",
+    "id": "C03.Bridge.ReceivingStop"
+  },
+  "support": {
+    "engaged": true,
+    "id": "C03.Bridge.ReceivingStop"
+  },
+  "driver_phase": 0.0
+}

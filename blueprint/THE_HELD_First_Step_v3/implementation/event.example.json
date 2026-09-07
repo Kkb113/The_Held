@@ -1,0 +1,14 @@
+{
+  "event_id": "evt-example-0001",
+  "transaction_id": "txn-example-0042",
+  "tick": 12540,
+  "sequence_id": "SQ-03-01",
+  "source_actor_id": "C03.Bridge.A",
+  "kind": "SupportEngaged",
+  "payload_version": 1,
+  "payload": {
+    "support_id": "C03.Bridge.ReceivingStop",
+    "previous_owner": "C03.Anchor.A",
+    "resulting_owner_kind": "MechanicalSupport"
+  }
+}

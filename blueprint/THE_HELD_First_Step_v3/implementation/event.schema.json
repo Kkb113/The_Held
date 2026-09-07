@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "THE HELD authoritative event envelope v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "transaction_id",
+    "tick",
+    "sequence_id",
+    "source_actor_id",
+    "kind",
+    "payload_version",
+    "payload"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "transaction_id": {
+      "type": "string"
+    },
+    "tick": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sequence_id": {
+      "type": "string",
+      "pattern": "^SQ-[0-9]{2}-[0-9]{2}$"
+    },
+    "source_actor_id": {
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "LoadOwnershipChanged",
+        "SupportEngaged",
+        "WaterRegionChanged",
+        "CohortMemberReleased",
+        "RootReleaseCommitted"
+      ]
+    },
+    "payload_version": {
+      "const": 1
+    },
+    "payload": {
+      "type": "object"
+    }
+  }
+}

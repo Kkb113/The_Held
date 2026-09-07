@@ -1,0 +1,13 @@
+﻿id,origin,asset,release_sequence,safe_destination,final_exit,authority_rule,status
+COH-01,Exchange queue,CHR-BEARER-04,SQ-04-02,"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog
+COH-02,Exchange queue,CHR-BEARER-01,SQ-04-02,"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog
+COH-03,Exchange queue,CHR-BEARER-04,SQ-04-02,"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog
+COH-04,Exchange queue,CHR-BEARER-01,SQ-04-02,"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog
+COH-05,Exchange queue,CHR-BEARER-04,SQ-04-02,"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog
+COH-06,Exchange queue,CHR-BEARER-01,SQ-04-02,"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog
+COH-07,Laundry attendants,CHR-BEARER-02,SQ-03-03 (load relieved); SQ-07-04 (route opened),"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog
+COH-08,Laundry attendants,CHR-BEARER-02,SQ-03-03 (load relieved); SQ-07-04 (route opened),"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog
+COH-09,Laundry attendants,CHR-BEARER-02,SQ-03-03 (load relieved); SQ-07-04 (route opened),"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog
+COH-10,Burden House,CHR-BEARER-03,SQ-07-04,"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog
+COH-11,Burden House,CHR-BEARER-03,SQ-07-04,"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog
+COH-12,Orren,CHR-ORREN,SQ-04-04,"Relief hostel, then inland receiving platform",SQ-09-05,One live presentation per slot; Ward and route proxies mutually exclusive.,Backlog

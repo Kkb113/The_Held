@@ -1,0 +1,467 @@
+[
+  {
+    "id": "SYS-01",
+    "name": "Bootstrap and service lifetime",
+    "owner": "Engineering",
+    "dependencies": [],
+    "milestone": "M00",
+    "acceptance": "Single clock/player/save authority; clean startup and return to menu without duplicate services",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-02",
+    "name": "Input and accessibility routing",
+    "owner": "Gameplay/UI",
+    "dependencies": [
+      "SYS-01"
+    ],
+    "milestone": "M01",
+    "acceptance": "Remap and toggle work; canceled input is not voluntary release; focus/device tests pass",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-03",
+    "name": "Lane capsule motor",
+    "owner": "Gameplay",
+    "dependencies": [
+      "SYS-02"
+    ],
+    "milestone": "M01",
+    "acceptance": "Run/turn/jump/crouch/step pass contact gym at 30/60/120 fps",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-04",
+    "name": "Ledge and ladder interaction",
+    "owner": "Gameplay/animation",
+    "dependencies": [
+      "SYS-03"
+    ],
+    "milestone": "M01",
+    "acceptance": "Clearance and hand constraints validated; blocked climb returns safely",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-05",
+    "name": "Contextual interaction resolver",
+    "owner": "Gameplay",
+    "dependencies": [
+      "SYS-03"
+    ],
+    "milestone": "M01",
+    "acceptance": "Stable socket selection and informative denial; no target switching during committed action",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-06",
+    "name": "Hold ownership transactions",
+    "owner": "Gameplay",
+    "dependencies": [
+      "SYS-05"
+    ],
+    "milestone": "M02",
+    "acceptance": "One personal owner, atomic transfer, legal release, support capture and idempotence tests pass",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-07",
+    "name": "Mechanism drivers",
+    "owner": "Gameplay/physics",
+    "dependencies": [
+      "SYS-01"
+    ],
+    "milestone": "M02",
+    "acceptance": "Bounded slider/hinge/rotator/track coordinates resume consistently after Hold",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-08",
+    "name": "Supports and load graph",
+    "owner": "Gameplay",
+    "dependencies": [
+      "SYS-06",
+      "SYS-07"
+    ],
+    "milestone": "M03",
+    "acceptance": "Mechanical support removes bearer requirement; no orphan owner or cyclic unsupported state",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-09",
+    "name": "Moving support and crush",
+    "owner": "Gameplay/physics",
+    "dependencies": [
+      "SYS-03",
+      "SYS-07"
+    ],
+    "milestone": "M03",
+    "acceptance": "Relative platform motion and swept closing volumes pass all frame-rate fixtures",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-10",
+    "name": "Puzzle facts and sequence exits",
+    "owner": "Design/engineering",
+    "dependencies": [
+      "SYS-08"
+    ],
+    "milestone": "M04",
+    "acceptance": "Exit depends on physical predicate; sequence jump cannot bypass root prerequisites",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-11",
+    "name": "Checkpoint snapshot service",
+    "owner": "Engineering",
+    "dependencies": [
+      "SYS-06",
+      "SYS-10"
+    ],
+    "milestone": "M04",
+    "acceptance": "Coherent state restores after every ownership/support boundary",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-12",
+    "name": "Save integrity and migration",
+    "owner": "Engineering",
+    "dependencies": [
+      "SYS-11"
+    ],
+    "milestone": "M10",
+    "acceptance": "Interrupted write preserves prior generation; supported schemas migrate and invalid data fails safely",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-13",
+    "name": "Local streaming and residency",
+    "owner": "Engineering",
+    "dependencies": [
+      "SYS-01",
+      "SYS-11"
+    ],
+    "milestone": "M07",
+    "acceptance": "Active relationships pin chunks; no activation deadlock or unbalanced asset handle",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-14",
+    "name": "Camera volumes and leads",
+    "owner": "Technical art",
+    "dependencies": [
+      "SYS-03"
+    ],
+    "milestone": "M07",
+    "acceptance": "Route/threat/interaction all legible at standard and alternate aspect ratios",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-15",
+    "name": "Animation presentation state",
+    "owner": "Animation/engineering",
+    "dependencies": [
+      "SYS-03",
+      "SYS-05"
+    ],
+    "milestone": "M01",
+    "acceptance": "Responsive motor plus additive contact/gaze/breath; animation never owns puzzle outcome",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-16",
+    "name": "Foot/hand contact IK",
+    "owner": "Animation/technical art",
+    "dependencies": [
+      "SYS-15"
+    ],
+    "milestone": "M07",
+    "acceptance": "Contacts meet moving sockets; correction cannot drag capsule through obstruction",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-17",
+    "name": "Audio router and mixes",
+    "owner": "Audio/engineering",
+    "dependencies": [
+      "SYS-01",
+      "SYS-15"
+    ],
+    "milestone": "M05",
+    "acceptance": "Critical cue allocation and dry/wet/breath state remain synchronized through restart",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-18",
+    "name": "VFX reaction bundles",
+    "owner": "VFX/technical art",
+    "dependencies": [
+      "SYS-07"
+    ],
+    "milestone": "M07",
+    "acceptance": "Connected response with scalable cosmetic pools; Hold never freezes unrelated particles",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-19",
+    "name": "Custodian perception and pursuit",
+    "owner": "Gameplay/AI",
+    "dependencies": [
+      "SYS-03",
+      "SYS-09"
+    ],
+    "milestone": "M06",
+    "acceptance": "Sight/hearing/last known route explain capture; covered and exposed harness rules visible",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-20",
+    "name": "Harness restraint and awareness",
+    "owner": "Gameplay/animation",
+    "dependencies": [
+      "SYS-06",
+      "SYS-19"
+    ],
+    "milestone": "M06",
+    "acceptance": "Body channel arrests while eyes/breath persist; no immunity introduced for convenience",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-21",
+    "name": "Porter rail rescue AI",
+    "owner": "Gameplay/AI",
+    "dependencies": [
+      "SYS-07",
+      "SYS-09"
+    ],
+    "milestone": "M06",
+    "acceptance": "Detect/reach/secure/retract cycle stays bounded; sack demonstration and three encounter contexts agree",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-22",
+    "name": "Sheet concealment",
+    "owner": "Design/AI",
+    "dependencies": [
+      "SYS-19"
+    ],
+    "milestone": "M05",
+    "acceptance": "Wet thin silhouette differs from thick cover; visibility derives from tagged blockers not arbitrary camera state",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-23",
+    "name": "Water volume graph",
+    "owner": "Gameplay/technical art",
+    "dependencies": [
+      "SYS-07"
+    ],
+    "milestone": "M08",
+    "acceptance": "Level/flow/head and rendered surface agree; bounded overflow and drainage are recoverable",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-24",
+    "name": "Swimming and breath",
+    "owner": "Gameplay/animation",
+    "dependencies": [
+      "SYS-03",
+      "SYS-23"
+    ],
+    "milestone": "M08",
+    "acceptance": "Surface hysteresis, one-hand swim, warnings, refill and assistance pass timed routes",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-25",
+    "name": "Bell air pocket and winch",
+    "owner": "Gameplay/physics",
+    "dependencies": [
+      "SYS-06",
+      "SYS-23",
+      "SYS-24"
+    ],
+    "milestone": "M08",
+    "acceptance": "Pocket follows pose/level; tipping spills air; saved hose/pocket/player remain coherent",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-26",
+    "name": "Wet-cloth mass",
+    "owner": "Gameplay/technical art",
+    "dependencies": [
+      "SYS-07",
+      "SYS-23"
+    ],
+    "milestone": "M13",
+    "acceptance": "Saturation and drainage drive predictable rack/lift position without uncontrolled fluid simulation",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-27",
+    "name": "Reciprocal balance station",
+    "owner": "Gameplay/animation",
+    "dependencies": [
+      "SYS-06",
+      "SYS-08"
+    ],
+    "milestone": "M09",
+    "acceptance": "Same travel/posture/Hold vocabulary on carrier, room and Ward; only safe exit permitted",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-28",
+    "name": "Ward support/gait planner",
+    "owner": "Gameplay/technical art",
+    "dependencies": [
+      "SYS-09",
+      "SYS-27"
+    ],
+    "milestone": "M09",
+    "acceptance": "Authored support edges and clearances prevent impossible steps; narrow support and crouch puzzles pass",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-29",
+    "name": "Ward local-room presentation",
+    "owner": "Technical art/animation",
+    "dependencies": [
+      "SYS-15",
+      "SYS-28"
+    ],
+    "milestone": "M09",
+    "acceptance": "Interior actors/props move locally and stay contained; readable domestic consequences",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-30",
+    "name": "Survivor roster and safe routes",
+    "owner": "Gameplay/AI",
+    "dependencies": [
+      "SYS-10",
+      "SYS-15"
+    ],
+    "milestone": "M14",
+    "acceptance": "Twelve unique slots; independent movement on safe routes; no duplicates or stranded mandatory actors",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-31",
+    "name": "Narrative event phases",
+    "owner": "Design/engineering",
+    "dependencies": [
+      "SYS-10",
+      "SYS-11"
+    ],
+    "milestone": "M04",
+    "acceptance": "Idempotent opening/reveals/ending survive interruption and do not steal unrelated control",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-32",
+    "name": "Final root release guard",
+    "owner": "Engineering/UI",
+    "dependencies": [
+      "SYS-02",
+      "SYS-12",
+      "SYS-30",
+      "SYS-31"
+    ],
+    "milestone": "M09",
+    "acceptance": "Pause/focus/disconnect/quit never commits release; prerequisites and postrelease persistence enforced",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-33",
+    "name": "UI and settings",
+    "owner": "UI/engineering",
+    "dependencies": [
+      "SYS-02",
+      "SYS-12"
+    ],
+    "milestone": "M10",
+    "acceptance": "Menus, slots, caption settings and readable save errors work on controller and keyboard",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-34",
+    "name": "Localization and captions",
+    "owner": "UI/audio",
+    "dependencies": [
+      "SYS-17",
+      "SYS-33"
+    ],
+    "milestone": "M13",
+    "acceptance": "No audio-only required solution; text expansion and sound direction caption layouts pass",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-35",
+    "name": "Sequence/ownership debug tools",
+    "owner": "Tools/engineering",
+    "dependencies": [
+      "SYS-06",
+      "SYS-10"
+    ],
+    "milestone": "M04",
+    "acceptance": "Designers inspect live owner/support graph and jump to approved fixtures without editing scripts",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-36",
+    "name": "Camera/storyboard capture tool",
+    "owner": "Tools/technical art",
+    "dependencies": [
+      "SYS-14"
+    ],
+    "milestone": "M07",
+    "acceptance": "Standard/reduced-effects contact sheets generated for each sequence review",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-37",
+    "name": "Asset import validation",
+    "owner": "Tools/technical art",
+    "dependencies": [
+      "SYS-01"
+    ],
+    "milestone": "M07",
+    "acceptance": "Scale/sockets/collision/shader/LOD/source checks catch bad exports before merge",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-38",
+    "name": "Build and regression automation",
+    "owner": "Engineering/QA",
+    "dependencies": [
+      "SYS-01"
+    ],
+    "milestone": "M00",
+    "acceptance": "Clean checkout packages; EditMode/PlayMode reports and build provenance archived",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-39",
+    "name": "Performance capture and route replay",
+    "owner": "Engineering/QA",
+    "dependencies": [
+      "SYS-13",
+      "SYS-38"
+    ],
+    "milestone": "M07",
+    "acceptance": "Packaged cold/warm route captures include frame time, allocation, memory and streaming stalls",
+    "status": "Backlog"
+  },
+  {
+    "id": "SYS-40",
+    "name": "Release packaging and recovery",
+    "owner": "Production/engineering",
+    "dependencies": [
+      "SYS-12",
+      "SYS-33",
+      "SYS-38"
+    ],
+    "milestone": "M18",
+    "acceptance": "Clean install/update/uninstall, valid saves, credits/licenses and debug-stripping checks pass",
+    "status": "Backlog"
+  }
+]
